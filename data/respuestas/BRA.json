@@ -1,0 +1,195 @@
+{
+  "pais": "BRA",
+  "nombre": "Brasil",
+  "respuestas": {
+    "C1": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.ethnologue.com / www.cia.gov): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "C2": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.theculturefactor.com (Hofstede)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "C3": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.state.gov / www.oecd.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "C4": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.cancilleria.gob.ar): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "A1": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (investmentpolicy.unctad.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "A2": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.transparency.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "A3": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (rtais.wto.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "A4": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.worldbank.org (WGI)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "A5": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (prensa indexada e informes país): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "G1": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (lpi.worldbank.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "G3": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.timeanddate.com): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "G4": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (sitios de aerolíneas / www.flightconnections.com): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "E1": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.imf.org (WEO)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "E2": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.imf.org (WEO)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "E3": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.bcb.gov.br): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "E4": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.imf.org / ilostat.ilo.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "I3-1": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (worldjusticeproject.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "I3-2": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (icsid.worldbank.org / investmentpolicy.unctad.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "I3-4": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (www.worldbank.org (B-READY)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "I3-5": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (icsid.worldbank.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    },
+    "I4-4": {
+      "respuesta": null,
+      "dato": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": null,
+      "estado": "pendiente_revision",
+      "motivo_null": "No se pudo consultar la fuente (dsbb.imf.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+    }
+  }
+}

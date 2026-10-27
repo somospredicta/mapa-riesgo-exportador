@@ -1,0 +1,55 @@
+{
+  "actualizado": "2026-10-27",
+  "estado": "borrador",
+  "paises": {
+    "BRA": {
+      "puntaje": null,
+      "etiqueta": "Sin datos completos",
+      "completo": false,
+      "dimensiones": {
+        "cultural": null,
+        "administrativa": null,
+        "geografica": null,
+        "economica": null,
+        "instituciones": null
+      },
+      "condiciones_criticas": [],
+      "hechos": [],
+      "calidad_informacion": null,
+      "estado": "borrador"
+    },
+    "CHN": {
+      "puntaje": null,
+      "etiqueta": "Sin datos completos",
+      "completo": false,
+      "dimensiones": {
+        "cultural": null,
+        "administrativa": null,
+        "geografica": null,
+        "economica": null,
+        "instituciones": null
+      },
+      "condiciones_criticas": [],
+      "hechos": [],
+      "calidad_informacion": null,
+      "estado": "borrador"
+    },
+    "ESP": {
+      "puntaje": null,
+      "etiqueta": "Sin datos completos",
+      "completo": false,
+      "dimensiones": {
+        "cultural": null,
+        "administrativa": null,
+        "geografica": null,
+        "economica": null,
+        "instituciones": null
+      },
+      "condiciones_criticas": [],
+      "hechos": [],
+      "calidad_informacion": null,
+      "estado": "borrador"
+    }
+  },
+  "regiones": {}
+}

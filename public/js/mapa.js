@@ -1,10 +1,10 @@
 /*
  * Mapa de riesgo exportador: dibuja el planisferio, maneja el tooltip y el panel lateral.
- * Solo lee resultados ya calculados de data/riesgo.json. Si un dato falta, muestra "Sin datos".
+ * Solo lee resultados ya calculados de data/mapa.json. Si un dato falta, muestra "Sin datos".
  */
 (function () {
   const ATLAS_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json';
-  const DATOS_URL = 'data/riesgo.json';
+  const DATOS_URL = 'data/mapa.json';
   const CONTACTO_URL = 'https://predicta.ar';
   const TEXTO_REGION = 'Este puntaje es un ponderado general de la región y no describe a ningún país en particular. Para conocer el entorno de un país puntual, contactanos.';
 
@@ -116,10 +116,14 @@
       const fecha = conFecha && formatoFecha(it.fecha);
       ul.append(el('li', {},
         el('span', {}, fecha ? `${fecha} · ${it.texto}` : it.texto),
+        it.dato ? el('span', { class: 'dato' }, it.dato) : null,
         nodoFuente(it.fuente)));
     }
     return ul;
   }
+
+  // "Sin datos completos" cuando el país tiene respuestas cargadas pero falta alguna.
+  function textoSinPuntaje(d) { return d.completo === false ? 'Sin datos completos' : 'Sin datos'; }
 
   // ---------- Secciones del panel ----------
 
@@ -128,7 +132,7 @@
     return seccion('Puntaje',
       el('div', { class: 'puntaje' },
         el('span', { class: 'puntaje-valor' }, esNumero(d.puntaje) ? formatoPuntaje(d.puntaje) : '—'),
-        el('span', { class: 'puntaje-etiqueta ' + clase }, esNumero(d.puntaje) ? etiqueta : 'Sin datos')));
+        el('span', { class: 'puntaje-etiqueta ' + clase }, esNumero(d.puntaje) ? etiqueta : textoSinPuntaje(d))));
   }
 
   function seccionTendencia(d) {
@@ -157,6 +161,16 @@
         el('a', { href: CONTACTO_URL, target: '_blank', rel: 'noopener' }, 'Consultanos')));
   }
 
+  function seccionCalidad(d) {
+    const c = d.calidad_informacion;
+    if (!c || !itemValido(c)) return seccion('Calidad de la información oficial', sinDatos());
+    return seccion('Calidad de la información oficial',
+      el('p', { class: 'calidad' + (c.alerta ? ' calidad-alerta' : '') },
+        el('span', {}, c.texto),
+        c.dato ? el('span', { class: 'dato' }, c.dato) : null,
+        nodoFuente(c.fuente)));
+  }
+
   function panelPais(id) {
     const d = datos.paises[id] || {};
     const nombre = PAISES[id].nombre;
@@ -166,6 +180,7 @@
       seccionDimensiones(d),
       seccionCriticas(d),
       seccion('Hechos principales', listaConFuentes(d.hechos) || sinDatos()),
+      seccionCalidad(d),
       seccion('Alertas recientes', listaConFuentes(d.alertas, null, true) || sinDatos()),
       seccion('Argentina con ' + nombre, listaConFuentes(d.argentina_con) || sinDatos()),
     ];
@@ -251,7 +266,7 @@
   function textoTooltip(info) {
     if (info.tipo === 'pais') {
       const d = datos.paises[info.id] || {};
-      return [info.nombre, esNumero(d.puntaje) ? `${formatoPuntaje(d.puntaje)} · ${semaforo(d.puntaje)[1]}` : 'Sin datos'];
+      return [info.nombre, esNumero(d.puntaje) ? `${formatoPuntaje(d.puntaje)} · ${semaforo(d.puntaje)[1]}` : textoSinPuntaje(d)];
     }
     if (info.tipo === 'region') return [REGIONES[info.id].nombre, info.nombre];
     if (info.tipo === 'origen') {
@@ -336,6 +351,7 @@
       if (!r.ok) throw new Error(r.status);
       const j = await r.json();
       datos = { paises: j.paises || {}, regiones: j.regiones || {}, actualizado: j.actualizado };
+      document.getElementById('franja-prueba').hidden = j.estado !== 'borrador';
       const fecha = formatoFecha(j.actualizado);
       if (fecha) document.getElementById('actualizado').textContent = `Datos al ${fecha}`;
     } catch (e) {
