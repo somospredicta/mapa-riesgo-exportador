@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mapa de riesgo exportador · Predicta</title>
+  <meta name="description" content="Planisferio interactivo con el riesgo político, institucional y estructural de cada destino, visto desde Argentina.">
+  <meta name="theme-color" content="#000030">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400;600&family=Google+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1 class="titulo">mapa de riesgo exportador</h1>
+    <a class="marca" href="https://predicta.ar" target="_blank" rel="noopener">predicta</a>
+  </header>
+
+  <main class="mapa" id="mapa" aria-label="Planisferio de riesgo exportador">
+    <svg id="lienzo" role="img" aria-label="Mapa del mundo. Pasá el mouse o tocá un país para ver su nombre; hacé clic para abrir el detalle."></svg>
+    <p class="cargando" id="cargando">cargando mapa…</p>
+
+    <div class="zoom" role="group" aria-label="Zoom del mapa">
+      <button type="button" data-zoom="mas" aria-label="Acercar">+</button>
+      <button type="button" data-zoom="menos" aria-label="Alejar">−</button>
+      <button type="button" data-zoom="inicio" aria-label="Volver a la vista inicial">⟲</button>
+    </div>
+
+    <details class="leyenda" id="leyenda" open>
+      <summary class="leyenda-titulo">riesgo del entorno</summary>
+      <ul>
+        <li><span class="muestra s-favorable"></span>4,1 a 5,0 · Entorno favorable</li>
+        <li><span class="muestra s-precaucion"></span>3,1 a 4,0 · Precaución</li>
+        <li><span class="muestra s-exigente"></span>2,1 a 3,0 · Entorno exigente</li>
+        <li><span class="muestra s-critico"></span>1,0 a 2,0 · Entorno crítico</li>
+        <li><span class="muestra s-sin-datos"></span>Sin datos</li>
+        <li><span class="muestra s-origen"></span>País de origen</li>
+      </ul>
+    </details>
+  </main>
+
+  <div class="tooltip" id="tooltip" role="status" aria-live="polite" hidden></div>
+
+  <aside class="panel" id="panel" aria-labelledby="panel-titulo" hidden>
+    <div class="panel-cabecera">
+      <div>
+        <p class="panel-tipo" id="panel-tipo"></p>
+        <h2 class="panel-titulo" id="panel-titulo"></h2>
+      </div>
+      <button type="button" class="panel-cerrar" id="panel-cerrar" aria-label="Cerrar panel">×</button>
+    </div>
+    <div class="panel-cuerpo" id="panel-cuerpo"></div>
+    <footer class="panel-pie">
+      <p>Esto es la probabilidad general. Cuánto le pega a tu empresa, lo medimos nosotros.</p>
+      <div class="panel-botones">
+        <a class="boton boton-principal" href="https://predicta.ar" target="_blank" rel="noopener">Pedir análisis</a>
+        <a class="boton" href="https://predicta.ar" target="_blank" rel="noopener">Hacer el autodiagnóstico</a>
+      </div>
+    </footer>
+  </aside>
+
+  <footer class="pie">
+    <a href="metodologia.html">metodología</a>
+    <span id="actualizado"></span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="js/entidades.js"></script>
+  <script src="js/mapa.js"></script>
+</body>
+</html>

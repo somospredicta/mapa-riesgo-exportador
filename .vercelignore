@@ -1,0 +1,5 @@
+# Lo confidencial no se sube a Vercel (cuando se publica desde la línea de comandos).
+/metodologia
+/scripts
+/data
+CLAUDE.md
