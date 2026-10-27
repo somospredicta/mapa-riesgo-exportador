@@ -280,7 +280,6 @@ body.con-panel .zoom { right: calc(var(--ancho-panel) + 20px); }
 .criticas li > span:first-child { color: #FF8A8F; font-weight: 500; }
 .criticas-cierre { margin: 10px 0 0; font-size: 0.92rem; }
 
-.dato { display: block; margin-top: 2px; font-size: 0.88rem; }
 .calidad { margin: 0; }
 .calidad > span:first-child { display: block; }
 .calidad-alerta > span:first-child { font-weight: 500; }

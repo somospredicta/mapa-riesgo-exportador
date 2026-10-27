@@ -116,7 +116,6 @@
       const fecha = conFecha && formatoFecha(it.fecha);
       ul.append(el('li', {},
         el('span', {}, fecha ? `${fecha} · ${it.texto}` : it.texto),
-        it.dato ? el('span', { class: 'dato' }, it.dato) : null,
         nodoFuente(it.fuente)));
     }
     return ul;
@@ -167,7 +166,6 @@
     return seccion('Calidad de la información oficial',
       el('p', { class: 'calidad' + (c.alerta ? ' calidad-alerta' : '') },
         el('span', {}, c.texto),
-        c.dato ? el('span', { class: 'dato' }, c.dato) : null,
         nodoFuente(c.fuente)));
   }
 

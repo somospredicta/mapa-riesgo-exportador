@@ -46,16 +46,17 @@ for (const archivo of fs.readdirSync(DIR).filter((f) => f.endsWith('.json')).sor
   const sinResponder = preguntas.filter((p) => !resp[p.id] || resp[p.id].respuesta === null).length;
 
   partes.push(`## ${datos.nombre} (${datos.pais})`, '');
-  partes.push(`Respuestas sin completar: ${sinResponder} de ${preguntas.length}.`, '');
-  partes.push('| # | Pregunta | Respuesta | Dato | Link | Fuente y fecha de consulta | Estado | Aprobado (Agustina) |');
-  partes.push('|---|---|---|---|---|---|---|---|');
+  partes.push(`Respuestas completas: ${preguntas.length - sinResponder} de ${preguntas.length}. Sin completar (null): ${sinResponder}.`, '');
+  partes.push('| # | Pregunta | Respuesta | Dato | Dato que se publica (si da SÍ) | Link | Fuente y fecha de consulta | Criterio aplicado | Estado | Aprobado (Agustina) |');
+  partes.push('|---|---|---|---|---|---|---|---|---|---|');
   for (const p of preguntas) {
     const r = resp[p.id] || {};
     const respuesta = r.respuesta === null || r.respuesta === undefined ? 'null' : r.respuesta;
     const dato = r.respuesta === null || r.respuesta === undefined ? `Sin responder: ${r.motivo_null || 'sin motivo cargado'}` : r.dato;
-    const link = r.fuente_url ? `[abrir](${r.fuente_url})` : '—';
+    const extras = (r.fuentes_adicionales || []).map((f) => `[${celda(f.nombre)}](${f.url})`);
+    const link = r.fuente_url ? [`[abrir](${r.fuente_url})`, ...extras].join('<br>') : '—';
     const fuente = r.fuente_nombre ? `${r.fuente_nombre} · ${r.consultado || 'sin fecha'}` : '—';
-    partes.push(`| ${p.id} | ${celda(p.pregunta)} | ${respuesta} | ${celda(dato)} | ${link} | ${celda(fuente)} | ${celda(r.estado)} |  |`);
+    partes.push(`| ${p.id} | ${celda(p.pregunta)} | ${respuesta} | ${celda(dato)} | ${celda(r.dato_publico)} | ${link} | ${celda(fuente)} | ${celda(r.criterio)} | ${celda(r.estado)} |  |`);
   }
   partes.push('');
 }

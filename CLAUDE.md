@@ -84,8 +84,15 @@ vercel.json    Publica solo /public.
 Reglas del cálculo: una respuesta faltante (o sin dato, link o fecha) nunca cuenta como NO; deja su dimensión
 y el puntaje país en "Sin datos completos". Los KO no cambian el color: se listan como condiciones críticas.
 
-El campo `dato` de cada respuesta se publica tal cual: tiene que ser un hecho verificable de la fuente
-(por ejemplo "CPI 2025: 34/100") y nunca mencionar umbrales, criticidades ni pesos.
+Campos de cada respuesta en `data/respuestas/XXX.json`:
+- `dato`: el detalle completo para la revisión interna. No se publica.
+- `dato_publico`: versión corta que sí se publica cuando la respuesta es SÍ (condiciones críticas, hechos)
+  y en el indicador I4-4. Va entre paréntesis después de la frase pública del checklist:
+  "La percepción de corrupción es alta (CPI 2025: 35/100, Transparencia Internacional)."
+  Tiene que ser un hecho verificable de la fuente y nunca mencionar umbrales, criticidades ni pesos.
+- `criterio`: interpretación aplicada o fuente sustituta usada, para que la revise Agustina. No se publica.
+- `fuentes_adicionales`: otras fuentes consultadas (`nombre`, `url`, `consultado`). No se publican.
+- `motivo_null`: por qué la respuesta quedó sin completar.
 
 ## Grupos del mapa
 

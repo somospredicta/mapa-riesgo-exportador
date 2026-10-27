@@ -3,193 +3,211 @@
   "nombre": "Brasil",
   "respuestas": {
     "C1": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "SÍ",
+      "dato": "Idioma oficial: portugués (Constitución de Brasil, art. 13: \"A língua portuguesa é o idioma oficial da República Federativa do Brasil\").",
+      "dato_publico": "idioma oficial: portugués, Constitución de Brasil",
+      "fuente_nombre": "Senado Federal de Brasil, Constitución de 1988, art. 13",
+      "fuente_url": "https://www.senado.leg.br/atividade/const/con1988/con1988_atual/art_13_.asp",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.ethnologue.com / www.cia.gov): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "El CIA World Factbook fue discontinuado (cia.gov redirige a una nota de despedida), así que se usó la norma oficial del país. Ninguna fuente oficial documenta una \"lengua franca de negocios compartida\"; se responde por lectura literal de la pregunta. El portugués y el español tienen alta inteligibilidad mutua: Agustina, confirmar si corresponde SÍ."
     },
     "C2": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.theculturefactor.com (Hofstede)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "Diferencias con Argentina (0-100): distancia al poder 20, individualismo 15, motivación por el logro 7, evitación de la incertidumbre 10, orientación a largo plazo 1, indulgencia 3. Ninguna supera 40.",
+      "dato_publico": null,
+      "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
+      "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cbrazil",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "C3": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "NO",
+      "dato": "Desde 2020 (casos DS595 en adelante) Argentina inició disputas en la OMC solo contra EE.UU. (DS617, tubos petroleros) y Perú (DS614, biodiésel); ninguna contra Brasil.",
+      "dato_publico": null,
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.state.gov / www.oecd.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "Fuente sustituta: los Investment Climate Statements del Departamento de Estado (state.gov) devolvieron error 403. La lista de disputas de la OMC es un indicador parcial: no cubre restricciones fuera del ámbito OMC. "
     },
     "C4": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.cancilleria.gob.ar): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "Existe la Cámara de Comercio Argentino Brasileña (CAMBRAS), activa: organizó el CAMBRAS Business Day 2026 (sexta edición).",
+      "dato_publico": null,
+      "fuente_nombre": "Cámara de Comercio Argentino Brasileña (CAMBRAS)",
+      "fuente_url": "https://cambras.org.ar/",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "A1": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "SÍ",
+      "dato": "La base de tratados de la Cancillería no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con Brasil: con \"Inversiones\" en el título solo aparecen protocolos del Fondo de Inversiones (1986-1988) y un convenio de cooperación entre agencias de promoción (2017).",
+      "dato_publico": "base de tratados de la Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (investmentpolicy.unctad.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "UNCTAD Investment Policy Hub bloquea el acceso con una verificación antibots (Cloudflare), así que se usó la base oficial de tratados de la Cancillería argentina. No se cuenta el Protocolo de Cooperación y Facilitación de Inversiones intra-Mercosur (2017) porque es plurilateral."
     },
     "A2": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.transparency.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "SÍ",
+      "dato": "CPI 2025: 35/100 (puesto 107 de 182).",
+      "dato_publico": "CPI 2025: 35/100, Transparencia Internacional",
+      "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
+      "fuente_url": "https://www.transparency.org/en/countries/brazil",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "A3": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (rtais.wto.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "Brasil y Argentina son miembros del Mercosur, acuerdo en vigor registrado en la OMC.",
+      "dato_publico": null,
+      "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
+      "fuente_url": "https://rtais.wto.org/UI/PublicSearchByMemberResult.aspx?membercode=032",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "A4": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "SÍ",
+      "dato": "Government Effectiveness 2025: estimación −0,04; percentil 45 (supera al 44,8% de las 213 economías con dato).",
+      "dato_publico": "Government Effectiveness 2025: percentil 45, Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
+      "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.worldbank.org (WGI)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. "
     },
     "A5": {
       "respuesta": null,
       "dato": null,
+      "dato_publico": null,
       "fuente_nombre": null,
       "fuente_url": null,
-      "consultado": null,
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (prensa indexada e informes país): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "motivo_null": "No se pudo verificar con una fuente concreta. La fuente principal para esta pregunta (Investment Climate Statements, state.gov) devolvió error 403 y la pregunta exige revisar prensa con criterio. Caso candidato encontrado en prensa: la decisión del STF de febrero de 2023 (Temas 881 y 885) que habilitó cobrar la CSLL a empresas con sentencia firme a favor. Es una decisión judicial tributaria, no un cambio regulatorio, y no apunta a empresas extranjeras. Agustina decide si cuenta."
     },
     "G1": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (lpi.worldbank.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "LPI 2023: 3,2 sobre 5.",
+      "dato_publico": null,
+      "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
+      "fuente_url": "https://api.worldbank.org/v2/country/BRA;CHN;ESP/indicator/LP.LPI.OVRL.XQ?format=json&mrnev=1",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "G3": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "NO",
+      "dato": "Brasilia (America/Sao_Paulo) usa UTC−3 todo el año, igual que Argentina: diferencia de 0 horas.",
+      "dato_publico": null,
+      "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
+      "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.timeanddate.com): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "timeanddate.com bloqueó el acceso (403); se usó la base oficial IANA."
     },
     "G4": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (sitios de aerolíneas / www.flightconnections.com): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "El 27/10/2026 había más de 20 vuelos directos programados en un solo día desde Ezeiza y Aeroparque a San Pablo, Río de Janeiro y Campinas (Aerolíneas Argentinas, LATAM, GOL, Azul y JetSMART).",
+      "dato_publico": null,
+      "fuente_nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+      "fuente_url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "E1": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.imf.org (WEO)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "PBI per cápita PPP 2025: USD 23.363.",
+      "dato_publico": null,
+      "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "E2": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.imf.org (WEO)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "Inflación anual: 4,6% (2023), 4,4% (2024), 5,0% (2025).",
+      "dato_publico": null,
+      "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "E3": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.bcb.gov.br): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "NO",
+      "dato": "Reales por dólar (PTAX venta): 5,6969 el 25/10/2024; máximo 6,2086 el 02/01/2025 (+9,0%); 5,3346 el 27/10/2026 (−6,4%).",
+      "dato_publico": null,
+      "fuente_nombre": "Banco Central do Brasil, serie SGS 1 (dólar PTAX venta)",
+      "fuente_url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/10/2024&dataFinal=27/10/2026",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "E4": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "SÍ",
+      "dato": "Economía informal en 2020: 40,0% del PBI oficial según el modelo MIMIC y 33,4% según el modelo DGE.",
+      "dato_publico": "economía informal: 40% del PBI en 2020, Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
+      "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.imf.org / ilostat.ilo.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "Fuente sustituta: el sitio del FMI (imf.org) bloqueó el acceso. El modelo MIMIC es la metodología de Medina y Schneider (FMI). Último año disponible: 2020."
     },
     "I3-1": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
-      "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (worldjusticeproject.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "respuesta": "SÍ",
+      "dato": "Rule of Law Index 2026: puesto 76 de 143 (puntaje 0,51); supera a 67 de 142 países (percentil 47).",
+      "dato_publico": "Índice de Estado de Derecho 2026: puesto 76 de 143, World Justice Project",
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/Brazil/",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
     },
     "I3-2": {
       "respuesta": null,
       "dato": null,
+      "dato_publico": null,
       "fuente_nombre": null,
       "fuente_url": null,
-      "consultado": null,
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (icsid.worldbank.org / investmentpolicy.unctad.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "motivo_null": "No se pudo verificar. El Investment Dispute Settlement Navigator de UNCTAD bloquea el acceso con verificación antibots (Cloudflare). La base de casos del CIADI muestra demandas, pero una demanda no prueba una expropiación; responder exige revisar laudos y definir si cuentan las expropiaciones internas por utilidad pública. Queda para revisión manual. Brasil no es miembro del CIADI."
     },
     "I3-4": {
       "respuesta": null,
       "dato": null,
+      "dato_publico": null,
       "fuente_nombre": null,
       "fuente_url": null,
-      "consultado": null,
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (www.worldbank.org (B-READY)): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "motivo_null": "Brasil no está cubierto por B-READY 2024 ni 2025 (figura en la lista de economías a cubrir en próximas ediciones). No hay dato de la fuente indicada."
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "NO",
+      "dato": "Brasil no es miembro del CIADI (no figura en la base de Estados miembro), pero la Ley 13.129/2015 habilita a la administración pública directa e indirecta a usar arbitraje para conflictos sobre derechos patrimoniales disponibles.",
+      "dato_publico": null,
+      "fuente_nombre": "Senado Federal de Brasil, Ley 13.129/2015",
+      "fuente_url": "https://legis.senado.leg.br/norma/584941/publicacao/15632925",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (icsid.worldbank.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "Se responde NO porque la ley abre el acceso a arbitraje con el Estado, incluida la vía institucional (ICC). La ley no menciona expresamente el arbitraje internacional y Brasil no es miembro del CIADI: Agustina, confirmar.",
+      "fuentes_adicionales": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "consultado": "2026-10-27"
+        }
+      ]
     },
     "I4-4": {
-      "respuesta": null,
-      "dato": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": null,
+      "respuesta": "NO",
+      "dato": "Brasil adhiere al SDDS Plus del FMI.",
+      "dato_publico": "adhiere al SDDS Plus, FMI",
+      "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS Plus)",
+      "fuente_url": "https://dsbb.imf.org/sdds-plus/country",
+      "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo consultar la fuente (dsbb.imf.org): la red del entorno de trabajo bloquea el acceso a sitios externos (intento del 2026-10-27). No se completó de memoria."
+      "criterio": "Adherir al SDDS/SDDS Plus implica cumplir plazos de difusión del FMI; no se evaluó el rezago serie por serie. "
     }
   }
 }

@@ -69,6 +69,19 @@ function fuentePublica(r) {
   return { nombre: r.fuente_nombre, url: r.fuente_url, consultado: r.consultado };
 }
 
+// Ítem público: la frase del checklist con el dato real de la fuente entre paréntesis,
+// por ejemplo "La percepción de corrupción es alta (CPI 2025: 35/100, Transparencia Internacional)."
+// Solo se publica `dato_publico`; `dato` y `criterio` quedan para la revisión interna.
+function itemPublico(frase, r, id, pais, avisos) {
+  const base = frase.replace(/\.\s*$/, '');
+  if (!r.dato_publico) avisos.push(`${pais} ${id}: falta dato_publico; la frase pública sale sin el dato.`);
+  return {
+    texto: r.dato_publico ? `${base} (${r.dato_publico}).` : `${base}.`,
+    dato: r.dato_publico || null,
+    fuente: fuentePublica(r),
+  };
+}
+
 function calcularPais(checklist, archivo, avisos) {
   const datos = leerJSON(archivo);
   const pais = datos.pais;
@@ -103,7 +116,7 @@ function calcularPais(checklist, archivo, avisos) {
 
   // Condiciones críticas: KO con SÍ verificado, aunque el puntaje esté incompleto.
   for (const { p, r } of afirmativas) {
-    if (p.ko) condiciones.push({ texto: p.frase_publica, dato: r.dato, fuente: fuentePublica(r) });
+    if (p.ko) condiciones.push(itemPublico(p.frase_publica, r, p.id, pais, avisos));
   }
 
   // Hechos principales: respuestas SÍ ordenadas por criticidad (empate: orden del checklist), las 3 primeras.
@@ -112,14 +125,14 @@ function calcularPais(checklist, archivo, avisos) {
     .slice()
     .sort((a, b) => b.p.criticidad - a.p.criticidad || orden.indexOf(a.p.id) - orden.indexOf(b.p.id))
     .slice(0, 3)
-    .map(({ p, r }) => ({ texto: p.frase_publica, dato: r.dato, fuente: fuentePublica(r) }));
+    .map(({ p, r }) => itemPublico(p.frase_publica, r, p.id, pais, avisos));
 
   // Indicador aparte (no entra al puntaje).
   const ind = checklist.indicador_aparte;
   const vInd = respuestaValida(resp[ind.id], ind.id, pais, avisos);
   const calidad = vInd === null
     ? null
-    : { alerta: vInd === SI, texto: vInd === SI ? ind.frase_si : ind.frase_no, dato: resp[ind.id].dato, fuente: fuentePublica(resp[ind.id]) };
+    : { alerta: vInd === SI, ...itemPublico(vInd === SI ? ind.frase_si : ind.frase_no, resp[ind.id], ind.id, pais, avisos) };
 
   const publicas = {};
   for (const [dim, info] of Object.entries(checklist.dimensiones)) {
