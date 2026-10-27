@@ -6,6 +6,8 @@
       "respuesta": "SÍ",
       "dato": "Idioma oficial: chino estándar (putonghua) y caracteres estandarizados, según la Ley del Idioma Chino Estándar Hablado y Escrito (vigente desde 2001, reformada el 27/12/2025).",
       "dato_publico": "idioma oficial: chino mandarín estándar",
+      "anio_dato": 2026,
+      "fuente_corta": "Congreso Nacional del Pueblo",
       "fuente_nombre": "Congreso Nacional del Pueblo de China (sitio oficial en inglés)",
       "fuente_url": "https://subsites.chinadaily.com.cn/npc/2025-12/28/c_1151056.htm",
       "consultado": "2026-10-27",
@@ -15,7 +17,9 @@
     "C2": {
       "respuesta": "SÍ",
       "dato": "Diferencias con Argentina (0-100): distancia al poder 31, individualismo 8, motivación por el logro 10, evitación de la incertidumbre 56, orientación a largo plazo 48, indulgencia 38. Superan 40: evitación de la incertidumbre y orientación a largo plazo.",
-      "dato_publico": "diferencias de 56 puntos en evitación de la incertidumbre y de 48 en orientación a largo plazo, Hofstede",
+      "dato_publico": "diferencias de 56 puntos en evitación de la incertidumbre y de 48 en orientación a largo plazo",
+      "anio_dato": 2026,
+      "fuente_corta": "Hofstede",
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cchina",
       "consultado": "2026-10-27",
@@ -23,18 +27,48 @@
     },
     "C3": {
       "respuesta": "NO",
-      "dato": "Desde 2020 (casos DS595 en adelante) Argentina inició disputas en la OMC solo contra EE.UU. (DS617, tubos petroleros) y Perú (DS614, biodiésel); ninguna contra China.",
+      "dato": "No se encontraron antecedentes de discriminación dirigida a empresas argentinas en China en los últimos 5 años. En la OMC, desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "OMC, lista cronológica de disputas",
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "Fuente sustituta: los Investment Climate Statements del Departamento de Estado (state.gov) devolvieron error 403. La lista de disputas de la OMC es un indicador parcial: no cubre restricciones fuera del ámbito OMC. "
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: el 19/03/2026 la aduana china suspendió las exportaciones del frigorífico argentino ArreBeef tras detectar cloranfenicol en un embarque (La Nación). Es una medida sanitaria sobre una planta por un hallazgo puntual, no una restricción a empresas argentinas como tales: los fundadores pueden decidir si cuenta.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-27",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-27",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Según su descripción pública, el índice mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en reuters.com (\"China Argentina companies restriction\")",
+          "url": "https://www.reuters.com",
+          "consultado": "2026-10-27",
+          "resultado": "Sin notas sobre restricciones o discriminación a empresas argentinas."
+        },
+        {
+          "nombre": "La Nación, \"Drástica medida: China suspendió las exportaciones de un importante frigorífico argentino\" (19/03/2026)",
+          "url": "https://www.lanacion.com.ar/economia/campo/drastica-medida-china-suspendio-las-exportaciones-de-un-frigorifico-argentino-nid19032026/",
+          "consultado": "2026-10-27",
+          "resultado": "Suspensión sanitaria de ArreBeef por residuos de cloranfenicol. No se contó (ver criterio)."
+        }
+      ]
     },
     "C4": {
       "respuesta": "NO",
       "dato": "Existe la Cámara Argentino China (Argenchina), activa: publicó la agenda del China Agribusiness Day en diciembre de 2025.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Cámara Argentino China (Argenchina)",
       "fuente_url": "https://camaraargentinochina.org/",
       "consultado": "2026-10-27",
@@ -45,6 +79,8 @@
       "respuesta": "NO",
       "dato": "Convenio Argentina–China para la promoción y protección recíproca de inversiones: firmado el 05/11/1992, en vigor desde el 01/08/1994 (Ley 24.325). Estado: vigente.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
       "consultado": "2026-10-27",
@@ -54,7 +90,9 @@
     "A2": {
       "respuesta": "SÍ",
       "dato": "CPI 2025: 43/100 (puesto 76 de 182).",
-      "dato_publico": "CPI 2025: 43/100, Transparencia Internacional",
+      "dato_publico": "CPI 43/100, puesto 76 de 182",
+      "anio_dato": 2025,
+      "fuente_corta": "Transparencia Internacional",
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://www.transparency.org/en/countries/china",
       "consultado": "2026-10-27",
@@ -63,7 +101,9 @@
     "A3": {
       "respuesta": "SÍ",
       "dato": "La base de la OMC no registra acuerdos en vigor de China con Argentina ni con el Mercosur. China sí tiene acuerdos vigentes con Chile, Perú, Ecuador y Costa Rica, entre otros.",
-      "dato_publico": "sin acuerdo comercial con Argentina ni con el Mercosur, OMC",
+      "dato_publico": "sin acuerdo comercial con Argentina ni con el Mercosur",
+      "anio_dato": 2026,
+      "fuente_corta": "OMC",
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/PublicSearchByMemberResult.aspx?membercode=156",
       "consultado": "2026-10-27",
@@ -73,6 +113,8 @@
       "respuesta": "NO",
       "dato": "Government Effectiveness 2025: estimación 0,62; percentil 70.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
@@ -80,19 +122,43 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. "
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
+      "respuesta": "NO",
+      "dato": "No se encontraron cambios regulatorios retroactivos documentados que afectaran a empresas extranjeras en los últimos 5 años.",
       "dato_publico": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": "China Briefing (Dezan Shira), interpretación judicial de la nueva Ley de Sociedades",
+      "fuente_url": "https://www.china-briefing.com/news/china-new-company-law-application-scope-retrospective-effect-supreme-court-judicial-interpretation/",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo verificar con una fuente concreta. La fuente principal para esta pregunta (Investment Climate Statements, state.gov) devolvió error 403 y la pregunta exige revisar prensa con criterio. En prensa especializada se mencionan reglas con posible efecto retroactivo (la interpretación judicial de la nueva Ley de Sociedades de 2024, que el Congreso luego aclaró como no retroactiva), pero no se encontró un caso documentado con fuente oficial. Queda para revisión manual."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Se revisó la interpretación judicial de la nueva Ley de Sociedades (vigente desde el 01/07/2024): mantiene el principio de no retroactividad, con excepciones puntuales.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "China Briefing, interpretación judicial de la nueva Ley de Sociedades",
+          "url": "https://www.china-briefing.com/news/china-new-company-law-application-scope-retrospective-effect-supreme-court-judicial-interpretation/",
+          "consultado": "2026-10-27",
+          "resultado": "Mantiene la no retroactividad como principio; no es un cambio retroactivo contra empresas extranjeras."
+        },
+        {
+          "nombre": "Morgan Lewis, \"Understanding China’s New Company Law\" (2025)",
+          "url": "https://www.morganlewis.com/pubs/2025/03/understanding-chinas-new-company-law-what-foreign-investors-need-to-know",
+          "consultado": "2026-10-27",
+          "resultado": "Análisis para inversores extranjeros; no documenta aplicación retroactiva."
+        },
+        {
+          "nombre": "Búsqueda web en reuters.com (\"China retroactive rules foreign companies\")",
+          "url": "https://www.reuters.com",
+          "consultado": "2026-10-27",
+          "resultado": "Sin notas sobre restricciones o discriminación a empresas argentinas."
+        }
+      ]
     },
     "G1": {
       "respuesta": "NO",
       "dato": "LPI 2023: 3,7 sobre 5.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
       "fuente_url": "https://api.worldbank.org/v2/country/BRA;CHN;ESP/indicator/LP.LPI.OVRL.XQ?format=json&mrnev=1",
       "consultado": "2026-10-27",
@@ -102,6 +168,8 @@
       "respuesta": "SÍ",
       "dato": "Pekín y Shanghái (Asia/Shanghai) usan UTC+8 todo el año: 11 horas de diferencia con Argentina.",
       "dato_publico": "11 horas de diferencia con Argentina",
+      "anio_dato": 2026,
+      "fuente_corta": "IANA",
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
@@ -112,16 +180,20 @@
       "respuesta": "SÍ",
       "dato": "La única conexión directa es la de China Eastern Shanghái–Auckland–Buenos Aires (MU745/746), con 2 vuelos semanales desde diciembre de 2025.",
       "dato_publico": "2 vuelos semanales de China Eastern vía Auckland",
+      "anio_dato": 2026,
+      "fuente_corta": "Gobierno de Shanghái",
       "fuente_nombre": "Gobierno Municipal de Shanghái",
       "fuente_url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20251205/a825766482394866931d940fe48faedd.html",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "La prensa informa que la ruta pasará a 4 vuelos semanales desde el 5/12/2026 (iProfesional, 1/9/2026); si se confirma, la respuesta pasa a NO. En el tablero oficial de Ezeiza no aparecieron vuelos de China Eastern entre el 27/10 y el 3/11/2026, que coincide con las obras en la pista."
+      "criterio": "Criterio aprobado: frecuencia vigente al día de la consulta. REVISAR DESPUÉS DEL 5/12/2026: la prensa informa que la ruta pasará a 4 vuelos semanales (iProfesional, 1/9/2026); si se confirma, la respuesta pasa a NO. En el tablero oficial de Ezeiza no aparecieron vuelos de China Eastern entre el 27/10 y el 3/11/2026, que coincide con las obras en la pista."
     },
     "E1": {
       "respuesta": "NO",
       "dato": "PBI per cápita PPP 2025: USD 29.369.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
       "consultado": "2026-10-27",
@@ -131,6 +203,8 @@
       "respuesta": "NO",
       "dato": "Inflación anual: 0,2% (2023), 0,2% (2024), 0,0% (2025).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
       "consultado": "2026-10-27",
@@ -140,6 +214,8 @@
       "respuesta": "NO",
       "dato": "Yuanes por dólar: 7,1199 el 25/10/2024; máximo 7,3499 el 09/04/2025 (+3,2%); 6,6702 el 23/10/2026 (−6,3%).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Reserva Federal de EE.UU., serie H.10 (DEXCHUS, publicada en FRED)",
       "fuente_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DEXCHUS&cosd=2024-10-01",
       "consultado": "2026-10-27",
@@ -150,6 +226,8 @@
       "respuesta": "NO",
       "dato": "Economía informal en 2020: 11,6% del PBI oficial según el modelo MIMIC y 8,0% según el modelo DGE.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
@@ -159,36 +237,57 @@
     "I3-1": {
       "respuesta": "SÍ",
       "dato": "Rule of Law Index 2026: puesto 92 de 143 (puntaje 0,48).",
-      "dato_publico": "Índice de Estado de Derecho 2026: puesto 92 de 143, World Justice Project",
+      "dato_publico": "puesto 92 de 143",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/China/",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 6 casos contra China, todos concluidos (Ekran 2011, Ansung 2014, Hela Schwarz 2017, Macro Trading 2020, Goh Chin Soon 2020, AsiaPhos 2021). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
       "dato_publico": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo verificar. El Investment Dispute Settlement Navigator de UNCTAD bloquea el acceso con verificación antibots (Cloudflare). La base de casos del CIADI muestra demandas, pero una demanda no prueba una expropiación; responder exige revisar laudos y definir si cuentan las expropiaciones internas por utilidad pública. Queda para revisión manual."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni las expropiaciones ordinarias por utilidad pública.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-27",
+          "resultado": "6 casos contra China, todos concluidos."
+        },
+        {
+          "nombre": "Búsqueda web (\"China expropriation nationalization foreign company 2016-2026\")",
+          "url": "https://securingdemocracy.gmfus.org/?p=16614",
+          "consultado": "2026-10-27",
+          "resultado": "Los resultados tratan casos fuera de China o internos (CEFC, Xiao Jianhua); sin expropiación documentada a empresas extranjeras en China."
+        }
+      ]
     },
     "I3-4": {
-      "respuesta": null,
-      "dato": null,
+      "respuesta": "NO",
+      "dato": "WJP 2026, factor 7.5: puntaje 0,68; puesto 17 de 143 (percentil 89).",
       "dato_publico": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "motivo_null": "China no está cubierta por B-READY 2024 ni 2025 (solo Hong Kong y Taiwán, que se cargan por separado). No hay dato de la fuente indicada."
+      "estado": "pendiente_revision"
     },
     "I3-5": {
       "respuesta": "NO",
       "dato": "China es miembro del CIADI: firma 09/02/1990, ratificación 07/01/1993, en vigor desde el 06/02/1993.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-27",
@@ -197,7 +296,9 @@
     "I4-4": {
       "respuesta": "NO",
       "dato": "China adhiere al SDDS del FMI.",
-      "dato_publico": "adhiere al SDDS, FMI",
+      "dato_publico": "adhiere al SDDS",
+      "anio_dato": 2026,
+      "fuente_corta": "FMI",
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS)",
       "fuente_url": "https://dsbb.imf.org/sdds/country",
       "consultado": "2026-10-27",

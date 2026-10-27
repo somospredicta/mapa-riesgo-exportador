@@ -5,17 +5,21 @@
     "C1": {
       "respuesta": "SÍ",
       "dato": "Idioma oficial: portugués (Constitución de Brasil, art. 13: \"A língua portuguesa é o idioma oficial da República Federativa do Brasil\").",
-      "dato_publico": "idioma oficial: portugués, Constitución de Brasil",
+      "dato_publico": "idioma oficial: portugués",
+      "anio_dato": 2026,
+      "fuente_corta": "Constitución de Brasil",
       "fuente_nombre": "Senado Federal de Brasil, Constitución de 1988, art. 13",
       "fuente_url": "https://www.senado.leg.br/atividade/const/con1988/con1988_atual/art_13_.asp",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "El CIA World Factbook fue discontinuado (cia.gov redirige a una nota de despedida), así que se usó la norma oficial del país. Ninguna fuente oficial documenta una \"lengua franca de negocios compartida\"; se responde por lectura literal de la pregunta. El portugués y el español tienen alta inteligibilidad mutua: Agustina, confirmar si corresponde SÍ."
+      "criterio": "Criterio aprobado: lectura literal; un idioma oficial distinto del español es SÍ. El CIA World Factbook fue discontinuado, así que se usó la Constitución."
     },
     "C2": {
       "respuesta": "NO",
       "dato": "Diferencias con Argentina (0-100): distancia al poder 20, individualismo 15, motivación por el logro 7, evitación de la incertidumbre 10, orientación a largo plazo 1, indulgencia 3. Ninguna supera 40.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cbrazil",
       "consultado": "2026-10-27",
@@ -23,18 +27,54 @@
     },
     "C3": {
       "respuesta": "NO",
-      "dato": "Desde 2020 (casos DS595 en adelante) Argentina inició disputas en la OMC solo contra EE.UU. (DS617, tubos petroleros) y Perú (DS614, biodiésel); ninguna contra Brasil.",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Brasil en los últimos 5 años. En la OMC, desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "OMC, lista cronológica de disputas",
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "Fuente sustituta: los Investment Climate Statements del Departamento de Estado (state.gov) devolvieron error 403. La lista de disputas de la OMC es un indicador parcial: no cubre restricciones fuera del ámbito OMC. "
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: en marzo de 2023 el embajador argentino reclamó por barreras no arancelarias y multas por errores en certificados de origen de exportaciones argentinas (Buenos Aires Herald, 15/03/2023). Es un reclamo diplomático por barreras generales, sin resolución que documente discriminación: los fundadores pueden decidir si cuenta.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-27",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-27",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Según su descripción pública, el índice mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en reuters.com (\"Argentina Brazil trade barrier Argentine companies\")",
+          "url": "https://www.reuters.com",
+          "consultado": "2026-10-27",
+          "resultado": "Sin notas sobre restricciones o discriminación a empresas argentinas."
+        },
+        {
+          "nombre": "Buenos Aires Herald, \"Argentina complains to Brazil over trade barriers\" (15/03/2023)",
+          "url": "https://buenosairesherald.com/economics/argentina-complains-to-brazil-over-trade-barriers",
+          "consultado": "2026-10-27",
+          "resultado": "Reclamo del embajador argentino por barreras no arancelarias, registro de productos y multas en certificados de origen. No se contó (ver criterio)."
+        },
+        {
+          "nombre": "Búsqueda web en prensa argentina y brasileña (\"Brasil restricciones empresas argentinas 2022-2025\")",
+          "url": "https://www.ambito.com/economia/alerta-exportaciones-brasil-denuncian-trabas-productos-argentinos-n5984542",
+          "consultado": "2026-10-27",
+          "resultado": "Notas sobre el mismo reclamo por trabas a exportaciones; sin medida dirigida a empresas argentinas."
+        }
+      ]
     },
     "C4": {
       "respuesta": "NO",
       "dato": "Existe la Cámara de Comercio Argentino Brasileña (CAMBRAS), activa: organizó el CAMBRAS Business Day 2026 (sexta edición).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Cámara de Comercio Argentino Brasileña (CAMBRAS)",
       "fuente_url": "https://cambras.org.ar/",
       "consultado": "2026-10-27",
@@ -43,7 +83,9 @@
     "A1": {
       "respuesta": "SÍ",
       "dato": "La base de tratados de la Cancillería no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con Brasil: con \"Inversiones\" en el título solo aparecen protocolos del Fondo de Inversiones (1986-1988) y un convenio de cooperación entre agencias de promoción (2017).",
-      "dato_publico": "base de tratados de la Cancillería argentina",
+      "dato_publico": "sin registro en la base oficial de tratados",
+      "anio_dato": 2026,
+      "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
       "consultado": "2026-10-27",
@@ -53,7 +95,9 @@
     "A2": {
       "respuesta": "SÍ",
       "dato": "CPI 2025: 35/100 (puesto 107 de 182).",
-      "dato_publico": "CPI 2025: 35/100, Transparencia Internacional",
+      "dato_publico": "CPI 35/100, puesto 107 de 182",
+      "anio_dato": 2025,
+      "fuente_corta": "Transparencia Internacional",
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://www.transparency.org/en/countries/brazil",
       "consultado": "2026-10-27",
@@ -63,6 +107,8 @@
       "respuesta": "NO",
       "dato": "Brasil y Argentina son miembros del Mercosur, acuerdo en vigor registrado en la OMC.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/PublicSearchByMemberResult.aspx?membercode=032",
       "consultado": "2026-10-27",
@@ -71,7 +117,9 @@
     "A4": {
       "respuesta": "SÍ",
       "dato": "Government Effectiveness 2025: estimación −0,04; percentil 45 (supera al 44,8% de las 213 economías con dato).",
-      "dato_publico": "Government Effectiveness 2025: percentil 45, Banco Mundial",
+      "dato_publico": "Government Effectiveness, percentil 45",
+      "anio_dato": 2025,
+      "fuente_corta": "Banco Mundial",
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
@@ -79,19 +127,30 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. "
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
+      "respuesta": "SÍ",
+      "dato": "El 08/02/2023 el Supremo Tribunal Federal resolvió (Temas 881 y 885, RE 949.297 y RE 955.227) que un precedente posterior del STF hace cesar automáticamente los efectos de sentencias tributarias firmes, y decidió por 6 a 5 no modular los efectos. Habilitó a la Receita Federal a volver a cobrar la CSLL a empresas que tenían sentencia firme a favor desde los años noventa. Tránsito en juzgado del Tema 885: 01/10/2025.",
+      "dato_publico": "el Supremo habilitó cobrar tributos a empresas con sentencia firme a favor, sin modular efectos",
+      "anio_dato": 2023,
+      "fuente_corta": "Supremo Tribunal Federal",
+      "fuente_nombre": "Supremo Tribunal Federal, Tema 885 (repercusión general)",
+      "fuente_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=885",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo verificar con una fuente concreta. La fuente principal para esta pregunta (Investment Climate Statements, state.gov) devolvió error 403 y la pregunta exige revisar prensa con criterio. Caso candidato encontrado en prensa: la decisión del STF de febrero de 2023 (Temas 881 y 885) que habilitó cobrar la CSLL a empresas con sentencia firme a favor. Es una decisión judicial tributaria, no un cambio regulatorio, y no apunta a empresas extranjeras. Agustina decide si cuenta."
+      "criterio": "Cuenta como cambio retroactivo por criterio aprobado: decisión de un tribunal supremo con efecto general y retroactivo sobre empresas.",
+      "fuentes_adicionales": [
+        {
+          "nombre": "Consultor Jurídico, \"STF permite anulação de decisão tributária definitiva sem modulação\" (08/02/2023)",
+          "url": "https://www.conjur.com.br/2023-fev-08/stf-permite-anulacao-decisao-tributaria-definitiva-modulacao/",
+          "consultado": "2026-10-27"
+        }
+      ]
     },
     "G1": {
       "respuesta": "NO",
       "dato": "LPI 2023: 3,2 sobre 5.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
       "fuente_url": "https://api.worldbank.org/v2/country/BRA;CHN;ESP/indicator/LP.LPI.OVRL.XQ?format=json&mrnev=1",
       "consultado": "2026-10-27",
@@ -101,6 +160,8 @@
       "respuesta": "NO",
       "dato": "Brasilia (America/Sao_Paulo) usa UTC−3 todo el año, igual que Argentina: diferencia de 0 horas.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
@@ -111,6 +172,8 @@
       "respuesta": "NO",
       "dato": "El 27/10/2026 había más de 20 vuelos directos programados en un solo día desde Ezeiza y Aeroparque a San Pablo, Río de Janeiro y Campinas (Aerolíneas Argentinas, LATAM, GOL, Azul y JetSMART).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
       "fuente_url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
       "consultado": "2026-10-27",
@@ -120,6 +183,8 @@
       "respuesta": "NO",
       "dato": "PBI per cápita PPP 2025: USD 23.363.",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
       "consultado": "2026-10-27",
@@ -129,6 +194,8 @@
       "respuesta": "NO",
       "dato": "Inflación anual: 4,6% (2023), 4,4% (2024), 5,0% (2025).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
       "consultado": "2026-10-27",
@@ -138,6 +205,8 @@
       "respuesta": "NO",
       "dato": "Reales por dólar (PTAX venta): 5,6969 el 25/10/2024; máximo 6,2086 el 02/01/2025 (+9,0%); 5,3346 el 27/10/2026 (−6,4%).",
       "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
       "fuente_nombre": "Banco Central do Brasil, serie SGS 1 (dólar PTAX venta)",
       "fuente_url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/10/2024&dataFinal=27/10/2026",
       "consultado": "2026-10-27",
@@ -146,7 +215,9 @@
     "E4": {
       "respuesta": "SÍ",
       "dato": "Economía informal en 2020: 40,0% del PBI oficial según el modelo MIMIC y 33,4% según el modelo DGE.",
-      "dato_publico": "economía informal: 40% del PBI en 2020, Banco Mundial",
+      "dato_publico": "economía informal: 40% del PBI",
+      "anio_dato": 2020,
+      "fuente_corta": "Banco Mundial",
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
@@ -156,45 +227,71 @@
     "I3-1": {
       "respuesta": "SÍ",
       "dato": "Rule of Law Index 2026: puesto 76 de 143 (puntaje 0,51); supera a 67 de 142 países (percentil 47).",
-      "dato_publico": "Índice de Estado de Derecho 2026: puesto 76 de 143, World Justice Project",
+      "dato_publico": "puesto 76 de 143",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/Brazil/",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
+      "respuesta": "NO",
+      "dato": "Brasil no es miembro del CIADI y no tiene casos en su base. La prensa revisada no documenta expropiaciones, nacionalizaciones ni confiscaciones de activos de empresas en los últimos 10 años.",
       "dato_publico": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "No se pudo verificar. El Investment Dispute Settlement Navigator de UNCTAD bloquea el acceso con verificación antibots (Cloudflare). La base de casos del CIADI muestra demandas, pero una demanda no prueba una expropiación; responder exige revisar laudos y definir si cuentan las expropiaciones internas por utilidad pública. Queda para revisión manual. Brasil no es miembro del CIADI."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni las expropiaciones ordinarias por utilidad pública.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-27",
+          "resultado": "0 casos con Brasil como demandado."
+        },
+        {
+          "nombre": "Búsqueda web en prensa brasileña (\"nacionalização ou expropriação de empresa 2016-2026\")",
+          "url": "https://www.tribunapr.com.br/noticias/economia/desnacionalizacao-de-empresas-avanca-no-brasil/",
+          "consultado": "2026-10-27",
+          "resultado": "Sin casos de expropiación o nacionalización de empresas."
+        }
+      ]
     },
     "I3-4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
+      "respuesta": "SÍ",
+      "dato": "WJP 2026, factor 7.5 (la justicia civil no está sujeta a demoras irrazonables): puntaje 0,28; puesto 114 de 143 (percentil 20).",
+      "dato_publico": "puesto 114 de 143 en demoras de la justicia civil",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "motivo_null": "Brasil no está cubierto por B-READY 2024 ni 2025 (figura en la lista de economías a cubrir en próximas ediciones). No hay dato de la fuente indicada."
+      "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": "NO",
-      "dato": "Brasil no es miembro del CIADI (no figura en la base de Estados miembro), pero la Ley 13.129/2015 habilita a la administración pública directa e indirecta a usar arbitraje para conflictos sobre derechos patrimoniales disponibles.",
-      "dato_publico": null,
-      "fuente_nombre": "Senado Federal de Brasil, Ley 13.129/2015",
-      "fuente_url": "https://legis.senado.leg.br/norma/584941/publicacao/15632925",
+      "respuesta": "SÍ",
+      "dato": "Brasil no es miembro del CIADI (no figura en la base de Estados miembro). La Ley 13.129/2015 habilita a la administración pública a usar arbitraje, pero no menciona el arbitraje internacional, y el Decreto 10.025/2019 (arbitraje con la administración federal en puertos y transporte) exige que se realice en Brasil y en portugués (art. 3, inc. III).",
+      "dato_publico": "no es miembro del CIADI y el arbitraje con el Estado debe hacerse en Brasil y en portugués",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y Decreto 10.025/2019",
+      "fuente_nombre": "Senado Federal de Brasil, Decreto 10.025/2019",
+      "fuente_url": "https://legis.senado.leg.br/norma/31412365/publicacao/31412376",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "Se responde NO porque la ley abre el acceso a arbitraje con el Estado, incluida la vía institucional (ICC). La ley no menciona expresamente el arbitraje internacional y Brasil no es miembro del CIADI: Agustina, confirmar.",
+      "criterio": "Criterio aprobado: SÍ si el país no es miembro del CIADI y ninguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado.",
       "fuentes_adicionales": [
         {
           "nombre": "CIADI, base de datos de Estados miembro",
           "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "consultado": "2026-10-27"
+        },
+        {
+          "nombre": "Senado Federal de Brasil, Ley 13.129/2015",
+          "url": "https://legis.senado.leg.br/norma/584941/publicacao/15632925",
           "consultado": "2026-10-27"
         }
       ]
@@ -202,7 +299,9 @@
     "I4-4": {
       "respuesta": "NO",
       "dato": "Brasil adhiere al SDDS Plus del FMI.",
-      "dato_publico": "adhiere al SDDS Plus, FMI",
+      "dato_publico": "adhiere al SDDS Plus",
+      "anio_dato": 2026,
+      "fuente_corta": "FMI",
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS Plus)",
       "fuente_url": "https://dsbb.imf.org/sdds-plus/country",
       "consultado": "2026-10-27",

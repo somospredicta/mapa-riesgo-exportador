@@ -86,13 +86,42 @@ y el puntaje país en "Sin datos completos". Los KO no cambian el color: se list
 
 Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `dato`: el detalle completo para la revisión interna. No se publica.
-- `dato_publico`: versión corta que sí se publica cuando la respuesta es SÍ (condiciones críticas, hechos)
-  y en el indicador I4-4. Va entre paréntesis después de la frase pública del checklist:
-  "La percepción de corrupción es alta (CPI 2025: 35/100, Transparencia Internacional)."
-  Tiene que ser un hecho verificable de la fuente y nunca mencionar umbrales, criticidades ni pesos.
+- `dato_publico`: el valor corto que sí se publica cuando la respuesta es SÍ (condiciones críticas, hechos)
+  y en el indicador I4-4. Tiene que ser un hecho verificable de la fuente y nunca mencionar umbrales,
+  criticidades ni pesos.
+- `anio_dato`: año al que corresponde el dato publicado.
+- `fuente_corta`: nombre corto de la fuente para la frase pública.
+  La frase pública se arma así: "La percepción de corrupción es alta (CPI: 35/100; dato 2025, Transparencia Internacional)."
+- `fuentes_revisadas`: fuentes consultadas en una búsqueda documentada (ver "Criterios de respuesta"). No se publican.
 - `criterio`: interpretación aplicada o fuente sustituta usada, para que la revise Agustina. No se publica.
 - `fuentes_adicionales`: otras fuentes consultadas (`nombre`, `url`, `consultado`). No se publican.
 - `motivo_null`: por qué la respuesta quedó sin completar.
+
+## Criterios de respuesta
+
+Aprobados por los fundadores. Rigen para todos los países.
+
+1. **Búsqueda documentada (C3, A5, I3-2).** La metodología responde SÍ solo cuando el riesgo existe.
+   Si la búsqueda en las fuentes definidas no encuentra casos, la respuesta es NO y se guarda en
+   `fuentes_revisadas` la lista de fuentes consultadas (`nombre`, `url`, `consultado`, `resultado`).
+   Null solo cuando no se pudo buscar.
+   - C3: prensa indexada (Reuters, AP y medios de referencia del país), informes de la OCDE y disputas
+     de la OMC. La OMC sola no alcanza.
+   - A5: prensa e informes país. También cuenta una decisión de un tribunal supremo con efecto general
+     y retroactivo sobre empresas.
+   - I3-2: base de casos del CIADI y prensa. Solo cuenta una expropiación, nacionalización o confiscación
+     documentada; una demanda sin resolver no alcanza.
+2. **C1:** lectura literal. Un idioma oficial distinto del español es SÍ.
+3. **A3:** un acuerdo en aplicación provisoria cuenta como vigente.
+4. **G4:** se responde con la frecuencia vigente al día de la consulta. Si hay un cambio anunciado,
+   se anota en `criterio` la fecha a partir de la cual hay que revisarla.
+5. **I3-4:** se responde con el factor 7.5 del Rule of Law Index del World Justice Project
+   ("la justicia civil no está sujeta a demoras irrazonables"), percentil sobre el total de países.
+6. **I3-5:** SÍ si el país no es miembro del CIADI y no hay una norma vigente que habilite expresamente
+   el arbitraje internacional en disputas de inversores con el Estado. Se verifica en el texto oficial
+   de la ley y en la lista de miembros del CIADI.
+7. **Año del dato.** Todo dato que se publica muestra el año al que corresponde (`anio_dato`), por ejemplo
+   "La economía informal tiene un peso alto en el PBI (40% del PBI; dato 2020, Banco Mundial)."
 
 ## Grupos del mapa
 
@@ -117,9 +146,9 @@ de `entidades.js`. Cualquier campo puede faltar o ser `null`: el sitio muestra "
       "etiqueta": "Precaución",
       "completo": true,
       "dimensiones": { "cultural": 4.0, "administrativa": 3.1, "geografica": 4.5, "economica": 3.0, "instituciones": 2.5 },
-      "condiciones_criticas": [ { "texto": "…", "dato": "…", "fuente": { "nombre": "…", "url": "https://…", "consultado": "AAAA-MM-DD" } } ],
-      "hechos": [ { "texto": "…", "dato": "…", "fuente": { … } } ],
-      "calidad_informacion": { "alerta": false, "texto": "…", "dato": "…", "fuente": { … } },
+      "condiciones_criticas": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { "nombre": "…", "url": "https://…", "consultado": "AAAA-MM-DD" } } ],
+      "hechos": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { … } } ],
+      "calidad_informacion": { "alerta": false, "texto": "…", "dato": "…", "anio_dato": 2026, "fuente": { … } },
       "estado": "borrador | aprobado"
     }
   },

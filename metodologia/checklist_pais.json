@@ -1,13 +1,28 @@
 {
   "confidencial": "Confidencial: no se publica. Nunca copiar este archivo ni su contenido a /public.",
-  "version": "1.0",
+  "version": "1.1",
   "regla": "Cada pregunta se responde SÍ cuando el riesgo o la barrera EXISTE. Argentina es siempre el país de origen. KO = deal-breaker.",
   "dimensiones": {
-    "C": { "nombre": "Cultural", "clave_publica": "cultural" },
-    "A": { "nombre": "Administrativa", "clave_publica": "administrativa" },
-    "G": { "nombre": "Geográfica", "clave_publica": "geografica" },
-    "E": { "nombre": "Económica", "clave_publica": "economica" },
-    "I3": { "nombre": "Instituciones", "clave_publica": "instituciones" }
+    "C": {
+      "nombre": "Cultural",
+      "clave_publica": "cultural"
+    },
+    "A": {
+      "nombre": "Administrativa",
+      "clave_publica": "administrativa"
+    },
+    "G": {
+      "nombre": "Geográfica",
+      "clave_publica": "geografica"
+    },
+    "E": {
+      "nombre": "Económica",
+      "clave_publica": "economica"
+    },
+    "I3": {
+      "nombre": "Instituciones",
+      "clave_publica": "instituciones"
+    }
   },
   "formula": {
     "dimension": "5 − (suma de criticidades con SÍ / suma de criticidades de la dimensión) × 4",
@@ -20,121 +35,181 @@
   },
   "preguntas": [
     {
-      "id": "C1", "dimension": "C", "criticidad": 2, "ko": false,
+      "id": "C1",
+      "dimension": "C",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿El idioma oficial del país es distinto del español y no existe una lengua franca de negocios compartida con Argentina?",
       "fuente_sugerida": "Ethnologue / CIA World Factbook",
       "frase_publica": "El idioma oficial es distinto del español y no hay una lengua franca de negocios compartida con Argentina."
     },
     {
-      "id": "C2", "dimension": "C", "criticidad": 2, "ko": false,
+      "id": "C2",
+      "dimension": "C",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿La diferencia entre Argentina y el país supera los 40 puntos en al menos 2 dimensiones de Hofstede?",
       "fuente_sugerida": "Hofstede (country comparison)",
       "frase_publica": "Hay diferencias culturales marcadas con Argentina."
     },
     {
-      "id": "C3", "dimension": "C", "criticidad": 3, "ko": true,
+      "id": "C3",
+      "dimension": "C",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿Hay antecedentes documentados de discriminación o restricciones a empresas argentinas en los últimos 5 años?",
       "fuente_sugerida": "US Dept. of State Investment Climate Statements / OCDE FDI Restrictiveness",
       "frase_publica": "Hay antecedentes documentados de discriminación o restricciones a empresas argentinas en los últimos 5 años."
     },
     {
-      "id": "C4", "dimension": "C", "criticidad": 1, "ko": false,
+      "id": "C4",
+      "dimension": "C",
+      "criticidad": 1,
+      "ko": false,
       "pregunta": "¿No existe una cámara o asociación empresarial bilateral activa entre Argentina y el país?",
       "fuente_sugerida": "Cancillería argentina / cámaras bilaterales",
       "frase_publica": "No hay una cámara empresarial bilateral activa con Argentina."
     },
     {
-      "id": "A1", "dimension": "A", "criticidad": 3, "ko": true,
+      "id": "A1",
+      "dimension": "A",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿No existe un tratado bilateral de inversión vigente entre Argentina y el país?",
       "fuente_sugerida": "UNCTAD Investment Policy Hub",
       "frase_publica": "No existe un tratado bilateral de inversión vigente con Argentina."
     },
     {
-      "id": "A2", "dimension": "A", "criticidad": 3, "ko": true,
+      "id": "A2",
+      "dimension": "A",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿El Índice de Percepción de la Corrupción (CPI) del país es inferior a 45/100?",
       "fuente_sugerida": "Transparencia Internacional, última edición",
       "frase_publica": "La percepción de corrupción es alta."
     },
     {
-      "id": "A3", "dimension": "A", "criticidad": 2, "ko": false,
+      "id": "A3",
+      "dimension": "A",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿No existe un acuerdo comercial vigente entre el país y Argentina o el Mercosur?",
       "fuente_sugerida": "OMC, base de acuerdos regionales",
       "frase_publica": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur."
     },
     {
-      "id": "A4", "dimension": "A", "criticidad": 2, "ko": false,
+      "id": "A4",
+      "dimension": "A",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿El indicador Government Effectiveness del país está por debajo del percentil 50?",
       "fuente_sugerida": "Banco Mundial, WGI",
       "frase_publica": "La efectividad del gobierno está en la mitad inferior del ranking mundial."
     },
     {
-      "id": "A5", "dimension": "A", "criticidad": 3, "ko": true,
+      "id": "A5",
+      "dimension": "A",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿Hubo cambios regulatorios retroactivos documentados en los últimos 5 años, en cualquier sector, que afectaran a empresas extranjeras?",
       "fuente_sugerida": "Prensa indexada / informes país",
       "frase_publica": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras en los últimos 5 años."
     },
     {
-      "id": "G1", "dimension": "G", "criticidad": 2, "ko": false,
+      "id": "G1",
+      "dimension": "G",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿El Logistics Performance Index del país es inferior a 2,8 sobre 5?",
       "fuente_sugerida": "Banco Mundial, LPI",
       "frase_publica": "El desempeño logístico es bajo."
     },
     {
-      "id": "G3", "dimension": "G", "criticidad": 1, "ko": false,
+      "id": "G3",
+      "dimension": "G",
+      "criticidad": 1,
+      "ko": false,
       "pregunta": "¿La diferencia horaria con Argentina (UTC−3) supera las 5 horas?",
       "fuente_sugerida": "Zonas horarias oficiales",
       "frase_publica": "La diferencia horaria con Argentina es amplia."
     },
     {
-      "id": "G4", "dimension": "G", "criticidad": 1, "ko": false,
+      "id": "G4",
+      "dimension": "G",
+      "criticidad": 1,
+      "ko": false,
       "pregunta": "¿No hay conexión aérea directa desde Argentina con al menos 3 vuelos semanales?",
       "fuente_sugerida": "Rutas de aerolíneas",
       "frase_publica": "No hay vuelos directos regulares desde Argentina."
     },
     {
-      "id": "E1", "dimension": "E", "criticidad": 2, "ko": false,
+      "id": "E1",
+      "dimension": "E",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿El PBI per cápita (PPP) del país es inferior a USD 8.000?",
       "fuente_sugerida": "FMI, World Economic Outlook",
       "frase_publica": "El ingreso por habitante es bajo."
     },
     {
-      "id": "E2", "dimension": "E", "criticidad": 3, "ko": true,
+      "id": "E2",
+      "dimension": "E",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿La inflación anual superó el 15% en al menos uno de los últimos 3 años?",
       "fuente_sugerida": "FMI, World Economic Outlook",
       "frase_publica": "La inflación anual fue alta en al menos uno de los últimos 3 años."
     },
     {
-      "id": "E3", "dimension": "E", "criticidad": 3, "ko": true,
+      "id": "E3",
+      "dimension": "E",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿La moneda local se devaluó más de 20% frente al dólar en los últimos 24 meses?",
       "fuente_sugerida": "Banco central del país / series históricas de tipo de cambio",
       "frase_publica": "La moneda local se devaluó fuertemente frente al dólar en los últimos 24 meses."
     },
     {
-      "id": "E4", "dimension": "E", "criticidad": 2, "ko": false,
+      "id": "E4",
+      "dimension": "E",
+      "criticidad": 2,
+      "ko": false,
       "pregunta": "¿La economía informal supera el 30% del PBI?",
       "fuente_sugerida": "FMI / OIT",
       "frase_publica": "La economía informal tiene un peso alto en el PBI."
     },
     {
-      "id": "I3-1", "dimension": "I3", "criticidad": 3, "ko": true,
+      "id": "I3-1",
+      "dimension": "I3",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿El país está por debajo del percentil 50 en el Rule of Law Index del World Justice Project?",
       "fuente_sugerida": "WJP",
       "frase_publica": "El Estado de derecho está en la mitad inferior del ranking mundial."
     },
     {
-      "id": "I3-2", "dimension": "I3", "criticidad": 3, "ko": true,
+      "id": "I3-2",
+      "dimension": "I3",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿Hubo expropiación, nacionalización o confiscación de activos, en cualquier sector, en los últimos 10 años?",
       "fuente_sugerida": "CIADI / UNCTAD Investment Dispute Settlement",
       "frase_publica": "Hubo expropiaciones, nacionalizaciones o confiscaciones de activos en los últimos 10 años."
     },
     {
-      "id": "I3-4", "dimension": "I3", "criticidad": 2, "ko": false,
-      "pregunta": "¿El tiempo promedio de resolución de disputas comerciales supera los 18 meses?",
-      "fuente_sugerida": "Banco Mundial, B-READY",
-      "frase_publica": "La resolución de disputas comerciales es lenta."
+      "id": "I3-4",
+      "dimension": "I3",
+      "criticidad": 2,
+      "ko": false,
+      "pregunta": "¿El país está por debajo del percentil 50 en el factor 7.5 (la justicia civil no está sujeta a demoras irrazonables) del Rule of Law Index del World Justice Project?",
+      "fuente_sugerida": "World Justice Project, Rule of Law Index (factor 7.5), última edición",
+      "frase_publica": "La justicia civil tiene demoras en la mitad inferior del ranking mundial."
     },
     {
-      "id": "I3-5", "dimension": "I3", "criticidad": 3, "ko": true,
+      "id": "I3-5",
+      "dimension": "I3",
+      "criticidad": 3,
+      "ko": true,
       "pregunta": "¿El país no ofrece acceso a arbitraje internacional (CIADI/ICC) para disputas con el Estado?",
       "fuente_sugerida": "CIADI, estados miembro",
       "frase_publica": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado."
@@ -148,5 +223,6 @@
     "titulo_publico": "Calidad de la información oficial",
     "frase_si": "Las estadísticas oficiales llegan con demora o el país no adhiere a los estándares de difusión de datos del FMI.",
     "frase_no": "El país adhiere a los estándares de difusión de datos del FMI."
-  }
+  },
+  "criterios_de_respuesta": "Ver la sección \"Criterios de respuesta\" de CLAUDE.md (aprobados por los fundadores el 2026-10-27)."
 }

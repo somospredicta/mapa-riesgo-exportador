@@ -69,15 +69,19 @@ function fuentePublica(r) {
   return { nombre: r.fuente_nombre, url: r.fuente_url, consultado: r.consultado };
 }
 
-// Ítem público: la frase del checklist con el dato real de la fuente entre paréntesis,
-// por ejemplo "La percepción de corrupción es alta (CPI 2025: 35/100, Transparencia Internacional)."
-// Solo se publica `dato_publico`; `dato` y `criterio` quedan para la revisión interna.
+// Ítem público: la frase del checklist con el dato real, el año del dato y la fuente entre paréntesis,
+// por ejemplo "La percepción de corrupción es alta (CPI 35/100, puesto 107 de 182; dato 2025, Transparencia Internacional)."
+// Solo se publican `dato_publico`, `anio_dato` y `fuente_corta`; `dato` y `criterio` quedan para la revisión interna.
 function itemPublico(frase, r, id, pais, avisos) {
   const base = frase.replace(/\.\s*$/, '');
-  if (!r.dato_publico) avisos.push(`${pais} ${id}: falta dato_publico; la frase pública sale sin el dato.`);
+  if (!r.dato_publico || !r.anio_dato || !r.fuente_corta) {
+    avisos.push(`${pais} ${id}: falta dato_publico, anio_dato o fuente_corta; la frase pública sale sin el dato.`);
+    return { texto: `${base}.`, dato: null, anio_dato: null, fuente: fuentePublica(r) };
+  }
   return {
-    texto: r.dato_publico ? `${base} (${r.dato_publico}).` : `${base}.`,
-    dato: r.dato_publico || null,
+    texto: `${base} (${r.dato_publico}; dato ${r.anio_dato}, ${r.fuente_corta}).`,
+    dato: r.dato_publico,
+    anio_dato: r.anio_dato,
     fuente: fuentePublica(r),
   };
 }

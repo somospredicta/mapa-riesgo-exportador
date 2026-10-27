@@ -3,20 +3,21 @@
   "estado": "borrador",
   "paises": {
     "BRA": {
-      "puntaje": null,
-      "etiqueta": "Sin datos completos",
-      "completo": false,
+      "puntaje": 3.3,
+      "etiqueta": "Precaución",
+      "completo": true,
       "dimensiones": {
         "cultural": 4,
-        "administrativa": null,
+        "administrativa": 1.6,
         "geografica": 5,
         "economica": 4.2,
-        "instituciones": null
+        "instituciones": 2.1
       },
       "condiciones_criticas": [
         {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (base de tratados de la Cancillería argentina).",
-          "dato": "base de tratados de la Cancillería argentina",
+          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (sin registro en la base oficial de tratados; dato 2026, Cancillería argentina).",
+          "dato": "sin registro en la base oficial de tratados",
+          "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
@@ -24,8 +25,9 @@
           }
         },
         {
-          "texto": "La percepción de corrupción es alta (CPI 2025: 35/100, Transparencia Internacional).",
-          "dato": "CPI 2025: 35/100, Transparencia Internacional",
+          "texto": "La percepción de corrupción es alta (CPI 35/100, puesto 107 de 182; dato 2025, Transparencia Internacional).",
+          "dato": "CPI 35/100, puesto 107 de 182",
+          "anio_dato": 2025,
           "fuente": {
             "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
             "url": "https://www.transparency.org/en/countries/brazil",
@@ -33,19 +35,41 @@
           }
         },
         {
-          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (Índice de Estado de Derecho 2026: puesto 76 de 143, World Justice Project).",
-          "dato": "Índice de Estado de Derecho 2026: puesto 76 de 143, World Justice Project",
+          "texto": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras en los últimos 5 años (el Supremo habilitó cobrar tributos a empresas con sentencia firme a favor, sin modular efectos; dato 2023, Supremo Tribunal Federal).",
+          "dato": "el Supremo habilitó cobrar tributos a empresas con sentencia firme a favor, sin modular efectos",
+          "anio_dato": 2023,
+          "fuente": {
+            "nombre": "Supremo Tribunal Federal, Tema 885 (repercusión general)",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=885",
+            "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (puesto 76 de 143; dato 2026, World Justice Project).",
+          "dato": "puesto 76 de 143",
+          "anio_dato": 2026,
           "fuente": {
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/Brazil/",
+            "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI y el arbitraje con el Estado debe hacerse en Brasil y en portugués; dato 2026, CIADI y Decreto 10.025/2019).",
+          "dato": "no es miembro del CIADI y el arbitraje con el Estado debe hacerse en Brasil y en portugués",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "Senado Federal de Brasil, Decreto 10.025/2019",
+            "url": "https://legis.senado.leg.br/norma/31412365/publicacao/31412376",
             "consultado": "2026-10-27"
           }
         }
       ],
       "hechos": [
         {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (base de tratados de la Cancillería argentina).",
-          "dato": "base de tratados de la Cancillería argentina",
+          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (sin registro en la base oficial de tratados; dato 2026, Cancillería argentina).",
+          "dato": "sin registro en la base oficial de tratados",
+          "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
@@ -53,8 +77,9 @@
           }
         },
         {
-          "texto": "La percepción de corrupción es alta (CPI 2025: 35/100, Transparencia Internacional).",
-          "dato": "CPI 2025: 35/100, Transparencia Internacional",
+          "texto": "La percepción de corrupción es alta (CPI 35/100, puesto 107 de 182; dato 2025, Transparencia Internacional).",
+          "dato": "CPI 35/100, puesto 107 de 182",
+          "anio_dato": 2025,
           "fuente": {
             "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
             "url": "https://www.transparency.org/en/countries/brazil",
@@ -62,19 +87,21 @@
           }
         },
         {
-          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (Índice de Estado de Derecho 2026: puesto 76 de 143, World Justice Project).",
-          "dato": "Índice de Estado de Derecho 2026: puesto 76 de 143, World Justice Project",
+          "texto": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras en los últimos 5 años (el Supremo habilitó cobrar tributos a empresas con sentencia firme a favor, sin modular efectos; dato 2023, Supremo Tribunal Federal).",
+          "dato": "el Supremo habilitó cobrar tributos a empresas con sentencia firme a favor, sin modular efectos",
+          "anio_dato": 2023,
           "fuente": {
-            "nombre": "World Justice Project, Rule of Law Index 2026",
-            "url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/Brazil/",
+            "nombre": "Supremo Tribunal Federal, Tema 885 (repercusión general)",
+            "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=885",
             "consultado": "2026-10-27"
           }
         }
       ],
       "calidad_informacion": {
         "alerta": false,
-        "texto": "El país adhiere a los estándares de difusión de datos del FMI (adhiere al SDDS Plus, FMI).",
-        "dato": "adhiere al SDDS Plus, FMI",
+        "texto": "El país adhiere a los estándares de difusión de datos del FMI (adhiere al SDDS Plus; dato 2026, FMI).",
+        "dato": "adhiere al SDDS Plus",
+        "anio_dato": 2026,
         "fuente": {
           "nombre": "FMI, Dissemination Standards Bulletin Board (SDDS Plus)",
           "url": "https://dsbb.imf.org/sdds-plus/country",
@@ -84,20 +111,21 @@
       "estado": "borrador"
     },
     "CHN": {
-      "puntaje": null,
-      "etiqueta": "Sin datos completos",
-      "completo": false,
+      "puntaje": 3.7,
+      "etiqueta": "Precaución",
+      "completo": true,
       "dimensiones": {
         "cultural": 3,
-        "administrativa": null,
+        "administrativa": 3.5,
         "geografica": 3,
         "economica": 5,
-        "instituciones": null
+        "instituciones": 3.9
       },
       "condiciones_criticas": [
         {
-          "texto": "La percepción de corrupción es alta (CPI 2025: 43/100, Transparencia Internacional).",
-          "dato": "CPI 2025: 43/100, Transparencia Internacional",
+          "texto": "La percepción de corrupción es alta (CPI 43/100, puesto 76 de 182; dato 2025, Transparencia Internacional).",
+          "dato": "CPI 43/100, puesto 76 de 182",
+          "anio_dato": 2025,
           "fuente": {
             "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
             "url": "https://www.transparency.org/en/countries/china",
@@ -105,8 +133,9 @@
           }
         },
         {
-          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (Índice de Estado de Derecho 2026: puesto 92 de 143, World Justice Project).",
-          "dato": "Índice de Estado de Derecho 2026: puesto 92 de 143, World Justice Project",
+          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (puesto 92 de 143; dato 2026, World Justice Project).",
+          "dato": "puesto 92 de 143",
+          "anio_dato": 2026,
           "fuente": {
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/China/",
@@ -116,8 +145,9 @@
       ],
       "hechos": [
         {
-          "texto": "La percepción de corrupción es alta (CPI 2025: 43/100, Transparencia Internacional).",
-          "dato": "CPI 2025: 43/100, Transparencia Internacional",
+          "texto": "La percepción de corrupción es alta (CPI 43/100, puesto 76 de 182; dato 2025, Transparencia Internacional).",
+          "dato": "CPI 43/100, puesto 76 de 182",
+          "anio_dato": 2025,
           "fuente": {
             "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
             "url": "https://www.transparency.org/en/countries/china",
@@ -125,8 +155,9 @@
           }
         },
         {
-          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (Índice de Estado de Derecho 2026: puesto 92 de 143, World Justice Project).",
-          "dato": "Índice de Estado de Derecho 2026: puesto 92 de 143, World Justice Project",
+          "texto": "El Estado de derecho está en la mitad inferior del ranking mundial (puesto 92 de 143; dato 2026, World Justice Project).",
+          "dato": "puesto 92 de 143",
+          "anio_dato": 2026,
           "fuente": {
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/China/",
@@ -134,8 +165,9 @@
           }
         },
         {
-          "texto": "El idioma oficial es distinto del español y no hay una lengua franca de negocios compartida con Argentina (idioma oficial: chino mandarín estándar).",
+          "texto": "El idioma oficial es distinto del español y no hay una lengua franca de negocios compartida con Argentina (idioma oficial: chino mandarín estándar; dato 2026, Congreso Nacional del Pueblo).",
           "dato": "idioma oficial: chino mandarín estándar",
+          "anio_dato": 2026,
           "fuente": {
             "nombre": "Congreso Nacional del Pueblo de China (sitio oficial en inglés)",
             "url": "https://subsites.chinadaily.com.cn/npc/2025-12/28/c_1151056.htm",
@@ -145,8 +177,9 @@
       ],
       "calidad_informacion": {
         "alerta": false,
-        "texto": "El país adhiere a los estándares de difusión de datos del FMI (adhiere al SDDS, FMI).",
-        "dato": "adhiere al SDDS, FMI",
+        "texto": "El país adhiere a los estándares de difusión de datos del FMI (adhiere al SDDS; dato 2026, FMI).",
+        "dato": "adhiere al SDDS",
+        "anio_dato": 2026,
         "fuente": {
           "nombre": "FMI, Dissemination Standards Bulletin Board (SDDS)",
           "url": "https://dsbb.imf.org/sdds/country",
@@ -156,22 +189,23 @@
       "estado": "borrador"
     },
     "ESP": {
-      "puntaje": null,
-      "etiqueta": "Sin datos completos",
-      "completo": false,
+      "puntaje": 5,
+      "etiqueta": "Entorno favorable",
+      "completo": true,
       "dimensiones": {
         "cultural": 5,
-        "administrativa": null,
+        "administrativa": 5,
         "geografica": 5,
         "economica": 5,
-        "instituciones": null
+        "instituciones": 5
       },
       "condiciones_criticas": [],
       "hechos": [],
       "calidad_informacion": {
         "alerta": false,
-        "texto": "El país adhiere a los estándares de difusión de datos del FMI (adhiere al SDDS Plus, FMI).",
-        "dato": "adhiere al SDDS Plus, FMI",
+        "texto": "El país adhiere a los estándares de difusión de datos del FMI (adhiere al SDDS Plus; dato 2026, FMI).",
+        "dato": "adhiere al SDDS Plus",
+        "anio_dato": 2026,
         "fuente": {
           "nombre": "FMI, Dissemination Standards Bulletin Board (SDDS Plus)",
           "url": "https://dsbb.imf.org/sdds-plus/country",
