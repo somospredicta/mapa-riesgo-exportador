@@ -36,17 +36,6 @@
   const tooltip = document.getElementById('tooltip');
   const panel = document.getElementById('panel');
 
-  // Trama para marcar a Argentina como país de origen.
-  svg.append('defs').append('pattern')
-    .attr('id', 'trama-origen')
-    .attr('patternUnits', 'userSpaceOnUse')
-    .attr('width', 4).attr('height', 4)
-    .attr('patternTransform', 'rotate(45)')
-    .call((p) => {
-      p.append('rect').attr('width', 4).attr('height', 4).attr('fill', '#000030');
-      p.append('rect').attr('width', 1.6).attr('height', 4).attr('fill', '#FEFEFE');
-    });
-
   // ---------- Utilidades ----------
 
   function claveDe(info) { return info.tipo + ':' + info.id; }
@@ -134,11 +123,17 @@
         el('span', { class: 'puntaje-etiqueta ' + clase }, esNumero(d.puntaje) ? etiqueta : textoSinPuntaje(d))));
   }
 
+  // Tendencia, alertas y "Argentina con..." solo se muestran cuando hay datos.
   function seccionTendencia(d) {
     const t = TENDENCIAS[d.tendencia];
-    return seccion('Tendencia', t
-      ? el('div', { class: 'tendencia' }, el('span', { class: 'flecha', 'aria-hidden': 'true' }, t.flecha), el('span', {}, t.texto))
-      : sinDatos());
+    if (!t) return null;
+    return seccion('Tendencia',
+      el('div', { class: 'tendencia' }, el('span', { class: 'flecha', 'aria-hidden': 'true' }, t.flecha), el('span', {}, t.texto)));
+  }
+
+  function seccionOpcional(titulo, items, conFecha) {
+    const lista = listaConFuentes(items, null, conFecha);
+    return lista ? seccion(titulo, lista) : null;
   }
 
   function seccionDimensiones(d) {
@@ -178,10 +173,11 @@
       seccionDimensiones(d),
       seccionCriticas(d),
       seccion('Hechos principales', listaConFuentes(d.hechos) || sinDatos()),
+      seccion('A favor', listaConFuentes(d.a_favor, 'a-favor') || sinDatos()),
       seccionCalidad(d),
-      seccion('Alertas recientes', listaConFuentes(d.alertas, null, true) || sinDatos()),
-      seccion('Argentina con ' + nombre, listaConFuentes(d.argentina_con) || sinDatos()),
-    ];
+      seccionOpcional('Alertas recientes', d.alertas, true),
+      seccionOpcional('Argentina con ' + nombre, d.argentina_con),
+    ].filter(Boolean);
   }
 
   function panelRegion(id) {
@@ -264,7 +260,9 @@
   function textoTooltip(info) {
     if (info.tipo === 'pais') {
       const d = datos.paises[info.id] || {};
-      return [info.nombre, esNumero(d.puntaje) ? `${formatoPuntaje(d.puntaje)} · ${semaforo(d.puntaje)[1]}` : textoSinPuntaje(d)];
+      const n = (d.condiciones_criticas || []).filter(itemValido).length;
+      const criticas = n ? `⚡ ${n} ${n === 1 ? 'condición crítica' : 'condiciones críticas'}` : null;
+      return [info.nombre, esNumero(d.puntaje) ? `${formatoPuntaje(d.puntaje)} · ${semaforo(d.puntaje)[1]}` : textoSinPuntaje(d), criticas];
     }
     if (info.tipo === 'region') return [REGIONES[info.id].nombre, info.nombre];
     if (info.tipo === 'origen') {
@@ -275,8 +273,8 @@
 
   let temporizadorTooltip;
   function mostrarTooltip(info, x, y) {
-    const [titulo, sub] = textoTooltip(info);
-    tooltip.replaceChildren(el('strong', {}, titulo), el('span', {}, sub));
+    const [titulo, sub, criticas] = textoTooltip(info);
+    tooltip.replaceChildren(el('strong', {}, titulo), el('span', {}, sub), criticas ? el('span', { class: 'tooltip-criticas' }, criticas) : null);
     tooltip.hidden = false;
     const r = tooltip.getBoundingClientRect();
     const margen = 12;

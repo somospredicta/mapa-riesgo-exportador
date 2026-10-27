@@ -95,6 +95,7 @@ function calcularPais(checklist, archivo, avisos) {
   const dimensiones = {};
   const condiciones = [];
   const afirmativas = [];
+  const negativas = [];
 
   for (const dim of Object.keys(checklist.dimensiones)) {
     const preguntas = checklist.preguntas.filter((p) => p.dimension === dim);
@@ -108,6 +109,8 @@ function calcularPais(checklist, archivo, avisos) {
       if (v === SI) {
         conSi += p.criticidad;
         afirmativas.push({ p, r: resp[p.id] });
+      } else {
+        negativas.push({ p, r: resp[p.id] });
       }
     }
     dimensiones[dim] = completa ? 5 - (conSi / total) * 4 : null;
@@ -118,18 +121,30 @@ function calcularPais(checklist, archivo, avisos) {
   const puntajeCrudo = cage !== null && I3 !== null ? formula.peso_cage * cage + formula.peso_i3 * I3 : null;
   const puntaje = puntajeCrudo === null ? null : redondear(puntajeCrudo, formula.decimales);
 
+  // La frase SÍ puede tener variantes (por ejemplo, A5 cuando el cambio alcanzó a todas las empresas).
+  const fraseSi = (p, r) => (r.variante && p.variantes && p.variantes[r.variante]) || p.frase_publica;
+
   // Condiciones críticas: KO con SÍ verificado, aunque el puntaje esté incompleto.
   for (const { p, r } of afirmativas) {
-    if (p.ko) condiciones.push(itemPublico(p.frase_publica, r, p.id, pais, avisos));
+    if (p.ko) condiciones.push(itemPublico(fraseSi(p, r), r, p.id, pais, avisos));
   }
 
-  // Hechos principales: respuestas SÍ ordenadas por criticidad (empate: orden del checklist), las 3 primeras.
+  // Orden: criticidad de mayor a menor; a igual criticidad, el orden del checklist.
   const orden = checklist.preguntas.map((p) => p.id);
+  const porCriticidad = (a, b) => b.p.criticidad - a.p.criticidad || orden.indexOf(a.p.id) - orden.indexOf(b.p.id);
+
+  // Hechos principales: hasta 3 respuestas SÍ que no sean KO (los KO ya están en condiciones críticas).
   const hechos = afirmativas
-    .slice()
-    .sort((a, b) => b.p.criticidad - a.p.criticidad || orden.indexOf(a.p.id) - orden.indexOf(b.p.id))
+    .filter(({ p }) => !p.ko)
+    .sort(porCriticidad)
     .slice(0, 3)
-    .map(({ p, r }) => itemPublico(p.frase_publica, r, p.id, pais, avisos));
+    .map(({ p, r }) => itemPublico(fraseSi(p, r), r, p.id, pais, avisos));
+
+  // A favor: hasta 2 respuestas NO de mayor criticidad, con la frase positiva del checklist.
+  const aFavor = negativas
+    .sort(porCriticidad)
+    .slice(0, 2)
+    .map(({ p, r }) => itemPublico(p.frase_positiva, r, p.id, pais, avisos));
 
   // Indicador aparte (no entra al puntaje).
   const ind = checklist.indicador_aparte;
@@ -155,6 +170,7 @@ function calcularPais(checklist, archivo, avisos) {
       dimensiones: publicas,
       condiciones_criticas: condiciones,
       hechos,
+      a_favor: aFavor,
       calidad_informacion: calidad,
       estado: aprobado ? 'aprobado' : 'borrador',
     },

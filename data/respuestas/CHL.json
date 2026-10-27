@@ -1,0 +1,290 @@
+{
+  "pais": "CHL",
+  "nombre": "Chile",
+  "respuestas": {
+    "C1": {
+      "respuesta": "NO",
+      "dato": "La Constitución no establece un idioma oficial; el español es el idioma de las instituciones.",
+      "dato_publico": "el español es el idioma de las instituciones",
+      "anio_dato": 2026,
+      "fuente_corta": "Constitución",
+      "fuente_nombre": "Constitute Project, Constitución (Chile_2021)",
+      "fuente_url": "https://www.constituteproject.org/constitution/Chile_2021?lang=en",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Criterio literal: no hay un idioma oficial distinto del español, así que la respuesta es NO.",
+      "interpretativa": true
+    },
+    "C2": {
+      "respuesta": "NO",
+      "dato": "Diferencias con Argentina (0-100): distancia al poder 14, individualismo 2, motivación por el logro 28, evitación de la incertidumbre 0, orientación a largo plazo 17, indulgencia 6.",
+      "dato_publico": "mayor diferencia con Argentina: 28 puntos en motivación por el logro",
+      "anio_dato": 2026,
+      "fuente_corta": "Hofstede",
+      "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
+      "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cchile",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "C3": {
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Chile en los últimos 5 años. En la OMC, Argentina no inició disputas contra Chile desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-27",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-27",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"medida contra empresa argentina, Chile, Perú, Colombia, Ecuador, Uruguay, 2023-2025\")",
+          "url": "https://www.elobservador.com.uy/nota/uruguay-pidio-que-argentina-no-sea-condenada-a-pagar-multa-millonaria-en-juicio-por-ypf--202436172927/amp",
+          "consultado": "2026-10-27",
+          "resultado": "Sin medidas contra empresas argentinas."
+        }
+      ]
+    },
+    "C4": {
+      "respuesta": null,
+      "dato": null,
+      "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+    },
+    "A1": {
+      "respuesta": "SÍ",
+      "dato": "Tratado entre la República Argentina y la República de Chile sobre Promoción y Protección Recíproca de Inversiones: firmado el 02/08/1991. Estado: Extinguido. Terminación: 01/05/2019.",
+      "dato_publico": "el tratado firmado en 1991 figura como \"extinguido\"",
+      "anio_dato": 2026,
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "El tratado bilateral se extinguió el 01/05/2019. Los fundadores pueden evaluar si un capítulo de inversiones dentro de un acuerdo comercial cuenta como tratado; no figura en esta base como tratado de inversión.",
+      "interpretativa": true
+    },
+    "A2": {
+      "respuesta": "NO",
+      "dato": "CPI 2025: 63/100 (puesto 31 de 182).",
+      "dato_publico": "CPI 63/100, puesto 31 de 182",
+      "anio_dato": 2025,
+      "fuente_corta": "Transparencia Internacional",
+      "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
+      "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "A3": {
+      "respuesta": "NO",
+      "dato": "Miembro de la Asociación Latinoamericana de Integración (ALADI) con Argentina, acuerdo en vigor registrado en la OMC.",
+      "dato_publico": "ALADI",
+      "anio_dato": 2026,
+      "fuente_corta": "OMC",
+      "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
+      "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "A4": {
+      "respuesta": "NO",
+      "dato": "Government Effectiveness 2025: estimación 1,04; percentil 81 (213 economías con dato).",
+      "dato_publico": "Government Effectiveness, percentil 81",
+      "anio_dato": 2025,
+      "fuente_corta": "Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
+      "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+    },
+    "A5": {
+      "respuesta": "NO",
+      "dato": "No se encontraron cambios regulatorios retroactivos documentados que afectaran a empresas extranjeras en Chile en los últimos 5 años.",
+      "dato_publico": "sin cambios retroactivos documentados en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa",
+      "fuente_nombre": "Búsqueda web (\"cambio regulatorio retroactivo empresas extranjeras 2022-2025\")",
+      "fuente_url": "https://publications.iadb.org/publications/spanish/document/Problemas-tributarios-prácticos-que-afectan-la-inversión-y-la-competitividad-en-Uruguay.pdf",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Búsqueda web (\"cambio regulatorio retroactivo empresas extranjeras 2022-2025\")",
+          "url": "https://publications.iadb.org/publications/spanish/document/Problemas-tributarios-prácticos-que-afectan-la-inversión-y-la-competitividad-en-Uruguay.pdf",
+          "consultado": "2026-10-27",
+          "resultado": "Sin casos en la ventana."
+        }
+      ]
+    },
+    "G1": {
+      "respuesta": "NO",
+      "dato": "LPI 2023: 3,0 sobre 5.",
+      "dato_publico": "LPI 3,0 sobre 5",
+      "anio_dato": 2023,
+      "fuente_corta": "Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
+      "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "G3": {
+      "respuesta": "NO",
+      "dato": "Capital: zona America/Santiago. Diferencia con Argentina (UTC−3): entre 0 y 1 horas según la época del año.",
+      "dato_publico": "entre 0 y 1 horas según la época del año de diferencia con Argentina",
+      "anio_dato": 2026,
+      "fuente_corta": "IANA",
+      "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
+      "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "G4": {
+      "respuesta": "NO",
+      "dato": "85 vuelos directos programados a Chile en el período relevado (AR 1280, AR 1282, AR 1284, AR 1286, D5 1558, H2 1821…).",
+      "dato_publico": "85 vuelos directos en una semana desde Buenos Aires",
+      "anio_dato": 2026,
+      "fuente_corta": "Aeropuertos Argentina",
+      "fuente_nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+      "fuente_url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Se relevaron las partidas programadas de Ezeiza (26/10 al 01/11/2026) y Aeroparque (26/10 al 29/10/2026) en el tablero oficial; no se relevaron aeropuertos del interior. Coincide con las obras en la pista de Ezeiza (25/10 al 11/11/2026)."
+    },
+    "E1": {
+      "respuesta": "NO",
+      "dato": "PBI per cápita PPP 2025: USD 35.791.",
+      "dato_publico": "PBI per cápita PPP: USD 35.791",
+      "anio_dato": 2025,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/CHL.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "E2": {
+      "respuesta": "NO",
+      "dato": "Inflación anual: 7,6% (2023), 3,9% (2024), 4,2% (2025).",
+      "dato_publico": "inflación de 7,6% en 2023, 3,9% en 2024 y 4,2% en 2025",
+      "anio_dato": 2025,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/CHL.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "E3": {
+      "respuesta": "NO",
+      "dato": "Moneda local por dólar (fin de mes): 896,2500 en 09/2024; máximo 991,1800 en 12/2024 (+10,6%); 970,4600 en 09/2026.",
+      "dato_publico": "variación máxima frente al dólar: 10,6%",
+      "anio_dato": 2026,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, tipos de cambio (fin de período, mensual)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/CHL.XDC_USD.EOP_RT.M?startPeriod=2024-06",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "E4": {
+      "respuesta": "NO",
+      "dato": "Economía informal en 2020: 19,4% del PBI oficial (modelo MIMIC); 15,4% según el modelo DGE.",
+      "dato_publico": "19% del PBI",
+      "anio_dato": 2020,
+      "fuente_corta": "Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
+      "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I3-1": {
+      "respuesta": "NO",
+      "dato": "Rule of Law Index 2026: puntaje 0,66; puesto 34 de 143 (percentil 77).",
+      "dato_publico": "puesto 34 de 143",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I3-2": {
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 8 casos contra Chile (2 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
+      "dato_publico": "sin expropiaciones documentadas en el CIADI ni en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni los proyectos de ley.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-27",
+          "resultado": "8 casos con Chile como demandado (2 pendientes)."
+        },
+        {
+          "nombre": "Búsqueda web (\"expropiación nacionalización empresa privada 2017-2026\")",
+          "url": "https://www.peru-retail.com/telefonica-del-peru-congresistas-de-izquierda-buscan-expropiar-y-nacionalizar-la-empresa/",
+          "consultado": "2026-10-27",
+          "resultado": "Sin expropiaciones consumadas en la ventana."
+        }
+      ]
+    },
+    "I3-4": {
+      "respuesta": "SÍ",
+      "dato": "WJP 2026, factor 7.5 (la justicia civil no está sujeta a demoras irrazonables): puntaje 0,38; puesto 78 de 143 (percentil 46).",
+      "dato_publico": "puesto 78 de 143 en demoras de la justicia civil",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I3-5": {
+      "respuesta": "NO",
+      "dato": "Miembro del CIADI: firma Jan 25, 1991, ratificación Sep 24, 1991, en vigor desde el Oct 24, 1991.",
+      "dato_publico": "miembro del CIADI desde 1991",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI",
+      "fuente_nombre": "CIADI, base de datos de Estados miembro",
+      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I4-4": {
+      "respuesta": "NO",
+      "dato": "Adhiere al SDDS Plus del FMI.",
+      "dato_publico": "adhiere al SDDS Plus",
+      "anio_dato": 2026,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS Plus)",
+      "fuente_url": "https://dsbb.imf.org/sdds-plus/country",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "confidencial": "Confidencial: no se publica. Nunca copiar este archivo ni su contenido a /public.",
-  "version": "1.1",
+  "version": "1.2",
   "regla": "Cada pregunta se responde SÍ cuando el riesgo o la barrera EXISTE. Argentina es siempre el país de origen. KO = deal-breaker.",
   "dimensiones": {
     "C": {
@@ -41,7 +41,8 @@
       "ko": false,
       "pregunta": "¿El idioma oficial del país es distinto del español y no existe una lengua franca de negocios compartida con Argentina?",
       "fuente_sugerida": "Ethnologue / CIA World Factbook",
-      "frase_publica": "El idioma oficial es distinto del español y no hay una lengua franca de negocios compartida con Argentina."
+      "frase_publica": "El idioma oficial es distinto del español.",
+      "frase_positiva": "Comparte el idioma español con Argentina."
     },
     {
       "id": "C2",
@@ -50,7 +51,8 @@
       "ko": false,
       "pregunta": "¿La diferencia entre Argentina y el país supera los 40 puntos en al menos 2 dimensiones de Hofstede?",
       "fuente_sugerida": "Hofstede (country comparison)",
-      "frase_publica": "Hay diferencias culturales marcadas con Argentina."
+      "frase_publica": "Hay diferencias culturales marcadas con Argentina.",
+      "frase_positiva": "Tiene una cultura de negocios cercana a la argentina."
     },
     {
       "id": "C3",
@@ -59,7 +61,8 @@
       "ko": true,
       "pregunta": "¿Hay antecedentes documentados de discriminación o restricciones a empresas argentinas en los últimos 5 años?",
       "fuente_sugerida": "US Dept. of State Investment Climate Statements / OCDE FDI Restrictiveness",
-      "frase_publica": "Hay antecedentes documentados de discriminación o restricciones a empresas argentinas en los últimos 5 años."
+      "frase_publica": "Hay antecedentes documentados de discriminación o restricciones a empresas argentinas.",
+      "frase_positiva": "No se registran antecedentes de discriminación o restricciones a empresas argentinas."
     },
     {
       "id": "C4",
@@ -68,7 +71,8 @@
       "ko": false,
       "pregunta": "¿No existe una cámara o asociación empresarial bilateral activa entre Argentina y el país?",
       "fuente_sugerida": "Cancillería argentina / cámaras bilaterales",
-      "frase_publica": "No hay una cámara empresarial bilateral activa con Argentina."
+      "frase_publica": "No hay una cámara empresarial bilateral activa con Argentina.",
+      "frase_positiva": "Hay una cámara empresarial bilateral activa con Argentina."
     },
     {
       "id": "A1",
@@ -77,7 +81,8 @@
       "ko": true,
       "pregunta": "¿No existe un tratado bilateral de inversión vigente entre Argentina y el país?",
       "fuente_sugerida": "UNCTAD Investment Policy Hub",
-      "frase_publica": "No existe un tratado bilateral de inversión vigente con Argentina."
+      "frase_publica": "No existe un tratado bilateral de inversión vigente con Argentina.",
+      "frase_positiva": "Tiene un tratado bilateral de inversión vigente con Argentina."
     },
     {
       "id": "A2",
@@ -86,7 +91,8 @@
       "ko": true,
       "pregunta": "¿El Índice de Percepción de la Corrupción (CPI) del país es inferior a 45/100?",
       "fuente_sugerida": "Transparencia Internacional, última edición",
-      "frase_publica": "La percepción de corrupción es alta."
+      "frase_publica": "La percepción de corrupción es alta.",
+      "frase_positiva": "La percepción de corrupción es moderada o baja."
     },
     {
       "id": "A3",
@@ -95,7 +101,8 @@
       "ko": false,
       "pregunta": "¿No existe un acuerdo comercial vigente entre el país y Argentina o el Mercosur?",
       "fuente_sugerida": "OMC, base de acuerdos regionales",
-      "frase_publica": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur."
+      "frase_publica": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur.",
+      "frase_positiva": "Tiene un acuerdo comercial vigente con Argentina."
     },
     {
       "id": "A4",
@@ -104,7 +111,8 @@
       "ko": false,
       "pregunta": "¿El indicador Government Effectiveness del país está por debajo del percentil 50?",
       "fuente_sugerida": "Banco Mundial, WGI",
-      "frase_publica": "La efectividad del gobierno está en la mitad inferior del ranking mundial."
+      "frase_publica": "La efectividad del gobierno muestra debilidades.",
+      "frase_positiva": "El gobierno muestra buena efectividad."
     },
     {
       "id": "A5",
@@ -113,7 +121,11 @@
       "ko": true,
       "pregunta": "¿Hubo cambios regulatorios retroactivos documentados en los últimos 5 años, en cualquier sector, que afectaran a empresas extranjeras?",
       "fuente_sugerida": "Prensa indexada / informes país",
-      "frase_publica": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras en los últimos 5 años."
+      "frase_publica": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras.",
+      "frase_positiva": "No se registran cambios regulatorios retroactivos recientes que afecten a empresas extranjeras.",
+      "variantes": {
+        "general": "Hubo cambios regulatorios retroactivos que afectaron a empresas, incluidas las extranjeras."
+      }
     },
     {
       "id": "G1",
@@ -122,7 +134,8 @@
       "ko": false,
       "pregunta": "¿El Logistics Performance Index del país es inferior a 2,8 sobre 5?",
       "fuente_sugerida": "Banco Mundial, LPI",
-      "frase_publica": "El desempeño logístico es bajo."
+      "frase_publica": "El desempeño logístico es bajo.",
+      "frase_positiva": "Tiene un buen desempeño logístico."
     },
     {
       "id": "G3",
@@ -131,7 +144,8 @@
       "ko": false,
       "pregunta": "¿La diferencia horaria con Argentina (UTC−3) supera las 5 horas?",
       "fuente_sugerida": "Zonas horarias oficiales",
-      "frase_publica": "La diferencia horaria con Argentina es amplia."
+      "frase_publica": "La diferencia horaria con Argentina es amplia.",
+      "frase_positiva": "La diferencia horaria con Argentina es manejable."
     },
     {
       "id": "G4",
@@ -140,7 +154,8 @@
       "ko": false,
       "pregunta": "¿No hay conexión aérea directa desde Argentina con al menos 3 vuelos semanales?",
       "fuente_sugerida": "Rutas de aerolíneas",
-      "frase_publica": "No hay vuelos directos regulares desde Argentina."
+      "frase_publica": "Hay poca conectividad aérea directa con Argentina.",
+      "frase_positiva": "Hay vuelos directos frecuentes desde Argentina."
     },
     {
       "id": "E1",
@@ -149,7 +164,8 @@
       "ko": false,
       "pregunta": "¿El PBI per cápita (PPP) del país es inferior a USD 8.000?",
       "fuente_sugerida": "FMI, World Economic Outlook",
-      "frase_publica": "El ingreso por habitante es bajo."
+      "frase_publica": "El ingreso por habitante es bajo.",
+      "frase_positiva": "Tiene un ingreso por habitante medio o alto."
     },
     {
       "id": "E2",
@@ -158,7 +174,8 @@
       "ko": true,
       "pregunta": "¿La inflación anual superó el 15% en al menos uno de los últimos 3 años?",
       "fuente_sugerida": "FMI, World Economic Outlook",
-      "frase_publica": "La inflación anual fue alta en al menos uno de los últimos 3 años."
+      "frase_publica": "La inflación fue alta en los últimos años.",
+      "frase_positiva": "La inflación se mantuvo contenida en los últimos años."
     },
     {
       "id": "E3",
@@ -167,7 +184,8 @@
       "ko": true,
       "pregunta": "¿La moneda local se devaluó más de 20% frente al dólar en los últimos 24 meses?",
       "fuente_sugerida": "Banco central del país / series históricas de tipo de cambio",
-      "frase_publica": "La moneda local se devaluó fuertemente frente al dólar en los últimos 24 meses."
+      "frase_publica": "La moneda local se devaluó fuertemente frente al dólar.",
+      "frase_positiva": "La moneda local se mantuvo estable frente al dólar."
     },
     {
       "id": "E4",
@@ -176,7 +194,8 @@
       "ko": false,
       "pregunta": "¿La economía informal supera el 30% del PBI?",
       "fuente_sugerida": "FMI / OIT",
-      "frase_publica": "La economía informal tiene un peso alto en el PBI."
+      "frase_publica": "La economía informal tiene un peso alto en el PBI.",
+      "frase_positiva": "La economía informal tiene un peso acotado en el PBI."
     },
     {
       "id": "I3-1",
@@ -185,7 +204,8 @@
       "ko": true,
       "pregunta": "¿El país está por debajo del percentil 50 en el Rule of Law Index del World Justice Project?",
       "fuente_sugerida": "WJP",
-      "frase_publica": "El Estado de derecho está en la mitad inferior del ranking mundial."
+      "frase_publica": "El Estado de derecho muestra debilidades.",
+      "frase_positiva": "El Estado de derecho es sólido."
     },
     {
       "id": "I3-2",
@@ -194,7 +214,8 @@
       "ko": true,
       "pregunta": "¿Hubo expropiación, nacionalización o confiscación de activos, en cualquier sector, en los últimos 10 años?",
       "fuente_sugerida": "CIADI / UNCTAD Investment Dispute Settlement",
-      "frase_publica": "Hubo expropiaciones, nacionalizaciones o confiscaciones de activos en los últimos 10 años."
+      "frase_publica": "Hubo expropiaciones, nacionalizaciones o confiscaciones de activos.",
+      "frase_positiva": "No se registran expropiaciones, nacionalizaciones ni confiscaciones recientes."
     },
     {
       "id": "I3-4",
@@ -203,7 +224,8 @@
       "ko": false,
       "pregunta": "¿El país está por debajo del percentil 50 en el factor 7.5 (la justicia civil no está sujeta a demoras irrazonables) del Rule of Law Index del World Justice Project?",
       "fuente_sugerida": "World Justice Project, Rule of Law Index (factor 7.5), última edición",
-      "frase_publica": "La justicia civil tiene demoras en la mitad inferior del ranking mundial."
+      "frase_publica": "La justicia civil tiene demoras significativas.",
+      "frase_positiva": "La justicia civil resuelve sin demoras excesivas."
     },
     {
       "id": "I3-5",
@@ -212,7 +234,8 @@
       "ko": true,
       "pregunta": "¿El país no ofrece acceso a arbitraje internacional (CIADI/ICC) para disputas con el Estado?",
       "fuente_sugerida": "CIADI, estados miembro",
-      "frase_publica": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado."
+      "frase_publica": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado.",
+      "frase_positiva": "Ofrece acceso a arbitraje internacional para disputas con el Estado."
     }
   ],
   "indicador_aparte": {
@@ -224,5 +247,6 @@
     "frase_si": "Las estadísticas oficiales llegan con demora o el país no adhiere a los estándares de difusión de datos del FMI.",
     "frase_no": "El país adhiere a los estándares de difusión de datos del FMI."
   },
-  "criterios_de_respuesta": "Ver la sección \"Criterios de respuesta\" de CLAUDE.md (aprobados por los fundadores el 2026-10-27)."
+  "criterios_de_respuesta": "Ver la sección \"Criterios de respuesta\" de CLAUDE.md (aprobados por los fundadores el 2026-10-27).",
+  "nota_frases": "Las frases públicas y positivas no pueden revelar umbrales, ventanas de tiempo, criticidades ni pesos. Una respuesta puede elegir una variante de la frase con el campo \"variante\"."
 }

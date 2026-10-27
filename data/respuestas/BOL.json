@@ -1,0 +1,292 @@
+{
+  "pais": "BOL",
+  "nombre": "Bolivia",
+  "respuestas": {
+    "C1": {
+      "respuesta": "NO",
+      "dato": "La Constitución (art. 5) establece el español como idioma oficial y los idiomas de las naciones indígenas.",
+      "dato_publico": "idioma oficial: español",
+      "anio_dato": 2026,
+      "fuente_corta": "Constitución",
+      "fuente_nombre": "Constitute Project, Constitución (Bolivia_2009)",
+      "fuente_url": "https://www.constituteproject.org/constitution/Bolivia_2009?lang=en",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "El español es uno de los idiomas oficiales; se respondió NO porque el español es oficial. Con una lectura literal extrema (\"un idioma oficial distinto del español\") la respuesta sería SÍ.",
+      "interpretativa": true
+    },
+    "C2": {
+      "respuesta": "NO",
+      "dato": "Diferencias con Argentina (0-100): distancia al poder 29, individualismo 28, motivación por el logro 14, evitación de la incertidumbre 1, orientación a largo plazo 8, indulgencia 16.",
+      "dato_publico": "mayor diferencia con Argentina: 29 puntos en distancia al poder",
+      "anio_dato": 2026,
+      "fuente_corta": "Hofstede",
+      "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
+      "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cbolivia",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "C3": {
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Bolivia en los últimos 5 años. En la OMC, Argentina no inició disputas contra Bolivia desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. La única restricción boliviana a productos argentinos encontrada (prohibición de importar hortalizas, 2017-2018) es anterior a la ventana de 5 años.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-27",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-27",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"Bolivia medida contra empresas argentinas 2022-2025\")",
+          "url": "https://bichosdecampo.com/la-argentina-ingenua-recibe-importaciones-de-todos-pero-seria-prohibida-en-bolivia",
+          "consultado": "2026-10-27",
+          "resultado": "Medida de 2017-2018, fuera de la ventana."
+        }
+      ]
+    },
+    "C4": {
+      "respuesta": null,
+      "dato": null,
+      "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": null,
+      "fuente_url": null,
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+    },
+    "A1": {
+      "respuesta": "SÍ",
+      "dato": "Convenio entre el Gobierno de la República Argentina y el Gobierno de la República de Bolivia para la Promoción y Protección Recíprocas de Inversiones: firmado el 17/03/1994. Estado: Extinguido. Terminación: 13/05/2014.",
+      "dato_publico": "el tratado firmado en 1994 figura como \"extinguido\"",
+      "anio_dato": 2026,
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "A2": {
+      "respuesta": "SÍ",
+      "dato": "CPI 2025: 28/100 (puesto 136 de 182).",
+      "dato_publico": "CPI 28/100, puesto 136 de 182",
+      "anio_dato": 2025,
+      "fuente_corta": "Transparencia Internacional",
+      "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
+      "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "A3": {
+      "respuesta": "NO",
+      "dato": "Miembro de la Asociación Latinoamericana de Integración (ALADI) con Argentina, acuerdo en vigor registrado en la OMC.",
+      "dato_publico": "ALADI",
+      "anio_dato": 2026,
+      "fuente_corta": "OMC",
+      "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
+      "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "A4": {
+      "respuesta": "SÍ",
+      "dato": "Government Effectiveness 2025: estimación -0,62; percentil 24 (213 economías con dato).",
+      "dato_publico": "Government Effectiveness, percentil 24",
+      "anio_dato": 2025,
+      "fuente_corta": "Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
+      "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+    },
+    "A5": {
+      "respuesta": "NO",
+      "dato": "No se encontraron cambios regulatorios retroactivos documentados que afectaran a empresas extranjeras en Bolivia en los últimos 5 años.",
+      "dato_publico": "sin cambios retroactivos documentados en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa",
+      "fuente_nombre": "Búsqueda web (\"Bolivia decreto retroactivo empresas 2022-2026\")",
+      "fuente_url": "https://eju.tv/2026/03/gobierno-emite-decreto-que-da-beneficios-a-empresas-extranjeras-que-reinviertan-sus-utilidades-en-bolivia/",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Búsqueda web (\"Bolivia decreto retroactivo empresas 2022-2026\")",
+          "url": "https://eju.tv/2026/03/gobierno-emite-decreto-que-da-beneficios-a-empresas-extranjeras-que-reinviertan-sus-utilidades-en-bolivia/",
+          "consultado": "2026-10-27",
+          "resultado": "Solo incentivos (DS 5563, 2026); sin cambios retroactivos."
+        }
+      ]
+    },
+    "G1": {
+      "respuesta": "SÍ",
+      "dato": "LPI 2023: 2,4 sobre 5.",
+      "dato_publico": "LPI 2,4 sobre 5",
+      "anio_dato": 2023,
+      "fuente_corta": "Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
+      "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "G3": {
+      "respuesta": "NO",
+      "dato": "Capital: zona America/La_Paz. Diferencia con Argentina (UTC−3): 1 horas.",
+      "dato_publico": "1 horas de diferencia con Argentina",
+      "anio_dato": 2026,
+      "fuente_corta": "IANA",
+      "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
+      "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "G4": {
+      "respuesta": "NO",
+      "dato": "10 vuelos directos programados a Bolivia en el período relevado (AR 1368, OB 701, OB 709).",
+      "dato_publico": "10 vuelos directos en una semana desde Buenos Aires",
+      "anio_dato": 2026,
+      "fuente_corta": "Aeropuertos Argentina",
+      "fuente_nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+      "fuente_url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Se relevaron las partidas programadas de Ezeiza (26/10 al 01/11/2026) y Aeroparque (26/10 al 29/10/2026) en el tablero oficial; no se relevaron aeropuertos del interior. Coincide con las obras en la pista de Ezeiza (25/10 al 11/11/2026)."
+    },
+    "E1": {
+      "respuesta": "NO",
+      "dato": "PBI per cápita PPP 2025: USD 12.871.",
+      "dato_publico": "PBI per cápita PPP: USD 12.871",
+      "anio_dato": 2025,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BOL.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "E2": {
+      "respuesta": "SÍ",
+      "dato": "Inflación anual: 2,6% (2023), 5,1% (2024), 19,5% (2025).",
+      "dato_publico": "inflación de 2,6% en 2023, 5,1% en 2024 y 19,5% en 2025",
+      "anio_dato": 2025,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
+      "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BOL.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "E3": {
+      "respuesta": "SÍ",
+      "dato": "Tipo de cambio oficial del BCB: 12,02 bolivianos por dólar el 27/10/2026. Según el FMI, el tipo oficial estaba en 6,91 (promedio) en octubre de 2024: la moneda se devaluó cerca de 74%.",
+      "dato_publico": "la moneda se devaluó cerca de 74% frente al dólar",
+      "anio_dato": 2026,
+      "fuente_corta": "Banco Central de Bolivia",
+      "fuente_nombre": "Banco Central de Bolivia, tipo de cambio oficial",
+      "fuente_url": "https://www.bcb.gob.bo/",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "La serie del FMI llega solo hasta abril de 2026 y no refleja el cambio; se usó el tipo oficial publicado por el BCB y el valor de 2024 del FMI.",
+      "interpretativa": true
+    },
+    "E4": {
+      "respuesta": "SÍ",
+      "dato": "Economía informal en 2020: 64,2% del PBI oficial (modelo MIMIC); 54,9% según el modelo DGE.",
+      "dato_publico": "64% del PBI",
+      "anio_dato": 2020,
+      "fuente_corta": "Banco Mundial",
+      "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
+      "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I3-1": {
+      "respuesta": "SÍ",
+      "dato": "Rule of Law Index 2026: puntaje 0,37; puesto 130 de 143 (percentil 9).",
+      "dato_publico": "puesto 130 de 143",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I3-2": {
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 5 casos contra Bolivia (0 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
+      "dato_publico": "sin expropiaciones documentadas en el CIADI ni en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni los proyectos de ley.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-27",
+          "resultado": "5 casos con Bolivia como demandado (0 pendientes)."
+        },
+        {
+          "nombre": "Búsqueda web (\"Bolivia nacionalización expropiación 2016-2026\")",
+          "url": "https://www.energyintel.com/0000017b-a7b3-de4c-a17b-e7f321f40000",
+          "consultado": "2026-10-27",
+          "resultado": "Las nacionalizaciones encontradas son de 2006, fuera de la ventana."
+        }
+      ]
+    },
+    "I3-4": {
+      "respuesta": "SÍ",
+      "dato": "WJP 2026, factor 7.5 (la justicia civil no está sujeta a demoras irrazonables): puntaje 0,21; puesto 135 de 143 (percentil 6).",
+      "dato_publico": "puesto 135 de 143 en demoras de la justicia civil",
+      "anio_dato": 2026,
+      "fuente_corta": "World Justice Project",
+      "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
+      "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision"
+    },
+    "I3-5": {
+      "respuesta": null,
+      "dato": null,
+      "dato_publico": null,
+      "anio_dato": null,
+      "fuente_corta": null,
+      "fuente_nombre": "CIADI, base de datos de Estados miembro",
+      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
+      "interpretativa": true
+    },
+    "I4-4": {
+      "respuesta": "NO",
+      "dato": "Adhiere al e-GDDS del FMI.",
+      "dato_publico": "adhiere al e-GDDS",
+      "anio_dato": 2026,
+      "fuente_corta": "FMI",
+      "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (e-GDDS)",
+      "fuente_url": "https://dsbb.imf.org/e-gdds/country",
+      "consultado": "2026-10-27",
+      "estado": "pendiente_revision",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+    }
+  }
+}

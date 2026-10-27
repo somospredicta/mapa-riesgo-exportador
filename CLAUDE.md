@@ -27,7 +27,8 @@ Estas reglas valen para todo el proyecto y para cualquier sesión futura.
 - Fondo: Azul Prussia `#000030`.
 - Azul Espectro `#0059FF`: **solo acento** (bordes, links, detalles). Nunca como relleno grande.
 - Blanco `#FEFEFE`. Negro `#020202`.
-- Títulos: **Funnel Display**.
+- Títulos: **Funnel Display**. Excepción aprobada a la regla anterior de minúsculas: el título del mapa es "Mapa de riesgo exportador".
+- Argentina (país de origen): relleno igual al fondo y borde Azul Espectro. País seleccionado: borde blanco grueso, sin cambiar el relleno.
 - Logo: `public/img/logo-predicta.png` (no reemplazar por texto).
 - Cuerpo: **Google Sans** (disponible en Google Fonts). Respaldo: Inter / sans-serif.
 
@@ -64,7 +65,7 @@ según la ortografía normal ("Mapa de riesgo exportador", "Condiciones crítica
 /metodologia   CONFIDENCIAL. checklist_pais.json: preguntas, criticidades, KO, fórmula y frases públicas.
 /scripts       CONFIDENCIAL.
   calcular.js          Respuestas + checklist → public/data/mapa.json
-  generar_revision.js  Respuestas → data/revision/revision_3_paises.md
+  generar_revision.js  Respuestas → planillas de data/revision/ (3 países, tandas de investigación y bases de datos)
 /data          Insumos de trabajo. No se publica.
   respuestas/XXX.json  Una por país (ISO alfa-3): respuesta SÍ / NO / null, dato, fuente, link, fecha, estado.
   revision/            Planillas para revisión humana.
@@ -77,7 +78,7 @@ vercel.json    Publica solo /public.
    Sin fuente verificable, la respuesta queda en `null` con `motivo_null`. Nunca se completa de memoria.
 2. Toda respuesta nueva arranca con `"estado": "pendiente_revision"`. Pasa a `"aprobado"` solo cuando
    la aprueba Agustina en la planilla de `data/revision/`.
-3. `node scripts/generar_revision.js` regenera la planilla de revisión.
+3. `node scripts/generar_revision.js` regenera las planillas de revisión (se definen en `PLANILLAS` dentro del script).
 4. `node scripts/calcular.js` regenera `public/data/mapa.json`. Si queda alguna respuesta sin aprobar,
    el estado es `"borrador"` y el sitio muestra la franja "Versión de prueba: datos en revisión".
 
@@ -86,8 +87,8 @@ y el puntaje país en "Sin datos completos". Los KO no cambian el color: se list
 
 Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `dato`: el detalle completo para la revisión interna. No se publica.
-- `dato_publico`: el valor corto que sí se publica cuando la respuesta es SÍ (condiciones críticas, hechos)
-  y en el indicador I4-4. Tiene que ser un hecho verificable de la fuente y nunca mencionar umbrales,
+- `dato_publico`: el valor corto que se publica: en las respuestas SÍ (condiciones críticas, hechos), en las NO
+  (bloque "A favor") y en el indicador I4-4. Tiene que ser un hecho verificable de la fuente y nunca mencionar umbrales,
   criticidades ni pesos.
 - `anio_dato`: año al que corresponde el dato publicado.
 - `fuente_corta`: nombre corto de la fuente para la frase pública.
@@ -95,7 +96,20 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `fuentes_revisadas`: fuentes consultadas en una búsqueda documentada (ver "Criterios de respuesta"). No se publican.
 - `criterio`: interpretación aplicada o fuente sustituta usada, para que la revise Agustina. No se publica.
 - `fuentes_adicionales`: otras fuentes consultadas (`nombre`, `url`, `consultado`). No se publican.
-- `motivo_null`: por qué la respuesta quedó sin completar.
+- `motivo_null`: por qué la respuesta quedó sin completar. Si el país no figura en una base: "El país no figura en [fuente]."
+- `interpretativa`: `true` cuando la respuesta aplicó un criterio que conviene revisar. Va a las planillas de revisión.
+- `variante`: elige una variante de la frase pública del checklist (por ejemplo `"general"` en A5 cuando el cambio
+  alcanzó a todas las empresas: "afectaron a empresas, incluidas las extranjeras").
+
+## Panel del país
+
+- Condiciones críticas: respuestas SÍ de preguntas KO.
+- Hechos principales: hasta 3 respuestas SÍ que no sean KO, ordenadas por criticidad (empate: orden del checklist).
+- A favor: hasta 2 respuestas NO de mayor criticidad, con la `frase_positiva` del checklist y su dato.
+- Tendencia, alertas recientes y "Argentina con…" se ocultan mientras no tengan datos.
+- Al pasar el mouse, si el país tiene condiciones críticas, el cuadrito muestra "⚡ N condiciones críticas".
+- Las frases públicas y positivas nunca revelan umbrales, ventanas de tiempo, criticidades ni pesos
+  (por ejemplo, "El Estado de derecho muestra debilidades", no "está en la mitad inferior del ranking").
 
 ## Criterios de respuesta
 
@@ -148,6 +162,7 @@ de `entidades.js`. Cualquier campo puede faltar o ser `null`: el sitio muestra "
       "dimensiones": { "cultural": 4.0, "administrativa": 3.1, "geografica": 4.5, "economica": 3.0, "instituciones": 2.5 },
       "condiciones_criticas": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { "nombre": "…", "url": "https://…", "consultado": "AAAA-MM-DD" } } ],
       "hechos": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { … } } ],
+      "a_favor": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { … } } ],
       "calidad_informacion": { "alerta": false, "texto": "…", "dato": "…", "anio_dato": 2026, "fuente": { … } },
       "estado": "borrador | aprobado"
     }
