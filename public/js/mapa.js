@@ -1,6 +1,6 @@
 /*
  * Mapa de riesgo exportador: dibuja el planisferio, maneja el tooltip y el panel lateral.
- * Solo lee resultados ya calculados de data/riesgo.json. Si un dato falta, muestra "sin datos".
+ * Solo lee resultados ya calculados de data/riesgo.json. Si un dato falta, muestra "Sin datos".
  */
 (function () {
   const ATLAS_URL = 'https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json';
@@ -102,7 +102,7 @@
       ` · consultado el ${formatoFecha(f.consultado)}`);
   }
 
-  function sinDatos() { return el('p', { class: 'sin-datos' }, 'sin datos'); }
+  function sinDatos() { return el('p', { class: 'sin-datos' }, 'Sin datos'); }
 
   function seccion(titulo, ...contenido) {
     return el('section', { class: 'seccion' }, el('h3', {}, titulo), ...contenido);
@@ -125,15 +125,15 @@
 
   function seccionPuntaje(d) {
     const [clase, etiqueta] = semaforo(d.puntaje);
-    return seccion('puntaje',
+    return seccion('Puntaje',
       el('div', { class: 'puntaje' },
         el('span', { class: 'puntaje-valor' }, esNumero(d.puntaje) ? formatoPuntaje(d.puntaje) : '—'),
-        el('span', { class: 'puntaje-etiqueta ' + clase }, esNumero(d.puntaje) ? etiqueta : 'sin datos')));
+        el('span', { class: 'puntaje-etiqueta ' + clase }, esNumero(d.puntaje) ? etiqueta : 'Sin datos')));
   }
 
   function seccionTendencia(d) {
     const t = TENDENCIAS[d.tendencia];
-    return seccion('tendencia', t
+    return seccion('Tendencia', t
       ? el('div', { class: 'tendencia' }, el('span', { class: 'flecha', 'aria-hidden': 'true' }, t.flecha), el('span', {}, t.texto))
       : sinDatos());
   }
@@ -143,15 +143,15 @@
     const ul = el('ul', { class: 'dimensiones' });
     for (const [clave, nombre] of DIMENSIONES) {
       const v = dims[clave];
-      ul.append(el('li', {}, el('span', {}, nombre), el('span', {}, esNumero(v) ? formatoPuntaje(v) : 'sin datos')));
+      ul.append(el('li', {}, el('span', {}, nombre), el('span', {}, esNumero(v) ? formatoPuntaje(v) : 'Sin datos')));
     }
-    return seccion('dimensiones', ul);
+    return seccion('Dimensiones', ul);
   }
 
   function seccionCriticas(d) {
     const lista = listaConFuentes(d.condiciones_criticas, 'criticas');
-    if (!lista) return seccion('condiciones críticas', sinDatos());
-    return seccion('condiciones críticas', lista,
+    if (!lista) return seccion('Condiciones críticas', sinDatos());
+    return seccion('Condiciones críticas', lista,
       el('p', { class: 'criticas-cierre' },
         '¿Esta condición afecta tu operación? ',
         el('a', { href: CONTACTO_URL, target: '_blank', rel: 'noopener' }, 'Consultanos')));
@@ -165,9 +165,9 @@
       seccionTendencia(d),
       seccionDimensiones(d),
       seccionCriticas(d),
-      seccion('hechos principales', listaConFuentes(d.hechos) || sinDatos()),
-      seccion('alertas recientes', listaConFuentes(d.alertas, null, true) || sinDatos()),
-      seccion('argentina con ' + nombre.toLowerCase(), listaConFuentes(d.argentina_con) || sinDatos()),
+      seccion('Hechos principales', listaConFuentes(d.hechos) || sinDatos()),
+      seccion('Alertas recientes', listaConFuentes(d.alertas, null, true) || sinDatos()),
+      seccion('Argentina con ' + nombre, listaConFuentes(d.argentina_con) || sinDatos()),
     ];
   }
 
@@ -176,7 +176,7 @@
     const miembros = Object.values(REGIONES[id].miembros).sort((a, b) => a.localeCompare(b, 'es'));
     return [
       seccionPuntaje(d),
-      seccion('sobre este puntaje', el('p', { class: 'texto-fijo' }, TEXTO_REGION)),
+      seccion('Sobre este puntaje', el('p', { class: 'texto-fijo' }, TEXTO_REGION)),
       el('section', { class: 'seccion' },
         el('details', { class: 'miembros' },
           el('summary', {}, `Países que incluye (${miembros.length})`),
@@ -186,7 +186,7 @@
 
   function panelOrigen() {
     return [
-      seccion('país de origen',
+      seccion('País de origen',
         el('p', { class: 'texto-fijo' }, 'El mapa muestra el entorno de cada destino visto desde Argentina. Argentina no lleva puntaje.')),
     ];
   }
@@ -339,7 +339,7 @@
       const fecha = formatoFecha(j.actualizado);
       if (fecha) document.getElementById('actualizado').textContent = `Datos al ${fecha}`;
     } catch (e) {
-      console.warn('No se pudieron leer los resultados; todo se muestra como "sin datos".', e);
+      console.warn('No se pudieron leer los resultados; todo se muestra como "Sin datos".', e);
     }
   }
 

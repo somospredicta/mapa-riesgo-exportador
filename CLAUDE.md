@@ -19,7 +19,7 @@ Estas reglas valen para todo el proyecto y para cualquier sesión futura.
 
 - Nunca inventar datos, puntajes, fechas ni fuentes.
 - Todo dato lleva fuente con link y fecha de consulta.
-- Si falta un dato, se muestra **"sin datos"**. No se estima, no se interpola, no se completa "a ojo".
+- Si falta un dato, se muestra **"Sin datos"**. No se estima, no se interpola, no se completa "a ojo".
 - El sitio no muestra ítems (condiciones, hechos, alertas) que lleguen sin fuente con link y fecha.
 
 ## 3. Marca
@@ -27,7 +27,8 @@ Estas reglas valen para todo el proyecto y para cualquier sesión futura.
 - Fondo: Azul Prussia `#000030`.
 - Azul Espectro `#0059FF`: **solo acento** (bordes, links, detalles). Nunca como relleno grande.
 - Blanco `#FEFEFE`. Negro `#020202`.
-- Títulos: **Funnel Display**, siempre en minúscula.
+- Títulos: **Funnel Display**.
+- Logo: `public/img/logo-predicta.png` (no reemplazar por texto).
 - Cuerpo: **Google Sans** (disponible en Google Fonts). Respaldo: Inter / sans-serif.
 
 ## 4. Semáforo del mapa (solo para riesgo)
@@ -46,6 +47,9 @@ El puntaje se redondea a un decimal antes de clasificarlo.
 ## 5. Idioma
 
 Interfaz en español rioplatense, con voseo ("consultanos", "pedí", "hacé").
+
+La primera letra de frases, títulos, subtítulos y nombres de países va en mayúscula; el resto,
+según la ortografía normal ("Mapa de riesgo exportador", "Condiciones críticas", "Sin datos").
 
 ## Estructura
 
@@ -74,7 +78,7 @@ vercel.json    Publica solo /public.
 ## Formato de `public/data/riesgo.json`
 
 Las claves de país son códigos ISO 3166-1 alfa-3; las de región, los ids de `entidades.js`.
-Cualquier campo puede faltar: el sitio muestra "sin datos".
+Cualquier campo puede faltar: el sitio muestra "Sin datos".
 
 ```json
 {
