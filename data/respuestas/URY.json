@@ -11,9 +11,12 @@
       "fuente_nombre": "Constitute Project, Constitución (Uruguay_2004)",
       "fuente_url": "https://www.constituteproject.org/constitution/Uruguay_2004?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Criterio literal: no hay un idioma oficial distinto del español, así que la respuesta es NO.",
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 17)"
     },
     "C2": {
       "respuesta": "NO",

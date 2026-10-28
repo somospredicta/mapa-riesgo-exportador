@@ -11,9 +11,12 @@
       "fuente_nombre": "Constitute Project, Constitución (St_Vincent_and_the_Grenadines_1979)",
       "fuente_url": "https://www.constituteproject.org/constitution/St_Vincent_and_the_Grenadines_1979?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "La Constitución no declara un idioma oficial; se tomó el inglés como idioma de las instituciones por la cláusula citada.",
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 14)"
     },
     "C2": {
       "respuesta": "no_aplica_sin_fuente",
@@ -24,9 +27,12 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
-      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 35)"
     },
     "C3": {
       "respuesta": "NO",
@@ -172,9 +178,12 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
-      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 102)"
     },
     "G3": {
       "respuesta": "NO",
@@ -326,8 +335,11 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (e-GDDS)",
       "fuente_url": "https://dsbb.imf.org/e-gdds/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+      "estado": "aprobado",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 65)"
     }
   }
 }

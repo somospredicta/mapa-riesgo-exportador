@@ -11,9 +11,12 @@
       "fuente_nombre": "Constitute Project, Constitución (Paraguay_2011)",
       "fuente_url": "https://www.constituteproject.org/constitution/Paraguay_2011?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "El español es uno de los idiomas oficiales; se respondió NO porque el español es oficial. Con una lectura literal extrema (\"un idioma oficial distinto del español\") la respuesta sería SÍ.",
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 11)"
     },
     "C2": {
       "respuesta": "NO",
@@ -114,7 +117,10 @@
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 90)"
     },
     "A3": {
       "respuesta": "NO",
@@ -261,7 +267,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 135)"
     },
     "I3-2": {
       "respuesta": "NO",

@@ -71,7 +71,10 @@
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 10)"
     },
     "A2": {
       "respuesta": "NO",
@@ -208,7 +211,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 50)"
     },
     "I3-2": {
       "respuesta": null,

@@ -72,7 +72,10 @@
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 13)"
     },
     "A2": {
       "respuesta": "NO",
@@ -141,7 +144,10 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 33)"
     },
     "G4": {
       "respuesta": null,

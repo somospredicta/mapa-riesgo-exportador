@@ -23,9 +23,12 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
-      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 19)"
     },
     "C3": {
       "respuesta": "NO",
@@ -219,7 +222,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BHS.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 34)"
     },
     "E2": {
       "respuesta": "NO",
@@ -311,7 +317,10 @@
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 58)"
     },
     "I4-4": {
       "respuesta": "NO",

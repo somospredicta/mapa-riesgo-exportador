@@ -140,7 +140,10 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 30)"
     },
     "G4": {
       "respuesta": null,
@@ -163,7 +166,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/SVN.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 35)"
     },
     "E2": {
       "respuesta": "NO",

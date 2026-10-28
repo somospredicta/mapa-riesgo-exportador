@@ -11,9 +11,12 @@
       "fuente_nombre": "Constitute Project, Constitución (Mexico_2015)",
       "fuente_url": "https://www.constituteproject.org/constitution/Mexico_2015?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Criterio literal: no hay un idioma oficial distinto del español, así que la respuesta es NO.",
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 10)"
     },
     "C2": {
       "respuesta": "NO",
@@ -104,7 +107,10 @@
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 87)"
     },
     "A3": {
       "respuesta": "NO",
@@ -237,7 +243,10 @@
       "fuente_nombre": "FMI, tipos de cambio (fin de período, mensual)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/MEX.XDC_USD.EOP_RT.M?startPeriod=2024-06",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 45)"
     },
     "E4": {
       "respuesta": "SÍ",
@@ -248,7 +257,10 @@
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 49)"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -259,7 +271,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 133)"
     },
     "I3-2": {
       "respuesta": "SÍ",

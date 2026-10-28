@@ -105,8 +105,11 @@
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+      "estado": "aprobado",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 24)"
     },
     "A5": {
       "respuesta": null,

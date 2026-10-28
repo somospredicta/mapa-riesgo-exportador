@@ -11,9 +11,12 @@
       "fuente_nombre": "Constitute Project, Constitución (Trinidad_and_Tobago_2007)",
       "fuente_url": "https://www.constituteproject.org/constitution/Trinidad_and_Tobago_2007?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "La Constitución no declara un idioma oficial; se tomó el inglés como idioma de las instituciones por la cláusula citada.",
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 16)"
     },
     "C2": {
       "respuesta": "NO",
@@ -110,7 +113,10 @@
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 95)"
     },
     "A3": {
       "respuesta": "SÍ",
@@ -263,7 +269,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 139)"
     },
     "I3-2": {
       "respuesta": "NO",

@@ -241,7 +241,10 @@
       "fuente_nombre": "FMI, tipos de cambio (fin de período, mensual)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/USA.XDC_USD.EOP_RT.M?startPeriod=2024-06",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 44)"
     },
     "E4": {
       "respuesta": "NO",

@@ -140,8 +140,11 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Criterio aprobado (sesión 4): se toma la diferencia horaria máxima del año (5 horas en invierno y 6 en verano europeo)."
+      "estado": "aprobado",
+      "criterio": "Criterio aprobado (sesión 4): se toma la diferencia horaria máxima del año (5 horas en invierno y 6 en verano europeo).",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 31)"
     },
     "G4": {
       "respuesta": null,

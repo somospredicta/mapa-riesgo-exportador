@@ -22,10 +22,13 @@
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cguatemala",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "La herramienta no tiene dato de indulgencia; con las dimensiones disponibles (distancia al poder 46, individualismo 15, motivación por el logro 19, evitación de la incertidumbre 12, orientación a largo plazo 4) la respuesta no se puede determinar.",
       "interpretativa": true,
-      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 27)"
     },
     "C3": {
       "respuesta": "NO",
@@ -111,7 +114,10 @@
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 80)"
     },
     "A3": {
       "respuesta": "SÍ",
@@ -257,7 +263,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 127)"
     },
     "I3-2": {
       "respuesta": "NO",
@@ -316,8 +325,11 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (e-GDDS)",
       "fuente_url": "https://dsbb.imf.org/e-gdds/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+      "estado": "aprobado",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 64)"
     }
   }
 }

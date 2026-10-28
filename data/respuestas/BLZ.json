@@ -11,9 +11,12 @@
       "fuente_nombre": "Constitute Project, Constitución (Belize_2022)",
       "fuente_url": "https://www.constituteproject.org/constitution/Belize_2022?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "La Constitución no declara un idioma oficial; se tomó el inglés como idioma de las instituciones por la cláusula citada.",
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 3)"
     },
     "C2": {
       "respuesta": "no_aplica_sin_fuente",
@@ -24,9 +27,12 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
-      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 21)"
     },
     "C3": {
       "respuesta": "NO",
@@ -112,7 +118,10 @@
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 73)"
     },
     "A3": {
       "respuesta": "SÍ",
@@ -134,8 +143,11 @@
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+      "estado": "aprobado",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 22)"
     },
     "A5": {
       "respuesta": "NO",
@@ -172,9 +184,12 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
-      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 98)"
     },
     "G3": {
       "respuesta": "NO",
@@ -255,7 +270,10 @@
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 46)"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -266,7 +284,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 121)"
     },
     "I3-2": {
       "respuesta": "SÍ",
@@ -314,7 +335,7 @@
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Criterio aprobado (sesión 5): solo cuentan la ley nacional o un tratado de inversión vigente con Argentina que prevea arbitraje internacional; los tratados del país con terceros países no cuentan. Tiene un tratado de inversión con el Reino Unido (1982), bajo el cual se arbitraron casos con reglas de la CNUDMI. Firmó el Convenio del CIADI el 19/12/1986 pero no lo ratificó.",
       "fuentes_revisadas": [
         {
@@ -329,7 +350,10 @@
           "resultado": "No registra un tratado bilateral de inversión vigente con Argentina.",
           "consultado": "2026-10-28"
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 143)"
     },
     "I4-4": {
       "respuesta": "NO",
