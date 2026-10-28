@@ -14,7 +14,7 @@
       "estado": "pendiente_revision"
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -23,7 +23,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group)."
+      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
       "respuesta": null,
@@ -128,8 +129,7 @@
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "La diferencia es de 5 horas en invierno y 6 en verano: se respondió SÍ porque la supera durante parte del año. Los fundadores pueden decidir si se toma la diferencia máxima o la de horario estándar.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): se toma la diferencia horaria máxima del año (5 horas en invierno y 6 en verano europeo)."
     },
     "G4": {
       "respuesta": null,

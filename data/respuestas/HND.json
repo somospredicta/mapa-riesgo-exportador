@@ -14,7 +14,7 @@
       "estado": "pendiente_revision"
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -24,7 +24,8 @@
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
       "motivo_null": "La herramienta no tiene dato de orientación a largo plazo, indulgencia; con las dimensiones disponibles (distancia al poder 31, individualismo 31, motivación por el logro 16, evitación de la incertidumbre 36) la respuesta no se puede determinar.",
-      "interpretativa": true
+      "interpretativa": true,
+      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
     },
     "C3": {
       "respuesta": null,

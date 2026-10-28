@@ -73,17 +73,16 @@
       "estado": "pendiente_revision"
     },
     "A3": {
-      "respuesta": "NO",
+      "respuesta": "SÍ",
       "dato": "El único acuerdo en vigor con Argentina es el Sistema Global de Preferencias Comerciales entre Países en Desarrollo (SGPC), según la OMC.",
-      "dato_publico": "Sistema Global de Preferencias Comerciales",
+      "dato_publico": "sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales",
       "anio_dato": 2026,
       "fuente_corta": "OMC",
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "El SGPC es un sistema plurilateral de preferencias acotadas; se contó como acuerdo comercial vigente por lectura literal. Los fundadores pueden decidir si alcanza.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): el SGPC no cuenta como acuerdo comercial."
     },
     "A4": {
       "respuesta": "NO",

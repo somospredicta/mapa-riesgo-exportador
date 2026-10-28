@@ -3,20 +3,19 @@
   "nombre": "Barbados",
   "respuestas": {
     "C1": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "Constitute Project, Constitución (Barbados_2026)",
-      "fuente_url": "https://www.constituteproject.org/constitution/Barbados_2026?lang=en",
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La Constitución no declara un idioma oficial. El Reglamento de la Cámara de la Asamblea (art. 8) dispone que los procedimientos y debates de la Cámara y sus comisiones se hacen en inglés y que los documentos se presentan en inglés o con traducción certificada.",
+      "dato_publico": "el reglamento de la Cámara de la Asamblea fija el inglés para los debates",
+      "anio_dato": 1973,
+      "fuente_corta": "Parlamento de Barbados",
+      "fuente_nombre": "Parlamento de Barbados, Reglamento de la Cámara de la Asamblea (Standing Orders, art. 8)",
+      "fuente_url": "https://www.barbadosparliament.com/htmlarea/uploaded/File/the_standing_orders.pdf",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La Constitución no declara un idioma oficial y no se encontró una norma oficial que lo establezca.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): si no hay idioma oficial declarado, se toma el idioma de las instituciones según sus leyes."
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -25,7 +24,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group)."
+      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
       "respuesta": null,
@@ -109,7 +109,7 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "G1": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -118,7 +118,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial."
+      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
     },
     "G3": {
       "respuesta": "NO",

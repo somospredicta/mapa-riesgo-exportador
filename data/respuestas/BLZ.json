@@ -16,7 +16,7 @@
       "interpretativa": true
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -25,7 +25,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group)."
+      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
       "respuesta": null,
@@ -109,7 +110,7 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "G1": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -118,7 +119,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial."
+      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
     },
     "G3": {
       "respuesta": "NO",
@@ -222,17 +224,31 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "SÍ",
+      "dato": "No es miembro del CIADI y no tiene un tratado de inversión con Argentina. No se encontró una norma nacional vigente que habilite expresamente el arbitraje internacional en disputas de inversores con el Estado.",
+      "dato_publico": "no es miembro del CIADI ni tiene tratado de inversión con Argentina",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI",
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Firmó el Convenio el Dec 19, 1986 pero no lo ratificó. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio: se cuentan solo las normas que habilitan el arbitraje internacional a inversores argentinos (ley nacional o tratado con Argentina). Los tratados del país con terceros países no se cuentan. REVISAR si se acepta esta lectura. Tiene un tratado de inversión con el Reino Unido (1982), bajo el cual se arbitraron casos con reglas de la CNUDMI. Firmó el Convenio del CIADI el 19/12/1986 pero no lo ratificó.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI. Firmó el Convenio el Dec 19, 1986 pero no lo ratificó.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "No registra un tratado bilateral de inversión vigente con Argentina.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

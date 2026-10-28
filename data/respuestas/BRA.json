@@ -81,16 +81,31 @@
       "estado": "pendiente_revision"
     },
     "A1": {
-      "respuesta": "SÍ",
-      "dato": "La base de tratados de la Cancillería no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con Brasil: con \"Inversiones\" en el título solo aparecen protocolos del Fondo de Inversiones (1986-1988) y un convenio de cooperación entre agencias de promoción (2017).",
-      "dato_publico": "sin registro en la base oficial de tratados",
-      "anio_dato": 2026,
+      "respuesta": "NO",
+      "dato": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur (2017): vigente para Argentina desde el 24/11/2020 (Ley 27.527) según la Cancillería argentina. Brasil depositó su instrumento el 31/05/2019 y el Protocolo está en vigor para Brasil desde el 30/07/2019 (Decreto 10.027/2019).",
+      "dato_publico": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente",
+      "anio_dato": 2020,
       "fuente_corta": "Cancillería argentina",
-      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur)",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "UNCTAD Investment Policy Hub bloquea el acceso con una verificación antibots (Cloudflare), así que se usó la base oficial de tratados de la Cancillería argentina. No se cuenta el Protocolo de Cooperación y Facilitación de Inversiones intra-Mercosur (2017) porque es plurilateral."
+      "criterio": "Criterio aprobado (sesión 4): el Protocolo de Cooperación y Facilitación de Inversiones del Mercosur cuenta como instrumento de protección si está vigente entre Argentina y el socio. No hay un tratado bilateral de inversión con Brasil en la base de la Cancillería.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados, ficha del Protocolo",
+          "url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
+          "consultado": "2026-10-28",
+          "resultado": "Argentina: ratificación del 25/09/2020, en vigor para Argentina desde el 24/11/2020. Estado: vigente."
+        },
+        {
+          "nombre": "Senado Federal de Brasil, Decreto 10.027/2019",
+          "url": "https://legis.senado.leg.br/norma/31440079/publicacao/31440090",
+          "consultado": "2026-10-28",
+          "resultado": "Brasil depositó el 31/05/2019; en vigor para Brasil desde el 30/07/2019."
+        }
+      ]
     },
     "A2": {
       "respuesta": "SÍ",
@@ -274,27 +289,40 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "Senado Federal de Brasil, Ley 13.129/2015",
-      "fuente_url": "https://legis.senado.leg.br/norma/584941/publicacao/15632925",
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "Brasil no es miembro del CIADI. La Ley 13.129/2015 habilita a la administración pública directa e indirecta a usar arbitraje para conflictos sobre derechos patrimoniales disponibles, pero no menciona el arbitraje internacional. El Decreto 10.025/2019 regula el arbitraje con la administración federal solo en los sectores portuario y de transporte. En la base de tratados de la Cancillería argentina no figura un tratado bilateral de inversión con Brasil.",
+      "dato_publico": "no es miembro del CIADI y su ley no habilita expresamente el arbitraje internacional con el Estado",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI",
+      "fuente_nombre": "CIADI, base de datos de Estados miembro",
+      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "interpretativa": true,
-      "motivo_null": "Revisión de la sesión 3: el Decreto 10.025/2019 solo regula el arbitraje con la administración pública federal en los sectores portuario y de transporte (rodoviario, ferroviario, acuático y aeroportuario); su exigencia de arbitrar en Brasil y en portugués no es de alcance general. La norma general, la Ley 13.129/2015, habilita a la administración pública directa e indirecta a usar arbitraje para conflictos sobre derechos patrimoniales disponibles, pero no menciona ni excluye el arbitraje internacional. Brasil no es miembro del CIADI. Con el criterio aprobado (SÍ si no es miembro del CIADI y ninguna norma vigente habilita expresamente el arbitraje internacional), la conclusión depende de si la habilitación general de la Ley 13.129 alcanza: queda para que decida Agustina.",
-      "fuentes_adicionales": [
-        {
-          "nombre": "Senado Federal de Brasil, Decreto 10.025/2019",
-          "url": "https://legis.senado.leg.br/norma/31412365/publicacao/31412376",
-          "consultado": "2026-10-27"
-        },
+      "criterio": "Criterio aprobado (sesión 4): SÍ si el país no es miembro del CIADI y ninguna norma vigente habilita EXPRESAMENTE el arbitraje internacional en disputas de inversores con el Estado. Los fundadores definieron que la Ley 13.129/2015 no lo habilita expresamente.",
+      "fuentes_revisadas": [
         {
           "nombre": "CIADI, base de datos de Estados miembro",
           "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-          "consultado": "2026-10-27"
+          "consultado": "2026-10-28",
+          "resultado": "Brasil no figura como Estado miembro."
+        },
+        {
+          "nombre": "Senado Federal de Brasil, Ley 13.129/2015",
+          "url": "https://legis.senado.leg.br/norma/584941/publicacao/15632925",
+          "consultado": "2026-10-28",
+          "resultado": "Habilitación general del arbitraje con la administración pública; no menciona el arbitraje internacional."
+        },
+        {
+          "nombre": "Senado Federal de Brasil, Decreto 10.025/2019",
+          "url": "https://legis.senado.leg.br/norma/31412365/publicacao/31412376",
+          "consultado": "2026-10-28",
+          "resultado": "Solo sectores portuario y de transporte; exige arbitraje en Brasil y en portugués."
+        },
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "consultado": "2026-10-28",
+          "resultado": "Sin tratado bilateral de inversión con Brasil."
         }
       ]
     },

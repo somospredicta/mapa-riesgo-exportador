@@ -1,6 +1,6 @@
 {
   "confidencial": "Confidencial: no se publica. Nunca copiar este archivo ni su contenido a /public.",
-  "version": "1.2",
+  "version": "1.3",
   "regla": "Cada pregunta se responde SÍ cuando el riesgo o la barrera EXISTE. Argentina es siempre el país de origen. KO = deal-breaker.",
   "dimensiones": {
     "C": {
@@ -31,7 +31,9 @@
     "peso_i3": 0.273,
     "decimales": 1,
     "ko": "Los KO no cambian el color: se listan aparte como condiciones críticas activas.",
-    "faltantes": "Si una dimensión tiene alguna pregunta sin responder, esa dimensión y el puntaje país quedan sin datos completos. Una respuesta faltante nunca cuenta como NO."
+    "faltantes": "Si una dimensión tiene alguna pregunta sin responder, esa dimensión y el puntaje país quedan sin datos completos. Una respuesta faltante nunca cuenta como NO.",
+    "cobertura_minima": 0.75,
+    "cobertura": "Una pregunta \"no_aplica_sin_fuente\" sale del numerador y del denominador de su dimensión. La dimensión se calcula solo si las preguntas respondidas suman al menos el 75% de las criticidades de la dimensión."
   },
   "preguntas": [
     {

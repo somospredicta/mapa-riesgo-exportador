@@ -262,17 +262,25 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "CIADI, base de datos de Estados miembro",
-      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "Venezuela no es miembro del CIADI (lo denunció en 2012), pero el Acuerdo Argentina–Venezuela de Promoción y Protección Recíprocas de Inversiones (firmado el 16/11/1993, vigente desde el 01/07/1995) permite al inversor llevar una controversia con el Estado a arbitraje internacional (Mecanismo Complementario del CIADI o tribunal ad hoc con reglas de la CNUDMI).",
+      "dato_publico": "tratado de inversión con Argentina, vigente, con arbitraje internacional",
+      "anio_dato": 1995,
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–Venezuela (1993)",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lKCnmg==",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio aprobado: una norma vigente que habilita expresamente el arbitraje internacional en disputas de inversores con el Estado; se tomó el tratado con Argentina como norma vigente. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

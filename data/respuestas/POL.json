@@ -219,17 +219,25 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "CIADI, base de datos de Estados miembro",
-      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No es miembro del CIADI, pero el Acuerdo Argentina–Polonia de Promoción y Protección Recíproca de Inversiones (firmado el 31/07/1991, vigente desde el 01/09/1992) permite al inversor llevar una controversia con el Estado a arbitraje internacional (CIADI, a elección del inversor).",
+      "dato_publico": "tratado de inversión con Argentina, vigente, con arbitraje internacional",
+      "anio_dato": 1992,
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–Polonia (1991)",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lqCqmw==",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio aprobado: una norma vigente que habilita expresamente el arbitraje internacional en disputas de inversores con el Estado; se tomó el tratado con Argentina como norma vigente. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

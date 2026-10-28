@@ -91,6 +91,8 @@
       ` · consultado el ${formatoFecha(f.consultado)}`);
   }
 
+  function unirLista(xs) { return xs.length > 1 ? `${xs.slice(0, -1).join(', ')} y ${xs[xs.length - 1]}` : xs[0]; }
+
   function sinDatos() { return el('p', { class: 'sin-datos' }, 'Sin datos'); }
 
   function seccion(titulo, ...contenido) {
@@ -143,7 +145,12 @@
       const v = dims[clave];
       ul.append(el('li', {}, el('span', {}, nombre), el('span', {}, esNumero(v) ? formatoPuntaje(v) : 'Sin datos')));
     }
-    return seccion('Dimensiones', ul);
+    // Cobertura: preguntas excluidas porque el país no figura en la fuente oficial.
+    const c = d.cobertura;
+    const nota = c && c.fuentes_ausentes && c.fuentes_ausentes.length
+      ? el('p', { class: 'cobertura' }, `Calculado con ${c.preguntas_usadas} de ${c.preguntas_total} preguntas: el país no figura en ${unirLista(c.fuentes_ausentes)}.`)
+      : null;
+    return seccion('Dimensiones', ul, nota);
   }
 
   function seccionCriticas(d) {

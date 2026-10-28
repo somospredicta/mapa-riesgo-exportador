@@ -28,7 +28,7 @@
     },
     "C3": {
       "respuesta": "NO",
-      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Perú en los últimos 5 años. En la OMC, Argentina no inició disputas contra Perú desde 2020.",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Perú en los últimos 5 años. En la OMC, Argentina pidió consultas contra Perú por derechos antidumping y compensatorios sobre el biodiésel (DS614, 2022), sin resolución.",
       "dato_publico": "búsqueda en prensa y en disputas de la OMC",
       "anio_dato": 2026,
       "fuente_corta": "prensa y OMC",
@@ -36,13 +36,14 @@
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: Argentina pidió consultas en la OMC el 02/09/2022 por los derechos antidumping y compensatorios de Perú sobre el biodiésel argentino (DS614, \"Peru — Biodiesel (Argentina)\"); la disputa sigue en consultas, sin resolución. Son medidas de defensa comercial sobre un producto, no una restricción a empresas argentinas por su nacionalidad. Los fundadores pueden decidir si las medidas antidumping cuentan.",
+      "interpretativa": true,
       "fuentes_revisadas": [
         {
-          "nombre": "OMC, lista cronológica de disputas",
-          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "nombre": "OMC, disputa DS614 (Perú — Biodiésel, reclamo de Argentina)",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds614_e.htm",
           "consultado": "2026-10-27",
-          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+          "resultado": "Consultas pedidas por Argentina el 02/09/2022; estado: en consultas."
         },
         {
           "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",

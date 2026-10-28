@@ -264,17 +264,42 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "CIADI, base de datos de Estados miembro",
-      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "No es miembro del CIADI (lo denunció en 2007). La Constitución (art. 320) somete toda inversión extranjera a la jurisdicción, las leyes y las autoridades bolivianas, y la Ley 708 de Conciliación y Arbitraje (2015) exige que el arbitraje de inversiones con el Estado tenga sede en Bolivia. El tratado de inversión con Argentina se extinguió el 13/05/2014.",
+      "dato_publico": "la Constitución somete la inversión extranjera a la jurisdicción boliviana",
+      "anio_dato": 2009,
+      "fuente_corta": "Constitución de Bolivia",
+      "fuente_nombre": "Constitute Project, Constitución de Bolivia (2009), art. 320",
+      "fuente_url": "https://www.constituteproject.org/constitution/Bolivia_2009?lang=en",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio aprobado: no es miembro del CIADI y ninguna norma vigente habilita expresamente el arbitraje internacional; la normativa vigente lo restringe.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "El Convenio Argentina–Bolivia de inversiones figura como extinguido desde el 13/05/2014.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "IISD, Investment Treaty News: Bolivia promulga ley de conciliación y arbitraje (2015)",
+          "url": "https://www.iisd.org/itn/es/2015/08/04/bolivia-promulga-ley-de-conciliacion-y-arbitraje-que-incluye-regimen-para-las-controversias-entre-inversionista-y-estado/",
+          "resultado": "La Ley 708 (arts. 127 a 133) exige arbitraje de inversiones con sede en Bolivia, bajo ley boliviana.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Redalyc, análisis de la Ley 708 de Conciliación y Arbitraje",
+          "url": "https://www.redalyc.org/pdf/1736/173643816009.pdf",
+          "resultado": "Confirma el régimen de arbitraje de inversiones con sede en Bolivia.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

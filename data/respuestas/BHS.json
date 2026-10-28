@@ -3,20 +3,19 @@
   "nombre": "Bahamas",
   "respuestas": {
     "C1": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "Constitute Project, Constitución (Bahamas_1973)",
-      "fuente_url": "https://www.constituteproject.org/constitution/Bahamas_1973?lang=en",
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La Constitución no declara un idioma oficial. El Código Procesal Penal (cap. 91, art. 104) dispone que toda la prueba se registra en inglés y que la declaración en otro idioma se interpreta.",
+      "dato_publico": "el Código Procesal Penal dispone que la prueba se registra en inglés",
+      "anio_dato": 2017,
+      "fuente_corta": "Código Procesal Penal de Bahamas",
+      "fuente_nombre": "Gobierno de Bahamas, Statute Law of The Bahamas, Código Procesal Penal (cap. 91)",
+      "fuente_url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/1968/1968-0038/1968-0038.pdf",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La Constitución no declara un idioma oficial y no se encontró una norma oficial que lo establezca.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): si no hay idioma oficial declarado, se toma el idioma de las instituciones según sus leyes."
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -25,7 +24,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group)."
+      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
       "respuesta": null,

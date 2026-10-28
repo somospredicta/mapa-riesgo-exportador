@@ -14,7 +14,7 @@
       "estado": "pendiente_revision"
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -23,7 +23,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group)."
+      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
       "respuesta": null,
@@ -141,7 +142,7 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "E1": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -150,10 +151,11 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el World Economic Outlook del FMI."
+      "motivo_null": "El país no figura en el World Economic Outlook del FMI.",
+      "fuente_ausente": "el World Economic Outlook del FMI"
     },
     "E2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -162,7 +164,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el World Economic Outlook del FMI."
+      "motivo_null": "El país no figura en el World Economic Outlook del FMI.",
+      "fuente_ausente": "el World Economic Outlook del FMI"
     },
     "E3": {
       "respuesta": null,
@@ -177,7 +180,7 @@
       "motivo_null": "El país no figura en la base de tipos de cambio del FMI y el sitio del banco central no se pudo abrir desde el entorno."
     },
     "E4": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -186,10 +189,11 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la Informal Economy Database del Banco Mundial."
+      "motivo_null": "El país no figura en la Informal Economy Database del Banco Mundial.",
+      "fuente_ausente": "la Informal Economy Database del Banco Mundial"
     },
     "I3-1": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -198,7 +202,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Rule of Law Index 2026 del World Justice Project."
+      "motivo_null": "El país no figura en el Rule of Law Index 2026 del World Justice Project.",
+      "fuente_ausente": "el Rule of Law Index 2026 del World Justice Project"
     },
     "I3-2": {
       "respuesta": null,
@@ -213,7 +218,7 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "I3-4": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -222,20 +227,29 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Rule of Law Index 2026 del World Justice Project."
+      "motivo_null": "El país no figura en el Rule of Law Index 2026 del World Justice Project.",
+      "fuente_ausente": "el Rule of Law Index 2026 del World Justice Project"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "CIADI, base de datos de Estados miembro",
-      "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No es miembro del CIADI, pero el Acuerdo Argentina–Cuba de Promoción y Protección Recíproca de Inversiones (firmado el 30/11/1995, vigente desde el 01/06/1997; art. 8) permite al inversor llevar una controversia con el Estado a un tribunal arbitral ad hoc con reglas de la CNUDMI.",
+      "dato_publico": "tratado de inversión con Argentina, vigente, con arbitraje internacional",
+      "anio_dato": 1997,
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–Cuba (1995)",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqCqlw==",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio aprobado: una norma vigente que habilita expresamente el arbitraje internacional en disputas de inversores con el Estado; se tomó el tratado con Argentina como norma vigente. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "SÍ",

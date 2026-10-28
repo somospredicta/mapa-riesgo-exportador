@@ -219,17 +219,37 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "SÍ",
+      "dato": "No es miembro del CIADI (firmó el Convenio el 20/03/2000 pero no lo ratificó). La Ley 16-95 sobre Inversión Extranjera no tiene ninguna cláusula de solución de controversias ni de arbitraje. El acuerdo de inversiones con Argentina (2001) no está en vigor.",
+      "dato_publico": "no es miembro del CIADI y su ley de inversión extranjera no prevé arbitraje internacional",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI",
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Firmó el Convenio el Mar 20, 2000 pero no lo ratificó. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio: se cuentan solo las normas que habilitan el arbitraje internacional a inversores argentinos (ley nacional o tratado con Argentina). Los tratados del país con terceros países no se cuentan. REVISAR si se acepta esta lectura. República Dominicana es parte del CAFTA-DR, que prevé arbitraje inversor–Estado solo para inversores de los países firmantes.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI. Firmó el Convenio el Mar 20, 2000 pero no lo ratificó.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Cancillería de República Dominicana, Ley 16-95 sobre Inversión Extranjera",
+          "url": "https://bel.mirex.gob.do/wp-content/uploads/2022/11/Ley-No.-16-95.pdf",
+          "resultado": "Sin cláusula de solución de controversias ni de arbitraje.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–República Dominicana (2001)",
+          "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqarlw==",
+          "resultado": "Figura como \"no está en vigor\".",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

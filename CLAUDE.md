@@ -137,6 +137,23 @@ Aprobados por los fundadores. Rigen para todos los países.
 7. **Año del dato.** Todo dato que se publica muestra el año al que corresponde (`anio_dato`), por ejemplo
    "La economía informal tiene un peso alto en el PBI (40% del PBI; dato 2020, Banco Mundial)."
 
+8. **Cobertura (sesión 4).** Si un país NO FIGURA en la fuente oficial de una pregunta (el dato no existe; no es que
+   la investigación esté pendiente), la respuesta es `"no_aplica_sin_fuente"` con `motivo_null`. Esa pregunta sale del
+   numerador y del denominador de su dimensión. Una dimensión se calcula solo si sus preguntas respondidas suman al
+   menos el 75% de la suma total de criticidades de la dimensión; si no, queda "sin datos". Las respuestas pendientes
+   de investigación siguen en `null` y bloquean el puntaje. En el panel, si hay preguntas excluidas, se muestra debajo
+   de las dimensiones: "Calculado con N de M preguntas: el país no figura en [fuentes]".
+9. **I3-5 (precisión):** SÍ si el país no es miembro del CIADI y ninguna norma vigente habilita EXPRESAMENTE el
+   arbitraje internacional en disputas de inversores con el Estado. Una habilitación general del arbitraje con el
+   Estado que no lo menciona (por ejemplo, la Ley 13.129/2015 de Brasil) no alcanza.
+10. **C1 (precisión):** si no hay idioma oficial declarado, se toma el idioma de las instituciones según sus leyes.
+11. **G3 (precisión):** se toma la diferencia horaria máxima del año.
+12. **A3 (precisión):** el Sistema Global de Preferencias Comerciales (SGPC) no cuenta como acuerdo comercial.
+13. **A1 (precisión):** un tratado de libre comercio vigente con capítulo de protección de inversiones cuenta como
+    equivalente a un tratado de inversión. También cuenta el Protocolo de Cooperación y Facilitación de Inversiones
+    del Mercosur (2017) si está vigente entre Argentina y el socio.
+14. **C4:** se responde con el sitio de la cámara, la Cancillería o un registro oficial, con búsqueda documentada.
+
 ## Grupos del mapa
 
 - Puntaje propio: los 27 países de la UE, todos los países de América, China, India y Japón.

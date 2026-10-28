@@ -18,6 +18,7 @@ const SALIDA = path.join(RAIZ, 'public', 'data', 'mapa.json');
 
 const SI = 'SÍ';
 const NO = 'NO';
+const NO_APLICA = 'no_aplica_sin_fuente';
 
 function leerJSON(archivo) {
   return JSON.parse(fs.readFileSync(archivo, 'utf8'));
@@ -54,6 +55,11 @@ function urlValida(u) {
 // Cualquier otra cosa se trata como "sin responder" (nunca como NO).
 function respuestaValida(r, id, pais, avisos) {
   if (!r || r.respuesta === null || r.respuesta === undefined) return null;
+  if (r.respuesta === NO_APLICA) {
+    if (r.motivo_null && r.fuente_ausente) return NO_APLICA;
+    avisos.push(`${pais} ${id}: "${NO_APLICA}" sin motivo_null o fuente_ausente; se toma como sin responder.`);
+    return null;
+  }
   if (r.respuesta !== SI && r.respuesta !== NO) {
     avisos.push(`${pais} ${id}: respuesta "${r.respuesta}" no es "${SI}" ni "${NO}"; se toma como sin responder.`);
     return null;
@@ -93,19 +99,25 @@ function calcularPais(checklist, archivo, avisos) {
   const { formula } = checklist;
 
   const dimensiones = {};
+  const excluidas = [];
+  let faltaCobertura = false;
   const condiciones = [];
   const afirmativas = [];
   const negativas = [];
 
   for (const dim of Object.keys(checklist.dimensiones)) {
     const preguntas = checklist.preguntas.filter((p) => p.dimension === dim);
+    let totalDimension = 0;
     let total = 0;
     let conSi = 0;
     let completa = true;
     for (const p of preguntas) {
-      total += p.criticidad;
+      totalDimension += p.criticidad;
       const v = respuestaValida(resp[p.id], p.id, pais, avisos);
       if (v === null) { completa = false; continue; }
+      // Cobertura: si el país no figura en la fuente oficial, la pregunta sale del numerador y del denominador.
+      if (v === NO_APLICA) { excluidas.push(resp[p.id].fuente_ausente); continue; }
+      total += p.criticidad;
       if (v === SI) {
         conSi += p.criticidad;
         afirmativas.push({ p, r: resp[p.id] });
@@ -113,7 +125,10 @@ function calcularPais(checklist, archivo, avisos) {
         negativas.push({ p, r: resp[p.id] });
       }
     }
-    dimensiones[dim] = completa ? 5 - (conSi / total) * 4 : null;
+    // Mínimo de cobertura: las preguntas respondidas tienen que sumar una parte mínima de las criticidades de la dimensión.
+    const conCobertura = total > 0 && total >= formula.cobertura_minima * totalDimension;
+    if (completa && !conCobertura) faltaCobertura = true;
+    dimensiones[dim] = completa && conCobertura ? 5 - (conSi / total) * 4 : null;
   }
 
   const { C, A, G, E, I3 } = dimensiones;
@@ -149,7 +164,7 @@ function calcularPais(checklist, archivo, avisos) {
   // Indicador aparte (no entra al puntaje).
   const ind = checklist.indicador_aparte;
   const vInd = respuestaValida(resp[ind.id], ind.id, pais, avisos);
-  const calidad = vInd === null
+  const calidad = vInd === null || vInd === NO_APLICA
     ? null
     : { alerta: vInd === SI, ...itemPublico(vInd === SI ? ind.frase_si : ind.frase_no, resp[ind.id], ind.id, pais, avisos) };
 
@@ -172,6 +187,10 @@ function calcularPais(checklist, archivo, avisos) {
       hechos,
       a_favor: aFavor,
       calidad_informacion: calidad,
+      cobertura: excluidas.length
+        ? { preguntas_usadas: checklist.preguntas.length - excluidas.length, preguntas_total: checklist.preguntas.length, fuentes_ausentes: [...new Set(excluidas)] }
+        : null,
+      sin_cobertura_suficiente: faltaCobertura,
       estado: aprobado ? 'aprobado' : 'borrador',
     },
   };
@@ -203,7 +222,9 @@ function main() {
   for (const a of avisos) console.warn('Aviso:', a);
   console.log(`mapa.json generado (${salida.estado}).`);
   for (const [id, p] of Object.entries(paises)) {
-    console.log(`  ${id}: ${p.puntaje === null ? 'sin datos completos' : p.puntaje} · KO activos: ${p.condiciones_criticas.length}`);
+    const cob = p.cobertura ? ` · ${p.cobertura.preguntas_usadas}/${p.cobertura.preguntas_total} preguntas` : '';
+    const estado = p.puntaje !== null ? p.puntaje : p.sin_cobertura_suficiente ? 'sin cobertura suficiente' : 'sin datos completos';
+    console.log(`  ${id}: ${estado}${cob} · KO activos: ${p.condiciones_criticas.length}`);
   }
 }
 

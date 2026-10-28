@@ -16,7 +16,7 @@
       "interpretativa": true
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -25,7 +25,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group)."
+      "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
       "respuesta": null,
@@ -63,7 +64,7 @@
       "estado": "pendiente_revision"
     },
     "A2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -72,7 +73,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Índice de Percepción de la Corrupción 2025 de Transparencia Internacional."
+      "motivo_null": "El país no figura en el Índice de Percepción de la Corrupción 2025 de Transparencia Internacional.",
+      "fuente_ausente": "el Índice de Percepción de la Corrupción 2025 de Transparencia Internacional"
     },
     "A3": {
       "respuesta": "SÍ",
@@ -110,7 +112,7 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "G1": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -119,7 +121,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial."
+      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
     },
     "G3": {
       "respuesta": "NO",
@@ -178,7 +181,7 @@
       "estado": "pendiente_revision"
     },
     "E4": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -187,7 +190,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la Informal Economy Database del Banco Mundial."
+      "motivo_null": "El país no figura en la Informal Economy Database del Banco Mundial.",
+      "fuente_ausente": "la Informal Economy Database del Banco Mundial"
     },
     "I3-1": {
       "respuesta": "NO",

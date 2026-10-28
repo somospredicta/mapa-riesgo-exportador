@@ -218,17 +218,37 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "SÍ",
+      "dato": "No es miembro del CIADI. El acuerdo de inversiones con Argentina se extinguió el 30/08/2013 y India dio por terminados sus tratados bilaterales de inversión con decenas de países desde 2017. No se encontró una norma nacional vigente que habilite expresamente el arbitraje internacional en disputas de inversores con el Estado.",
+      "dato_publico": "no es miembro del CIADI y su tratado de inversión con Argentina se extinguió en 2013",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI",
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio aprobado: no es miembro del CIADI y ninguna norma vigente aplicable a inversores argentinos habilita expresamente el arbitraje internacional. La Ley de Arbitraje y Conciliación de 1996 es una habilitación general del arbitraje, que con el criterio de Brasil no alcanza. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–India",
+          "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lKKklw==",
+          "resultado": "Figura como extinguido desde el 30/08/2013.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Herbert Smith Freehills, India termina tratados de inversión con 58 países (2017)",
+          "url": "https://www.hsfkramer.com/notes/publicinternationallaw/2017-03/mixed-messages-to-investors-as-india-quietly-terminates-bilateral-investment-treaties-with-58-countries",
+          "resultado": "India notificó la terminación de sus tratados bilaterales de inversión.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

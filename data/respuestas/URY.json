@@ -71,15 +71,31 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "A1": {
-      "respuesta": "SÍ",
-      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país.",
-      "dato_publico": "sin tratado registrado en la base oficial",
-      "anio_dato": 2026,
+      "respuesta": "NO",
+      "dato": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur (2017): vigente para Argentina desde el 24/11/2020 según la Cancillería; Uruguay lo aprobó por Ley 19.635 (2018) y lo reglamentó por Decreto 272/2019.",
+      "dato_publico": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente",
+      "anio_dato": 2020,
       "fuente_corta": "Cancillería argentina",
-      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur)",
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "criterio": "Criterio aprobado (sesión 4): el Protocolo de Cooperación y Facilitación de Inversiones del Mercosur cuenta como instrumento de protección si está vigente entre Argentina y el socio. Que Uruguay sea parte se infiere de su ley aprobatoria y su reglamentación, y de que el Protocolo entró en vigor el 30/07/2019, tras el segundo depósito (Brasil depositó el 31/05/2019); no se encontró la constancia del depósito uruguayo. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados, ficha del Protocolo",
+          "url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
+          "resultado": "Argentina: Ley 27.527, ratificación del 25/09/2020; entrada en vigor del Protocolo el 30/07/2019 y para Argentina el 24/11/2020. Estado: vigente.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "IMPO, Decreto 272/2019 (reglamentación de la Ley 19.635)",
+          "url": "https://www.impo.com.uy/bases/decretos/272-2019",
+          "resultado": "Uruguay aprobó el Protocolo por Ley 19.635 y lo reglamentó en 2019.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "NO",

@@ -266,6 +266,7 @@ body.con-panel .zoom { right: calc(var(--ancho-panel) + 20px); }
 .dimensiones { list-style: none; padding: 0 !important; margin: 0; display: grid; gap: 6px; }
 .dimensiones li { display: flex; justify-content: space-between; gap: 12px; margin: 0 !important; }
 .dimensiones li span:last-child { color: var(--texto-suave); }
+.cobertura { margin: 10px 0 0; font-size: 0.82rem; color: var(--texto-suave); }
 
 .criticas { list-style: none; padding: 0 !important; }
 .criticas li {

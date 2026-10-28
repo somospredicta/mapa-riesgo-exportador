@@ -3,20 +3,19 @@
   "nombre": "Surinam",
   "respuestas": {
     "C1": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "Constitute Project, Constitución (Surinam_1992)",
-      "fuente_url": "https://www.constituteproject.org/constitution/Surinam_1992?lang=en",
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La Constitución no declara un idioma oficial. Una carta oficial del ministro de Extranjería e Integración de los Países Bajos al Parlamento (25/03/2005) afirma: \"In Suriname is Nederlands de officiële taal\" y que en las escuelas se enseña en neerlandés.",
+      "dato_publico": "el neerlandés es el idioma de las instituciones",
+      "anio_dato": 2005,
+      "fuente_corta": "Gobierno de los Países Bajos",
+      "fuente_nombre": "Tweede Kamer der Staten-Generaal, documento parlamentario 29 700 n.º 27 (carta del ministro, 25/03/2005)",
+      "fuente_url": "https://zoek.officielebekendmakingen.nl/kst-29700-27.pdf",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La Constitución no declara un idioma oficial y no se encontró una norma oficial que lo establezca.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): si no hay idioma oficial declarado, se toma el idioma de las instituciones según sus leyes."
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -26,7 +25,8 @@
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
       "motivo_null": "La herramienta no tiene dato de orientación a largo plazo, indulgencia; con las dimensiones disponibles (distancia al poder 36, individualismo 4, motivación por el logro 19, evitación de la incertidumbre 6) la respuesta no se puede determinar.",
-      "interpretativa": true
+      "interpretativa": true,
+      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
     },
     "C3": {
       "respuesta": "NO",
@@ -138,7 +138,7 @@
       ]
     },
     "G1": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -147,7 +147,8 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial."
+      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
     },
     "G3": {
       "respuesta": "NO",
@@ -266,17 +267,31 @@
       "estado": "pendiente_revision"
     },
     "I3-5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "SÍ",
+      "dato": "No es miembro del CIADI y no tiene un tratado de inversión con Argentina. No se encontró una norma nacional vigente que habilite expresamente el arbitraje internacional en disputas de inversores con el Estado.",
+      "dato_publico": "no es miembro del CIADI ni tiene tratado de inversión con Argentina",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI",
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "No es miembro del CIADI. Falta verificar en el texto oficial de la ley si alguna norma vigente habilita expresamente el arbitraje internacional en disputas de inversores con el Estado (criterio aprobado para I3-5).",
-      "interpretativa": true
+      "criterio": "Criterio: se cuentan solo las normas que habilitan el arbitraje internacional a inversores argentinos (ley nacional o tratado con Argentina). Los tratados del país con terceros países no se cuentan. REVISAR si se acepta esta lectura. Tiene un tratado de inversión con los Países Bajos. Adhirió a la Convención de Nueva York sobre laudos arbitrales extranjeros (2024), que no habilita por sí sola el arbitraje con el Estado. No se pudo revisar el texto completo de la Ley de Inversiones de 2002 (S.B. 2002 n.º 42).",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de datos de Estados miembro",
+          "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+          "resultado": "No es miembro del CIADI.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "No registra un tratado bilateral de inversión vigente con Argentina.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "I4-4": {
       "respuesta": "NO",

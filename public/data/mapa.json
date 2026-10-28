@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-27",
+  "actualizado": "2026-10-28",
   "estado": "borrador",
   "paises": {
     "ATG": {
@@ -10,7 +10,7 @@
         "cultural": null,
         "administrativa": null,
         "geografica": null,
-        "economica": null,
+        "economica": 5,
         "instituciones": null
       },
       "condiciones_criticas": [
@@ -22,6 +22,16 @@
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI ni tiene tratado de inversión con Argentina; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI ni tiene tratado de inversión con Argentina",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -80,6 +90,16 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 17,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Índice de Percepción de la Corrupción 2025 de Transparencia Internacional",
+          "la Informal Economy Database del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "AUT": {
@@ -139,6 +159,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BEL": {
@@ -209,6 +231,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BGR": {
@@ -299,6 +323,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BHS": {
@@ -326,6 +352,16 @@
       ],
       "hechos": [
         {
+          "texto": "El idioma oficial es distinto del español (el Código Procesal Penal dispone que la prueba se registra en inglés; dato 2017, Código Procesal Penal de Bahamas).",
+          "dato": "el Código Procesal Penal dispone que la prueba se registra en inglés",
+          "anio_dato": 2017,
+          "fuente": {
+            "nombre": "Gobierno de Bahamas, Statute Law of The Bahamas, Código Procesal Penal (cap. 91)",
+            "url": "https://laws.bahamas.gov.bs/cms/images/LEGISLATION/PRINCIPAL/1968/1968-0038/1968-0038.pdf",
+            "consultado": "2026-10-28"
+          }
+        },
+        {
           "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial registrado con Argentina ni con el Mercosur; dato 2026, OMC).",
           "dato": "sin acuerdo comercial registrado con Argentina ni con el Mercosur",
           "anio_dato": 2026,
@@ -342,16 +378,6 @@
           "fuente": {
             "nombre": "Banco Mundial, Logistics Performance Index 2023",
             "url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La economía informal tiene un peso alto en el PBI (31% del PBI; dato 2020, Banco Mundial).",
-          "dato": "31% del PBI",
-          "anio_dato": 2020,
-          "fuente": {
-            "nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
-            "url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
             "consultado": "2026-10-27"
           }
         }
@@ -389,6 +415,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BLZ": {
@@ -431,6 +465,16 @@
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI ni tiene tratado de inversión con Argentina; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI ni tiene tratado de inversión con Argentina",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -499,6 +543,15 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 18,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Logistics Performance Index 2023 del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BOL": {
@@ -510,7 +563,7 @@
         "administrativa": 2.5,
         "geografica": 3,
         "economica": 1.8,
-        "instituciones": null
+        "instituciones": 2.1
       },
       "condiciones_criticas": [
         {
@@ -561,6 +614,16 @@
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (la Constitución somete la inversión extranjera a la jurisdicción boliviana; dato 2009, Constitución de Bolivia).",
+          "dato": "la Constitución somete la inversión extranjera a la jurisdicción boliviana",
+          "anio_dato": 2009,
+          "fuente": {
+            "nombre": "Constitute Project, Constitución de Bolivia (2009), art. 320",
+            "url": "https://www.constituteproject.org/constitution/Bolivia_2009?lang=en",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -629,30 +692,22 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BRA": {
-      "puntaje": null,
-      "etiqueta": "Sin datos completos",
-      "completo": false,
+      "puntaje": 3.4,
+      "etiqueta": "Precaución",
+      "completo": true,
       "dimensiones": {
         "cultural": 4,
-        "administrativa": 1.6,
+        "administrativa": 2.5,
         "geografica": 5,
         "economica": 4.2,
-        "instituciones": null
+        "instituciones": 2.1
       },
       "condiciones_criticas": [
-        {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (sin registro en la base oficial de tratados; dato 2026, Cancillería argentina).",
-          "dato": "sin registro en la base oficial de tratados",
-          "anio_dato": 2026,
-          "fuente": {
-            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
-          }
-        },
         {
           "texto": "La percepción de corrupción es alta (CPI 35/100, puesto 107 de 182; dato 2025, Transparencia Internacional).",
           "dato": "CPI 35/100, puesto 107 de 182",
@@ -681,6 +736,16 @@
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/Brazil/",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI y su ley no habilita expresamente el arbitraje internacional con el Estado; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI y su ley no habilita expresamente el arbitraje internacional con el Estado",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -728,13 +793,13 @@
           }
         },
         {
-          "texto": "La inflación se mantuvo contenida en los últimos años (inflación de 4,6% en 2023, 4,4% en 2024 y 5,0% en 2025; dato 2025, FMI).",
-          "dato": "inflación de 4,6% en 2023, 4,4% en 2024 y 5,0% en 2025",
-          "anio_dato": 2025,
+          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente; dato 2020, Cancillería argentina).",
+          "dato": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente",
+          "anio_dato": 2020,
           "fuente": {
-            "nombre": "FMI, World Economic Outlook (octubre de 2026)",
-            "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
-            "consultado": "2026-10-27"
+            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur)",
+            "url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -749,6 +814,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "BRB": {
@@ -775,6 +842,16 @@
         }
       ],
       "hechos": [
+        {
+          "texto": "El idioma oficial es distinto del español (el reglamento de la Cámara de la Asamblea fija el inglés para los debates; dato 1973, Parlamento de Barbados).",
+          "dato": "el reglamento de la Cámara de la Asamblea fija el inglés para los debates",
+          "anio_dato": 1973,
+          "fuente": {
+            "nombre": "Parlamento de Barbados, Reglamento de la Cámara de la Asamblea (Standing Orders, art. 8)",
+            "url": "https://www.barbadosparliament.com/htmlarea/uploaded/File/the_standing_orders.pdf",
+            "consultado": "2026-10-28"
+          }
+        },
         {
           "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial registrado con Argentina ni con el Mercosur; dato 2026, OMC).",
           "dato": "sin acuerdo comercial registrado con Argentina ni con el Mercosur",
@@ -829,6 +906,15 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 18,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Logistics Performance Index 2023 del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CAN": {
@@ -898,6 +984,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CHL": {
@@ -906,23 +994,12 @@
       "completo": false,
       "dimensiones": {
         "cultural": null,
-        "administrativa": 4.1,
+        "administrativa": 5,
         "geografica": 5,
         "economica": 5,
         "instituciones": 4.3
       },
-      "condiciones_criticas": [
-        {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (el tratado firmado en 1991 figura como \"extinguido\"; dato 2026, Cancillería argentina).",
-          "dato": "el tratado firmado en 1991 figura como \"extinguido\"",
-          "anio_dato": 2026,
-          "fuente": {
-            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
-          }
-        }
-      ],
+      "condiciones_criticas": [],
       "hechos": [
         {
           "texto": "La justicia civil tiene demoras significativas (puesto 78 de 143 en demoras de la justicia civil; dato 2026, World Justice Project).",
@@ -947,13 +1024,13 @@
           }
         },
         {
-          "texto": "La percepción de corrupción es moderada o baja (CPI 63/100, puesto 31 de 182; dato 2025, Transparencia Internacional).",
-          "dato": "CPI 63/100, puesto 31 de 182",
-          "anio_dato": 2025,
+          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (Acuerdo de Libre Comercio con capítulo de inversiones, vigente desde 2019; dato 2019, Gobierno argentino).",
+          "dato": "Acuerdo de Libre Comercio con capítulo de inversiones, vigente desde 2019",
+          "anio_dato": 2019,
           "fuente": {
-            "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
-            "url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
-            "consultado": "2026-10-27"
+            "nombre": "Gobierno argentino, Informe de resultados del Acuerdo de Libre Comercio Argentina–Chile (enero de 2019)",
+            "url": "https://www.argentina.gob.ar/sites/default/files/informe_resultados_acuerdo_argentina-chile_-_enero_2019_2.pdf",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -968,6 +1045,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CHN": {
@@ -1068,6 +1147,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "COL": {
@@ -1178,6 +1259,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CRI": {
@@ -1247,6 +1330,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CUB": {
@@ -1306,13 +1397,13 @@
           }
         },
         {
-          "texto": "Comparte el idioma español con Argentina (idioma oficial: español; dato 2026, Constitución).",
-          "dato": "idioma oficial: español",
-          "anio_dato": 2026,
+          "texto": "Ofrece acceso a arbitraje internacional para disputas con el Estado (tratado de inversión con Argentina, vigente, con arbitraje internacional; dato 1997, Cancillería argentina).",
+          "dato": "tratado de inversión con Argentina, vigente, con arbitraje internacional",
+          "anio_dato": 1997,
           "fuente": {
-            "nombre": "Constitute Project, Constitución (Cuba_2019)",
-            "url": "https://www.constituteproject.org/constitution/Cuba_2019?lang=en",
-            "consultado": "2026-10-27"
+            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–Cuba (1995)",
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqCqlw==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1327,6 +1418,17 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 14,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el World Economic Outlook del FMI",
+          "la Informal Economy Database del Banco Mundial",
+          "el Rule of Law Index 2026 del World Justice Project"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CYP": {
@@ -1417,6 +1519,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "CZE": {
@@ -1476,6 +1586,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "DEU": {
@@ -1535,6 +1647,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "DMA": {
@@ -1545,7 +1659,7 @@
         "cultural": null,
         "administrativa": null,
         "geografica": null,
-        "economica": null,
+        "economica": 5,
         "instituciones": null
       },
       "condiciones_criticas": [
@@ -1557,6 +1671,16 @@
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI ni tiene tratado de inversión con Argentina; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI ni tiene tratado de inversión con Argentina",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1625,6 +1749,16 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 17,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Logistics Performance Index 2023 del Banco Mundial",
+          "la Informal Economy Database del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "DNK": {
@@ -1684,6 +1818,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "DOM": {
@@ -1726,6 +1862,16 @@
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI y su ley de inversión extranjera no prevé arbitraje internacional; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI y su ley de inversión extranjera no prevé arbitraje internacional",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1794,6 +1940,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "ECU": {
@@ -1914,6 +2062,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "el Logistics Performance Index 2023 del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": true,
       "estado": "borrador"
     },
     "ESP": {
@@ -1962,6 +2118,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "EST": {
@@ -2052,6 +2210,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "FIN": {
@@ -2121,6 +2281,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "FRA": {
@@ -2191,6 +2353,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "GRC": {
@@ -2281,6 +2445,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "GRD": {
@@ -2291,7 +2457,7 @@
         "cultural": null,
         "administrativa": null,
         "geografica": null,
-        "economica": null,
+        "economica": 5,
         "instituciones": null
       },
       "condiciones_criticas": [
@@ -2371,6 +2537,15 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 18,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "la Informal Economy Database del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "GTM": {
@@ -2471,6 +2646,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "GUY": {
@@ -2479,7 +2662,7 @@
       "completo": false,
       "dimensiones": {
         "cultural": null,
-        "administrativa": 3.2,
+        "administrativa": 2.5,
         "geografica": 2,
         "economica": 4.2,
         "instituciones": 3.9
@@ -2528,22 +2711,22 @@
           }
         },
         {
+          "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales; dato 2026, OMC).",
+          "dato": "sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "OMC, base de datos de acuerdos comerciales regionales",
+            "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+            "consultado": "2026-10-28"
+          }
+        },
+        {
           "texto": "El desempeño logístico es bajo (LPI 2,4 sobre 5; dato 2023, Banco Mundial).",
           "dato": "LPI 2,4 sobre 5",
           "anio_dato": 2023,
           "fuente": {
             "nombre": "Banco Mundial, Logistics Performance Index 2023",
             "url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La economía informal tiene un peso alto en el PBI (30% del PBI; dato 2020, Banco Mundial).",
-          "dato": "30% del PBI",
-          "anio_dato": 2020,
-          "fuente": {
-            "nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
-            "url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
             "consultado": "2026-10-27"
           }
         }
@@ -2581,6 +2764,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "HND": {
@@ -2691,6 +2882,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "HRV": {
@@ -2770,6 +2969,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "HTI": {
@@ -2890,6 +3091,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "HUN": {
@@ -2990,6 +3199,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "IND": {
@@ -3032,6 +3243,16 @@
             "nombre": "World Justice Project, Rule of Law Index 2026",
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI y su tratado de inversión con Argentina se extinguió en 2013; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI y su tratado de inversión con Argentina se extinguió en 2013",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -3100,6 +3321,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "IRL": {
@@ -3170,6 +3393,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "ITA": {
@@ -3239,6 +3464,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "JAM": {
@@ -3266,6 +3493,16 @@
       ],
       "hechos": [
         {
+          "texto": "El idioma oficial es distinto del español (el reglamento de la Cámara de Representantes fija el inglés para los debates; dato 1964, Parlamento de Jamaica).",
+          "dato": "el reglamento de la Cámara de Representantes fija el inglés para los debates",
+          "anio_dato": 1964,
+          "fuente": {
+            "nombre": "Parlamento de Jamaica, Reglamento de la Cámara de Representantes (Standing Orders, art. 6)",
+            "url": "https://www.japarliament.gov.jm/attachments/article/339/House%20of%20Representatives%20Standing%20Orders.pdf",
+            "consultado": "2026-10-28"
+          }
+        },
+        {
           "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial registrado con Argentina ni con el Mercosur; dato 2026, OMC).",
           "dato": "sin acuerdo comercial registrado con Argentina ni con el Mercosur",
           "anio_dato": 2026,
@@ -3282,16 +3519,6 @@
           "fuente": {
             "nombre": "Banco Mundial, Logistics Performance Index 2023",
             "url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La economía informal tiene un peso alto en el PBI (38% del PBI; dato 2020, Banco Mundial).",
-          "dato": "38% del PBI",
-          "anio_dato": 2020,
-          "fuente": {
-            "nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
-            "url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
             "consultado": "2026-10-27"
           }
         }
@@ -3329,6 +3556,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "JPN": {
@@ -3419,6 +3654,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "KNA": {
@@ -3429,7 +3666,7 @@
         "cultural": null,
         "administrativa": null,
         "geografica": null,
-        "economica": null,
+        "economica": 5,
         "instituciones": null
       },
       "condiciones_criticas": [
@@ -3499,6 +3736,17 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 16,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Índice de Percepción de la Corrupción 2025 de Transparencia Internacional",
+          "el Logistics Performance Index 2023 del Banco Mundial",
+          "la Informal Economy Database del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "LCA": {
@@ -3589,6 +3837,15 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 18,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Logistics Performance Index 2023 del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "LTU": {
@@ -3658,6 +3915,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "LUX": {
@@ -3728,6 +3987,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "LVA": {
@@ -3818,6 +4079,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "MEX": {
@@ -3918,6 +4181,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "MLT": {
@@ -3998,6 +4263,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "NIC": {
@@ -4045,6 +4312,16 @@
       ],
       "hechos": [
         {
+          "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales; dato 2026, OMC).",
+          "dato": "sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "OMC, base de datos de acuerdos comerciales regionales",
+            "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+            "consultado": "2026-10-28"
+          }
+        },
+        {
           "texto": "La efectividad del gobierno muestra debilidades (Government Effectiveness, percentil 14; dato 2025, Banco Mundial).",
           "dato": "Government Effectiveness, percentil 14",
           "anio_dato": 2025,
@@ -4061,16 +4338,6 @@
           "fuente": {
             "nombre": "Banco Mundial, Logistics Performance Index 2023",
             "url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La economía informal tiene un peso alto en el PBI (44% del PBI; dato 2020, Banco Mundial).",
-          "dato": "44% del PBI",
-          "anio_dato": 2020,
-          "fuente": {
-            "nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
-            "url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
             "consultado": "2026-10-27"
           }
         }
@@ -4108,6 +4375,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "NLD": {
@@ -4177,6 +4452,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "PAN": {
@@ -4267,6 +4544,14 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 19,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "PER": {
@@ -4367,6 +4652,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "POL": {
@@ -4436,6 +4723,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "PRT": {
@@ -4505,6 +4794,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "PRY": {
@@ -4615,6 +4906,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "ROU": {
@@ -4694,6 +4987,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "SLV": {
@@ -4794,6 +5089,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "SUR": {
@@ -4805,7 +5102,7 @@
         "administrativa": 1.9,
         "geografica": null,
         "economica": 1.8,
-        "instituciones": null
+        "instituciones": 2.1
       },
       "condiciones_criticas": [
         {
@@ -4857,9 +5154,29 @@
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
           }
+        },
+        {
+          "texto": "El país no ofrece acceso a arbitraje internacional para disputas con el Estado (no es miembro del CIADI ni tiene tratado de inversión con Argentina; dato 2026, CIADI).",
+          "dato": "no es miembro del CIADI ni tiene tratado de inversión con Argentina",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "CIADI, base de datos de Estados miembro",
+            "url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
+            "consultado": "2026-10-28"
+          }
         }
       ],
       "hechos": [
+        {
+          "texto": "El idioma oficial es distinto del español (el neerlandés es el idioma de las instituciones; dato 2005, Gobierno de los Países Bajos).",
+          "dato": "el neerlandés es el idioma de las instituciones",
+          "anio_dato": 2005,
+          "fuente": {
+            "nombre": "Tweede Kamer der Staten-Generaal, documento parlamentario 29 700 n.º 27 (carta del ministro, 25/03/2005)",
+            "url": "https://zoek.officielebekendmakingen.nl/kst-29700-27.pdf",
+            "consultado": "2026-10-28"
+          }
+        },
         {
           "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial registrado con Argentina ni con el Mercosur; dato 2026, OMC).",
           "dato": "sin acuerdo comercial registrado con Argentina ni con el Mercosur",
@@ -4877,16 +5194,6 @@
           "fuente": {
             "nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
             "url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La economía informal tiene un peso alto en el PBI (38% del PBI; dato 2020, Banco Mundial).",
-          "dato": "38% del PBI",
-          "anio_dato": 2020,
-          "fuente": {
-            "nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
-            "url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
             "consultado": "2026-10-27"
           }
         }
@@ -4924,6 +5231,15 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 18,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)",
+          "el Logistics Performance Index 2023 del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": true,
       "estado": "borrador"
     },
     "SVK": {
@@ -5014,6 +5330,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "SVN": {
@@ -5084,6 +5402,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "SWE": {
@@ -5153,6 +5473,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "TTO": {
@@ -5210,22 +5532,22 @@
           }
         },
         {
+          "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales; dato 2026, OMC).",
+          "dato": "sin acuerdo comercial con Argentina ni con el Mercosur, solo comparten el Sistema Global de Preferencias Comerciales",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "OMC, base de datos de acuerdos comerciales regionales",
+            "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+            "consultado": "2026-10-28"
+          }
+        },
+        {
           "texto": "El desempeño logístico es bajo (LPI 2,5 sobre 5; dato 2023, Banco Mundial).",
           "dato": "LPI 2,5 sobre 5",
           "anio_dato": 2023,
           "fuente": {
             "nombre": "Banco Mundial, Logistics Performance Index 2023",
             "url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La economía informal tiene un peso alto en el PBI (33% del PBI; dato 2020, Banco Mundial).",
-          "dato": "33% del PBI",
-          "anio_dato": 2020,
-          "fuente": {
-            "nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
-            "url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
             "consultado": "2026-10-27"
           }
         }
@@ -5263,6 +5585,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "URY": {
@@ -5271,23 +5595,12 @@
       "completo": false,
       "dimensiones": {
         "cultural": null,
-        "administrativa": 4.1,
+        "administrativa": 5,
         "geografica": 5,
         "economica": 4.2,
         "instituciones": 5
       },
-      "condiciones_criticas": [
-        {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (sin tratado registrado en la base oficial; dato 2026, Cancillería argentina).",
-          "dato": "sin tratado registrado en la base oficial",
-          "anio_dato": 2026,
-          "fuente": {
-            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
-          }
-        }
-      ],
+      "condiciones_criticas": [],
       "hechos": [
         {
           "texto": "La economía informal tiene un peso alto en el PBI (48% del PBI; dato 2020, Banco Mundial).",
@@ -5312,13 +5625,13 @@
           }
         },
         {
-          "texto": "La percepción de corrupción es moderada o baja (CPI 73/100, puesto 17 de 182; dato 2025, Transparencia Internacional).",
-          "dato": "CPI 73/100, puesto 17 de 182",
-          "anio_dato": 2025,
+          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente; dato 2020, Cancillería argentina).",
+          "dato": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente",
+          "anio_dato": 2020,
           "fuente": {
-            "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
-            "url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
-            "consultado": "2026-10-27"
+            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur)",
+            "url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -5333,6 +5646,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "USA": {
@@ -5402,6 +5717,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "VCT": {
@@ -5492,6 +5809,15 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": {
+        "preguntas_usadas": 18,
+        "preguntas_total": 20,
+        "fuentes_ausentes": [
+          "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+          "el Logistics Performance Index 2023 del Banco Mundial"
+        ]
+      },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
     "VEN": {
@@ -5503,7 +5829,7 @@
         "administrativa": 3.5,
         "geografica": 2,
         "economica": null,
-        "instituciones": null
+        "instituciones": 2.1
       },
       "condiciones_criticas": [
         {
@@ -5622,6 +5948,8 @@
           "consultado": "2026-10-27"
         }
       },
+      "cobertura": null,
+      "sin_cobertura_suficiente": false,
       "estado": "borrador"
     }
   },

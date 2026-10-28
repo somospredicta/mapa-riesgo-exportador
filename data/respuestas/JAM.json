@@ -3,20 +3,19 @@
   "nombre": "Jamaica",
   "respuestas": {
     "C1": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": "Constitute Project, Constitución (Jamaica_2023)",
-      "fuente_url": "https://www.constituteproject.org/constitution/Jamaica_2023?lang=en",
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La Constitución no declara un idioma oficial. El Reglamento de la Cámara de Representantes (art. 6) dispone que los procedimientos y debates de la Cámara se hacen en inglés y que toda petición se presenta en inglés.",
+      "dato_publico": "el reglamento de la Cámara de Representantes fija el inglés para los debates",
+      "anio_dato": 1964,
+      "fuente_corta": "Parlamento de Jamaica",
+      "fuente_nombre": "Parlamento de Jamaica, Reglamento de la Cámara de Representantes (Standing Orders, art. 6)",
+      "fuente_url": "https://www.japarliament.gov.jm/attachments/article/339/House%20of%20Representatives%20Standing%20Orders.pdf",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La Constitución no declara un idioma oficial y no se encontró una norma oficial que lo establezca.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): si no hay idioma oficial declarado, se toma el idioma de las instituciones según sus leyes."
     },
     "C2": {
-      "respuesta": null,
+      "respuesta": "no_aplica_sin_fuente",
       "dato": null,
       "dato_publico": null,
       "anio_dato": null,
@@ -26,7 +25,8 @@
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
       "motivo_null": "La herramienta no tiene dato de orientación a largo plazo, indulgencia; con las dimensiones disponibles (distancia al poder 4, individualismo 12, motivación por el logro 12, evitación de la incertidumbre 73) la respuesta no se puede determinar.",
-      "interpretativa": true
+      "interpretativa": true,
+      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
     },
     "C3": {
       "respuesta": null,

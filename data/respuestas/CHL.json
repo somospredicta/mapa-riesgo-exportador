@@ -71,17 +71,30 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "A1": {
-      "respuesta": "SÍ",
-      "dato": "Tratado entre la República Argentina y la República de Chile sobre Promoción y Protección Recíproca de Inversiones: firmado el 02/08/1991. Estado: Extinguido. Terminación: 01/05/2019.",
-      "dato_publico": "el tratado firmado en 1991 figura como \"extinguido\"",
-      "anio_dato": 2026,
-      "fuente_corta": "Cancillería argentina",
-      "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "El Acuerdo de Libre Comercio Argentina–Chile (61.º Protocolo Adicional al ACE 35, firmado el 02/11/2017) está en vigor desde el 01/05/2019 e incluye un capítulo de inversiones que, según el Gobierno argentino, \"reemplaza y supera el Tratado Bilateral de Inversiones firmado entre ambos países en 1991\".",
+      "dato_publico": "Acuerdo de Libre Comercio con capítulo de inversiones, vigente desde 2019",
+      "anio_dato": 2019,
+      "fuente_corta": "Gobierno argentino",
+      "fuente_nombre": "Gobierno argentino, Informe de resultados del Acuerdo de Libre Comercio Argentina–Chile (enero de 2019)",
+      "fuente_url": "https://www.argentina.gob.ar/sites/default/files/informe_resultados_acuerdo_argentina-chile_-_enero_2019_2.pdf",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "El tratado bilateral se extinguió el 01/05/2019. Los fundadores pueden evaluar si un capítulo de inversiones dentro de un acuerdo comercial cuenta como tratado; no figura en esta base como tratado de inversión.",
-      "interpretativa": true
+      "criterio": "Criterio aprobado (sesión 4): un tratado de libre comercio vigente con capítulo de protección de inversiones cuenta como tratado de inversión. El tratado bilateral de 1991 figura como extinguido desde el 01/05/2019 en la base de la Cancillería.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+          "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqSqmg==",
+          "resultado": "El tratado bilateral de 1991 figura como extinguido desde el 01/05/2019.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "Gobierno argentino, Acuerdo de Libre Comercio Argentina–Chile",
+          "url": "https://www.argentina.gob.ar/node/163084",
+          "resultado": "Firmado el 02/11/2017, en vigor desde el 01/05/2019.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "NO",
