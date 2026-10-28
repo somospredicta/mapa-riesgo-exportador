@@ -110,16 +110,30 @@
     },
     "A1": {
       "respuesta": "SÍ",
-      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país.",
+      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país (búsqueda con todas las variantes del nombre y por tipo de acuerdo); UNCTAD tampoco lista uno.",
       "dato_publico": "sin tratado registrado en la base oficial",
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
       "criterio": "Figura un \"Convenio sobre inversiones y complementación industrial\" de 1969 (vigente), que no es un tratado de protección de inversiones. Protocolo de Cooperación y Facilitación de Inversiones del Mercosur (2017): Paraguay lo aprobó por Ley 7660 (sancionada en abril de 2026), pero no se encontró el depósito del instrumento de ratificación ni la fecha de entrada en vigor para Paraguay, así que no se contó como vigente. REVISAR cuando se publique el depósito.",
-      "interpretativa": true
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Paraguay; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Sin tratados de promoción y protección de inversiones.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Sin tratado bilateral de inversión con Argentina.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "SÍ",

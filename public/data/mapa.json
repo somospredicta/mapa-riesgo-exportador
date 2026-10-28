@@ -21,7 +21,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -154,8 +154,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lZ6rmw==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -203,8 +203,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lZ+omw==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -370,7 +370,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -469,7 +469,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -608,8 +608,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=laCn",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -875,7 +875,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -967,28 +967,17 @@
       "estado": "borrador"
     },
     "CAN": {
-      "puntaje": 4.4,
+      "puntaje": 4.5,
       "etiqueta": "Entorno favorable",
       "completo": true,
       "dimensiones": {
         "cultural": 4,
-        "administrativa": 3.5,
+        "administrativa": 4.4,
         "geografica": 4,
         "economica": 5,
         "instituciones": 5
       },
-      "condiciones_criticas": [
-        {
-          "texto": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras (impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022, luego derogado en 2026; dato 2024, BLG).",
-          "dato": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022, luego derogado en 2026",
-          "anio_dato": 2024,
-          "fuente": {
-            "nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
-            "url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
-            "consultado": "2026-10-28"
-          }
-        }
-      ],
+      "condiciones_criticas": [],
       "hechos": [
         {
           "texto": "El idioma oficial es distinto del español (idiomas oficiales: inglés y francés; dato 2026, Constitución de Canadá).",
@@ -1038,8 +1027,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kp6omw==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1054,7 +1043,17 @@
           "consultado": "2026-10-27"
         }
       },
-      "alertas": [],
+      "alertas": [
+        {
+          "texto": "Canadá cobró en forma retroactiva un impuesto a los servicios digitales (sancionado en 2024 con efecto desde 2022) y lo derogó en 2026, con devolución de lo cobrado. Conviene seguir de cerca cambios similares.",
+          "fecha": "2026-03-26",
+          "fuente": {
+            "nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
+            "url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
+            "consultado": "2026-10-28"
+          }
+        }
+      ],
       "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"
@@ -1243,7 +1242,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -1342,7 +1341,7 @@
       "etiqueta": "Entorno favorable",
       "completo": true,
       "dimensiones": {
-        "cultural": 4.3,
+        "cultural": 4.5,
         "administrativa": 4.4,
         "geografica": 4,
         "economica": 5,
@@ -1398,8 +1397,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqCjlQ==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1415,13 +1414,7 @@
         }
       },
       "alertas": [],
-      "cobertura": {
-        "preguntas_usadas": 19,
-        "preguntas_total": 20,
-        "fuentes_ausentes": [
-          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
-        ]
-      },
+      "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
@@ -1507,8 +1500,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqCqlw==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1556,7 +1549,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -1677,8 +1670,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lqOomQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -1789,7 +1782,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -1912,8 +1905,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=laClnQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -1961,8 +1954,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqarlw==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -2084,8 +2077,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k52omQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -2265,7 +2258,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -2380,8 +2373,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=laKrng==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -2422,18 +2415,7 @@
         "economica": 5,
         "instituciones": null
       },
-      "condiciones_criticas": [
-        {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (sin tratado registrado en la base oficial; dato 2026, Cancillería argentina).",
-          "dato": "sin tratado registrado en la base oficial",
-          "anio_dato": 2026,
-          "fuente": {
-            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
-          }
-        }
-      ],
+      "condiciones_criticas": [],
       "hechos": [
         {
           "texto": "El idioma oficial es distinto del español (idioma oficial: francés; dato 2026, Unión Europea).",
@@ -2448,22 +2430,22 @@
       ],
       "a_favor": [
         {
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
+          "dato": "tratado vigente desde 1993",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=laSjlg==",
+            "consultado": "2026-10-28"
+          }
+        },
+        {
           "texto": "La percepción de corrupción es moderada o baja (CPI 66/100, puesto 27 de 182; dato 2025, Transparencia Internacional).",
           "dato": "CPI 66/100, puesto 27 de 182",
           "anio_dato": 2025,
           "fuente": {
             "nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
             "url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
-          "texto": "La inflación se mantuvo contenida en los últimos años (inflación de 5,7% en 2023, 2,3% en 2024 y 0,9% en 2025; dato 2025, FMI).",
-          "dato": "inflación de 5,7% en 2023, 2,3% en 2024 y 0,9% en 2025",
-          "anio_dato": 2025,
-          "fuente": {
-            "nombre": "FMI, World Economic Outlook (octubre de 2026)",
-            "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/FRA.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
             "consultado": "2026-10-27"
           }
         }
@@ -2502,8 +2484,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=laajmQ==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -2596,7 +2578,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -2682,7 +2664,7 @@
       "etiqueta": "Precaución",
       "completo": true,
       "dimensiones": {
-        "cultural": 4.3,
+        "cultural": 4.5,
         "administrativa": 2.8,
         "geografica": 2,
         "economica": 4.2,
@@ -2759,8 +2741,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k5+pmA==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -2776,13 +2758,7 @@
         }
       },
       "alertas": [],
-      "cobertura": {
-        "preguntas_usadas": 19,
-        "preguntas_total": 20,
-        "fuentes_ausentes": [
-          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
-        ]
-      },
+      "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
@@ -2805,7 +2781,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -2910,7 +2886,7 @@
       "etiqueta": "Precaución",
       "completo": true,
       "dimensiones": {
-        "cultural": 4.3,
+        "cultural": 4.5,
         "administrativa": 1,
         "geografica": 4,
         "economica": 3.4,
@@ -2924,7 +2900,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -3024,13 +3000,7 @@
         }
       },
       "alertas": [],
-      "cobertura": {
-        "preguntas_usadas": 19,
-        "preguntas_total": 20,
-        "fuentes_ausentes": [
-          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
-        ]
-      },
+      "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
@@ -3085,8 +3055,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lqOnlQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -3135,7 +3105,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -3327,8 +3297,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lp2jmw==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -3376,8 +3346,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lKKklw==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -3500,7 +3470,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -3595,8 +3565,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lp+jlg==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -3627,11 +3597,11 @@
       "estado": "borrador"
     },
     "JAM": {
-      "puntaje": 3.5,
+      "puntaje": 3.6,
       "etiqueta": "Precaución",
       "completo": true,
       "dimensiones": {
-        "cultural": 3,
+        "cultural": 3.5,
         "administrativa": 3.5,
         "geografica": 2,
         "economica": 4.2,
@@ -3715,13 +3685,7 @@
         }
       },
       "alertas": [],
-      "cobertura": {
-        "preguntas_usadas": 19,
-        "preguntas_total": 20,
-        "fuentes_ausentes": [
-          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
-        ]
-      },
+      "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
@@ -3743,8 +3707,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kp6nm5M=",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -3837,7 +3801,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -3939,7 +3903,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4071,8 +4035,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lp+rlQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -4115,13 +4079,13 @@
       },
       "condiciones_criticas": [
         {
-          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (sin tratado registrado en la base oficial; dato 2026, Cancillería argentina).",
-          "dato": "sin tratado registrado en la base oficial",
+          "texto": "No existe un tratado bilateral de inversión vigente con Argentina (el tratado firmado en 1990 figura como \"extinguido\"; dato 2026, Cancillería argentina).",
+          "dato": "el tratado firmado en 1990 figura como \"extinguido\"",
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lZ+omw==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4194,7 +4158,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4370,8 +4334,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k6GimA==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4410,7 +4374,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4502,8 +4466,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k6GmnA==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -4654,8 +4618,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=laaonQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -4686,12 +4650,12 @@
       "estado": "borrador"
     },
     "PAN": {
-      "puntaje": 4.1,
+      "puntaje": 4.2,
       "etiqueta": "Entorno favorable",
       "completo": true,
       "dimensiones": {
-        "cultural": 4.3,
-        "administrativa": 2.5,
+        "cultural": 4.5,
+        "administrativa": 3.2,
         "geografica": 5,
         "economica": 4.2,
         "instituciones": 4.3
@@ -4720,16 +4684,6 @@
       ],
       "hechos": [
         {
-          "texto": "No hay un acuerdo comercial vigente con Argentina ni con el Mercosur (sin acuerdo comercial registrado con Argentina ni con el Mercosur; dato 2026, OMC).",
-          "dato": "sin acuerdo comercial registrado con Argentina ni con el Mercosur",
-          "anio_dato": 2026,
-          "fuente": {
-            "nombre": "OMC, base de datos de acuerdos comerciales regionales",
-            "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
-            "consultado": "2026-10-27"
-          }
-        },
-        {
           "texto": "La economía informal tiene un peso alto en el PBI (60% del PBI; dato 2020, Banco Mundial).",
           "dato": "60% del PBI",
           "anio_dato": 2020,
@@ -4747,6 +4701,16 @@
             "nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
+          }
+        },
+        {
+          "texto": "No hay una cámara empresarial bilateral activa con Argentina (sin cámara bilateral con actividad registrada; dato 2026, IGJ y Cancillería).",
+          "dato": "sin cámara bilateral con actividad registrada",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+            "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4767,8 +4731,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k6Gomw==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -4784,13 +4748,7 @@
         }
       },
       "alertas": [],
-      "cobertura": {
-        "preguntas_usadas": 19,
-        "preguntas_total": 20,
-        "fuentes_ausentes": [
-          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
-        ]
-      },
+      "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"
     },
@@ -4876,8 +4834,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=mJ+nmA==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -5020,8 +4978,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lqGjmg==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -5070,7 +5028,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -5215,8 +5173,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lqGqlQ==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -5328,8 +5286,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k56ilg==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -5354,7 +5312,7 @@
       "etiqueta": "Sin datos completos",
       "completo": false,
       "dimensiones": {
-        "cultural": 3,
+        "cultural": 3.5,
         "administrativa": 1.9,
         "geografica": null,
         "economica": 1.8,
@@ -5368,7 +5326,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -5489,10 +5447,9 @@
       },
       "alertas": [],
       "cobertura": {
-        "preguntas_usadas": 18,
+        "preguntas_usadas": 19,
         "preguntas_total": 20,
         "fuentes_ausentes": [
-          "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)",
           "el Logistics Performance Index 2023 del Banco Mundial"
         ]
       },
@@ -5518,7 +5475,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -5611,7 +5568,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -5706,8 +5663,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lqKkmw==",
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -5756,7 +5713,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         },
         {
@@ -5984,8 +5941,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k56qmQ==",
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -6024,7 +5981,7 @@
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
             "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "consultado": "2026-10-28"
           }
         }
       ],
@@ -6207,8 +6164,8 @@
           "anio_dato": 2026,
           "fuente": {
             "nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-            "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-            "consultado": "2026-10-27"
+            "url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lKCnmg==",
+            "consultado": "2026-10-28"
           }
         },
         {

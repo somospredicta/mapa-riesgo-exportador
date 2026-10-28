@@ -81,9 +81,25 @@
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lZ+omw==",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "criterio": "Las fuentes difieren: la Cancillería registra el Convenio con la Unión Económica Belgo-Luxemburguesa (1990) como \"Extinguido\" desde el 20/05/2014, pero no anota fecha de denuncia y su propia observación dice que se renueva por tácita reconducción salvo denuncia; UNCTAD lo lista como vigente y no se encontró ninguna denuncia. Se mantuvo el registro oficial argentino (SÍ). REVISAR con la Dirección de Tratados.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Bélgica, Luxemburgo; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Convenio entre la República Argentina y la Unión Económica Belgo-Luxemburguesa para la Pro… (firma 28/06/1990): Extinguido",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Argentina - BLEU (Belgium-Luxembourg Economic Union) BIT (1990): In force",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "NO",

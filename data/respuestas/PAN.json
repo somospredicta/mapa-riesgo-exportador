@@ -18,18 +18,17 @@
       "huella_aprobada": "ab2e36652273"
     },
     "C2": {
-      "respuesta": "no_aplica_sin_fuente",
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "NO",
+      "dato": "Diferencias con Argentina (0-100): distancia al poder 46, individualismo 40, motivación por el logro 12, evitación de la incertidumbre 0. Sin dato: orientación a largo plazo, indulgencia.",
+      "dato_publico": "mayor diferencia con Argentina: 46 puntos en distancia al poder",
+      "anio_dato": 2026,
+      "fuente_corta": "Hofstede",
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cpanama",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La herramienta no tiene dato de orientación a largo plazo, indulgencia; con las dimensiones disponibles (distancia al poder 46, individualismo 40, motivación por el logro 12, evitación de la incertidumbre 0) la respuesta no se puede determinar.",
-      "interpretativa": true,
-      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+      "criterio": "Corrección pedida en la revisión de G (planilla revision_bases_64_paises, 28/10/2026): responder con las dimensiones disponibles aunque falten 2. Con las 4 dimensiones con dato, 1 supera(n) los 40 puntos. A CONFIRMAR: es un cambio de criterio para C2.",
+      "interpretativa": true
     },
     "C3": {
       "respuesta": "NO",
@@ -106,9 +105,24 @@
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k6Gomw==",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "criterio": "Coincide con UNCTAD.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Panamá; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Convenio entre la República Argentina y la República de Panamá para la Promoción y Protecc… (firma 10/05/1996): Vigente",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Argentina - Panama BIT (1996): In force",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "SÍ",
@@ -126,19 +140,35 @@
       "huella_aprobada": "8f32c011b865"
     },
     "A3": {
-      "respuesta": "SÍ",
-      "dato": "La base de la OMC no registra acuerdos comerciales en vigor de este país con Argentina ni con el Mercosur.",
-      "dato_publico": "sin acuerdo comercial registrado con Argentina ni con el Mercosur",
+      "respuesta": "NO",
+      "dato": "Acuerdo de Complementación Económica N.º 76 Mercosur–Panamá: vigente como Acuerdo Marco tras la ratificación de Panamá (13/10/2025) y la notificación de Argentina a la ALADI; formaliza a Panamá como Estado Asociado al Mercosur. Argentina y Panamá negocian un acuerdo comercial preferencial bilateral.",
+      "dato_publico": "ACE 76 Mercosur–Panamá",
       "anio_dato": 2026,
-      "fuente_corta": "OMC",
-      "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
-      "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
-      "consultado": "2026-10-27",
-      "estado": "aprobada_por_muestreo",
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Acuerdos comerciales en vigencia y negociaciones en curso",
+      "fuente_url": "https://cancilleria.gob.ar/es/politica-exterior/acuerdos-comerciales-vigencia-reciente-negociacion",
+      "consultado": "2026-10-28",
+      "estado": "aprobado",
+      "criterio": "Criterio aprobado (sesión 6): la Preferencia Arancelaria Regional de la ALADI sola no cuenta; cuenta un acuerdo de alcance parcial o de complementación económica vigente con Argentina o el Mercosur. El ACE 76 está vigente pero es un Acuerdo Marco, sin preferencias arancelarias negociadas todavía: con la letra del criterio cuenta (NO), pero en la práctica el comercio solo tiene la Preferencia Arancelaria Regional de la ALADI, que no cuenta. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Acuerdos comerciales en vigencia y negociaciones en curso",
+          "url": "https://cancilleria.gob.ar/es/politica-exterior/acuerdos-comerciales-vigencia-reciente-negociacion",
+          "resultado": "ACE 76 Mercosur–Panamá: en vigor.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "OMC, base de datos de acuerdos comerciales regionales",
+          "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+          "resultado": "Lista la ALADI (RTA 135) y el Mercosur; no lista por separado los acuerdos de complementación económica de la ALADI.",
+          "consultado": "2026-10-28"
+        }
+      ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)",
-      "huella_aprobada": "fa81a4730fbf"
+      "revision_origen": "Confirmación de Giuliano en la sesión del 28/10/2026 (respuesta cambiada después de aprobada: criterio ALADI, ACE 76).",
+      "huella_aprobada": "8206180e3589"
     },
     "A4": {
       "respuesta": "NO",

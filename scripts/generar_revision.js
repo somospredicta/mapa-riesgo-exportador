@@ -227,7 +227,13 @@ function escribirMd(pl) {
 fs.mkdirSync(SALIDA_DIR, { recursive: true });
 fs.mkdirSync(path.join(SALIDA_DIR, 'completadas'), { recursive: true });
 reabrirCambiadas();
-const planillas = PLANILLAS.map(armarPlanilla);
+const todasLasPlanillas = PLANILLAS.map(armarPlanilla);
+// Una planilla sin pendientes no se genera (y se borra la versión anterior).
+const planillas = todasLasPlanillas.filter((pl) => BLOQUES.some((b) => pl.bloques[b.id].length));
+for (const pl of todasLasPlanillas.filter((x) => !planillas.includes(x))) {
+  for (const ext of ['md', 'xlsx']) fs.rmSync(path.join(SALIDA_DIR, `${pl.archivo}.${ext}`), { force: true });
+  console.log(`Sin pendientes: ${pl.archivo} (${pl.aprobadas} aprobadas); no se genera.`);
+}
 for (const pl of planillas) {
   escribirMd(pl);
   const n = BLOQUES.map((b) => `${b.titulo.toLowerCase()}: ${pl.bloques[b.id].length}`).join(', ');

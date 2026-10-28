@@ -106,14 +106,28 @@
     },
     "A1": {
       "respuesta": "SÍ",
-      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país.",
+      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país (búsqueda con todas las variantes del nombre y por tipo de acuerdo); UNCTAD tampoco lista uno.",
       "dato_publico": "sin tratado registrado en la base oficial",
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Belice; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Sin tratados de promoción y protección de inversiones.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Sin tratado bilateral de inversión con Argentina.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "SÍ",

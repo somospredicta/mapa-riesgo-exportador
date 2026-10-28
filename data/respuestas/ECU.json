@@ -112,9 +112,23 @@
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=k52omQ==",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Ecuador; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Convenio entre el Gobierno de la República Argentina y el Gobierno de la República del Ecu… (firma 18/02/1994): Extinguido",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Argentina - Ecuador BIT (1994): Terminated (terminado el 18/05/2018)",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "SÍ",

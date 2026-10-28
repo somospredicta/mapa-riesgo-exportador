@@ -19,18 +19,17 @@
       "huella_aprobada": "1427886b47b7"
     },
     "C2": {
-      "respuesta": "no_aplica_sin_fuente",
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "NO",
+      "dato": "Diferencias con Argentina (0-100): distancia al poder 4, individualismo 12, motivación por el logro 12, evitación de la incertidumbre 73. Sin dato: orientación a largo plazo, indulgencia.",
+      "dato_publico": "mayor diferencia con Argentina: 73 puntos en evitación de la incertidumbre",
+      "anio_dato": 2026,
+      "fuente_corta": "Hofstede",
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cjamaica",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La herramienta no tiene dato de orientación a largo plazo, indulgencia; con las dimensiones disponibles (distancia al poder 4, individualismo 12, motivación por el logro 12, evitación de la incertidumbre 73) la respuesta no se puede determinar.",
-      "interpretativa": true,
-      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+      "criterio": "Corrección pedida en la revisión de G (planilla revision_bases_64_paises, 28/10/2026): responder con las dimensiones disponibles aunque falten 2. Con las 4 dimensiones con dato, 1 supera(n) los 40 puntos. A CONFIRMAR: es un cambio de criterio para C2.",
+      "interpretativa": true
     },
     "C3": {
       "respuesta": "NO",

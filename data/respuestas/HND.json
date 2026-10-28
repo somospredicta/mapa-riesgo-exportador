@@ -18,18 +18,17 @@
       "huella_aprobada": "6737cbb45bbc"
     },
     "C2": {
-      "respuesta": "no_aplica_sin_fuente",
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
+      "respuesta": "NO",
+      "dato": "Diferencias con Argentina (0-100): distancia al poder 31, individualismo 31, motivación por el logro 16, evitación de la incertidumbre 36. Sin dato: orientación a largo plazo, indulgencia.",
+      "dato_publico": "mayor diferencia con Argentina: 36 puntos en evitación de la incertidumbre",
+      "anio_dato": 2026,
+      "fuente_corta": "Hofstede",
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Chonduras",
-      "consultado": "2026-10-27",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "La herramienta no tiene dato de orientación a largo plazo, indulgencia; con las dimensiones disponibles (distancia al poder 31, individualismo 31, motivación por el logro 16, evitación de la incertidumbre 36) la respuesta no se puede determinar.",
-      "interpretativa": true,
-      "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
+      "criterio": "Corrección pedida en la revisión de G (planilla revision_bases_64_paises, 28/10/2026): responder con las dimensiones disponibles aunque falten 2. Con las 4 dimensiones con dato, 0 supera(n) los 40 puntos. A CONFIRMAR: es un cambio de criterio para C2.",
+      "interpretativa": true
     },
     "C3": {
       "respuesta": "NO",
@@ -101,14 +100,28 @@
     },
     "A1": {
       "respuesta": "SÍ",
-      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país.",
+      "dato": "La base de tratados no registra un acuerdo bilateral de promoción y protección recíproca de inversiones con este país (búsqueda con todas las variantes del nombre y por tipo de acuerdo); UNCTAD tampoco lista uno.",
       "dato_publico": "sin tratado registrado en la base oficial",
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
       "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Honduras; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Sin tratados de promoción y protección de inversiones.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Sin tratado bilateral de inversión con Argentina.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "SÍ",

@@ -101,9 +101,24 @@
       "anio_dato": 2026,
       "fuente_corta": "Cancillería argentina",
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados",
-      "fuente_url": "https://tratados.cancilleria.gob.ar/busqueda.php",
-      "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kp6omw==",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "criterio": "Coincide con UNCTAD.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Biblioteca Digital de Tratados (búsqueda por contraparte: Canadá; y por tipo de acuerdo, sin filtrar país)",
+          "url": "https://tratados.cancilleria.gob.ar/busqueda.php",
+          "resultado": "Convenio entre el Gobierno de la República Argentina y el Gobierno de Canadá para la Promo… (firma 05/11/1991): Vigente",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "UNCTAD, Investment Policy Hub: tratados bilaterales de inversión de Argentina (exportación en data/fuentes/ExportCountryBits.xlsx)",
+          "url": "https://investmentpolicy.unctad.org/international-investment-agreements/countries/8/argentina",
+          "resultado": "Argentina - Canada BIT (1991): In force",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A2": {
       "respuesta": "NO",
@@ -152,16 +167,17 @@
       "huella_aprobada": "3ad38a1bc42d"
     },
     "A5": {
-      "respuesta": "SÍ",
+      "respuesta": "NO",
       "dato": "La Ley del Impuesto sobre los Servicios Digitales (sanción del 20/06/2024) creó un impuesto de 3% sobre ingresos digitales de grandes empresas, en su mayoría extranjeras, con efecto retroactivo al 01/01/2022. La Ley de Implementación del Presupuesto 2025 n.º 1 (S.C. 2026, c. 3, art. 126), sancionada el 26/03/2026, lo derogó con efecto al 20/06/2024 y ordenó devolver lo cobrado.",
-      "dato_publico": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022, luego derogado en 2026",
-      "anio_dato": 2024,
+      "dato_publico": "impuesto retroactivo a los servicios digitales derogado en 2026, con devolución de lo cobrado",
+      "anio_dato": 2026,
       "fuente_corta": "BLG",
       "fuente_nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
       "fuente_url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Criterio aprobado (sesión 5): una ley retroactiva que después se derogó sigue contando, porque existió; el dato publicado aclara la derogación. La derogación se declaró vigente desde el 20/06/2024, el mismo día de la sanción, y se ordenó devolver lo pagado.",
+      "criterio": "Corrección pedida en la revisión de G (planilla revision_tanda2_america, 28/10/2026): como la ley retroactiva se derogó y se devolvió lo cobrado, no cuenta como cambio retroactivo vigente (NO) y se publica como alerta. Reemplaza, para estos casos, el criterio 17 de la sesión 5. A CONFIRMAR.",
+      "interpretativa": true,
       "fuentes_revisadas": [
         {
           "nombre": "Gobierno de Canadá, Justice Laws, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3), art. 126",
@@ -175,7 +191,11 @@
           "consultado": "2026-10-28",
           "resultado": "Confirma el efecto retroactivo y el anuncio de derogación de junio de 2025."
         }
-      ]
+      ],
+      "alerta": {
+        "texto": "Canadá cobró en forma retroactiva un impuesto a los servicios digitales (sancionado en 2024 con efecto desde 2022) y lo derogó en 2026, con devolución de lo cobrado. Conviene seguir de cerca cambios similares.",
+        "fecha": "2026-03-26"
+      }
     },
     "G1": {
       "respuesta": "NO",
