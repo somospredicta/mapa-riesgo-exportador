@@ -27,16 +27,36 @@
       "estado": "pendiente_revision"
     },
     "C3": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en México en los últimos 5 años. En la OMC, Argentina no inició disputas contra México desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-28",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"empresa argentina discriminación OR restricción OR represalia México OR Centroamérica OR Caribe 2022-2025\")",
+          "url": "https://rpp.pe/mundo/actualidad/mexico-critica-medidas-discriminatorias-de-peru-argentina-y-ecuador-noticia-178922",
+          "consultado": "2026-10-28",
+          "resultado": "Solo casos anteriores a 2021 (suspensión del ACE 55 en 2012, vuelos por la gripe en 2009); ninguna medida contra empresas argentinas en los últimos 5 años."
+        }
+      ]
     },
     "C4": {
       "respuesta": null,
@@ -96,16 +116,31 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La reforma a la Ley Minera de abril de 2022 declaró el litio patrimonio de la nación y reservó su explotación al Estado. En 2023 el Gobierno canceló nueve concesiones de Ganfeng y sus filiales británicas Bacanora Lithium y Sonora Lithium, otorgadas antes del cambio; la cámara minera Camimex sostuvo que la ley no es retroactiva y que los permisos eran anteriores.",
+      "dato_publico": "cancelación de concesiones de litio de empresas extranjeras otorgadas antes de la reforma de 2022",
+      "anio_dato": 2023,
+      "fuente_corta": "Bloomberg Línea",
+      "fuente_nombre": "Bloomberg Línea, \"Minera china Ganfeng demanda a México por cancelar concesiones de litio\" (25/06/2024)",
+      "fuente_url": "https://www.bloomberglinea.com/latinoamerica/mexico/minera-china-ganfeng-demanda-a-mexico-por-cancelar-concesiones-de-litio/",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "El Gobierno fundó la cancelación en la falta de inversión mínima (2017-2021); se tomó como cambio con efecto retroactivo por aplicarse a concesiones previas a la reforma. La reforma eléctrica de marzo de 2021 (revisión retroactiva de contratos) queda fuera de la ventana de 5 años. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Forbes Colombia, reforma eléctrica de México (03/03/2021)",
+          "url": "https://forbes.co/2021/03/03/actualidad/no-queremos-expropiar-por-expropiar-afirma-amlo-tras-reforma-electrica/",
+          "consultado": "2026-10-28",
+          "resultado": "Ordenó revisar en forma retroactiva contratos con productores privados, pero es de marzo de 2021, fuera de la ventana."
+        },
+        {
+          "nombre": "Xataka México, cancelación de concesiones de litio",
+          "url": "https://www.xataka.com.mx/automovil/mexico-cancela-masivas-concesiones-litio-para-baterias-autos-electricos-china-ha-dado-paso-obvio-demandar",
+          "consultado": "2026-10-28",
+          "resultado": "Confirma la cancelación de las concesiones de Ganfeng."
+        }
+      ]
     },
     "G1": {
       "respuesta": "NO",
@@ -131,16 +166,31 @@
       "criterio": "País con varias zonas horarias: se tomó la de la capital."
     },
     "G4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "fuente_corta": "ANAC",
+      "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+      "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "anio_dato": 2026,
+      "fuentes_revisadas": [
+        {
+          "nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+          "url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+          "consultado": "2026-10-28",
+          "resultado": "38 despegues regulares con pasajeros a México en septiembre de 2026."
+        },
+        {
+          "nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+          "url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+          "consultado": "2026-10-27",
+          "resultado": "2 partidas a México entre el 26/10 y el 01/11/2026."
+        }
+      ],
+      "respuesta": "NO",
+      "dato": "En septiembre de 2026 salieron 38 vuelos regulares con pasajeros desde aeropuertos argentinos a México (8,9 por semana en promedio; AEROVIAS DE MEXICO - AEROMEXICO, AEROLINEAS ARGENTINAS SA).",
+      "dato_publico": "9 vuelos directos por semana en promedio desde Argentina",
+      "interpretativa": true,
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras. En el tablero de la semana relevada solo figuran 2 partidas a México: REVISAR si la frecuencia se recupera después de las obras."
     },
     "E1": {
       "respuesta": "NO",
@@ -198,16 +248,31 @@
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La reforma a la Ley Minera de abril de 2022 nacionalizó el litio: lo declaró patrimonio de la nación, reservó su explotación al Estado y creó la empresa estatal LitioMx. En 2023 el Gobierno canceló nueve concesiones de Ganfeng y sus filiales británicas.",
+      "dato_publico": "nacionalización del litio y cancelación de concesiones de una minera extranjera",
+      "anio_dato": 2023,
+      "fuente_corta": "Bloomberg Línea",
+      "fuente_nombre": "Bloomberg Línea, \"Minera china Ganfeng demanda a México por cancelar concesiones de litio\" (25/06/2024)",
+      "fuente_url": "https://www.bloomberglinea.com/latinoamerica/mexico/minera-china-ganfeng-demanda-a-mexico-por-cancelar-concesiones-de-litio/",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Nacionalización sectorial documentada dentro de la ventana de 10 años. También se revisó la ocupación temporal de 120 km de vías de Ferrosur (Grupo México, mayo de 2023), que el Gobierno no calificó como expropiación.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "El Financiero, \"No estamos expropiando nada\": ocupación de vías de Ferrosur (20/05/2023)",
+          "url": "https://www.elfinanciero.com.mx/nacional/2023/05/20/no-estamos-expropiando-nada-adan-augusto-sobre-toma-de-ferrosur/",
+          "consultado": "2026-10-28",
+          "resultado": "Decreto de ocupación temporal; el Gobierno negó que fuera expropiación."
+        },
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-28",
+          "resultado": "58 casos con México como demandado (20 pendientes)."
+        }
+      ]
     },
     "I3-4": {
       "respuesta": "SÍ",

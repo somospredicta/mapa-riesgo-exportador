@@ -158,16 +158,30 @@
       "estado": "pendiente_revision"
     },
     "G4": {
-      "respuesta": "NO",
-      "dato": "10 vuelos directos programados a Bolivia en el período relevado (AR 1368, OB 701, OB 709).",
-      "dato_publico": "10 vuelos directos en una semana desde Buenos Aires",
-      "anio_dato": 2026,
-      "fuente_corta": "Aeropuertos Argentina",
-      "fuente_nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
-      "fuente_url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
-      "consultado": "2026-10-27",
+      "fuente_corta": "ANAC",
+      "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+      "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Se relevaron las partidas programadas de Ezeiza (26/10 al 01/11/2026) y Aeroparque (26/10 al 29/10/2026) en el tablero oficial; no se relevaron aeropuertos del interior. Coincide con las obras en la pista de Ezeiza (25/10 al 11/11/2026)."
+      "anio_dato": 2026,
+      "fuentes_revisadas": [
+        {
+          "nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+          "url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+          "consultado": "2026-10-28",
+          "resultado": "50 despegues regulares con pasajeros a Bolivia en septiembre de 2026."
+        },
+        {
+          "nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+          "url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+          "consultado": "2026-10-27",
+          "resultado": "10 partidas a Bolivia entre el 26/10 y el 01/11/2026."
+        }
+      ],
+      "respuesta": "NO",
+      "dato": "En septiembre de 2026 salieron 50 vuelos regulares con pasajeros desde aeropuertos argentinos a Bolivia (11,7 por semana en promedio; BOLIVIANA DE AVIACION, AEROLINEAS ARGENTINAS SA).",
+      "dato_publico": "12 vuelos directos por semana en promedio desde Argentina",
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
     },
     "E1": {
       "respuesta": "NO",

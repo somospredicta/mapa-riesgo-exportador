@@ -25,16 +25,36 @@
       "estado": "pendiente_revision"
     },
     "C3": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Canadá en los últimos 5 años. En la OMC, Argentina no inició disputas contra Canadá desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-28",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"empresa argentina discriminación OR restricción OR represalia México OR Centroamérica OR Caribe 2022-2025\")",
+          "url": "https://rpp.pe/mundo/actualidad/mexico-critica-medidas-discriminatorias-de-peru-argentina-y-ecuador-noticia-178922",
+          "consultado": "2026-10-28",
+          "resultado": "Solo casos anteriores a 2021 (suspensión del ACE 55 en 2012, vuelos por la gripe en 2009); ninguna medida contra empresas argentinas en los últimos 5 años."
+        }
+      ]
     },
     "C4": {
       "respuesta": null,
@@ -94,16 +114,24 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "La Ley del Impuesto sobre los Servicios Digitales (sanción del 20/06/2024) creó un impuesto de 3% sobre ingresos digitales de grandes empresas, en su mayoría extranjeras, con efecto retroactivo al 01/01/2022. En junio de 2025 el Gobierno anunció que lo dejaba sin efecto.",
+      "dato_publico": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022",
+      "anio_dato": 2024,
+      "fuente_corta": "BLG",
+      "fuente_nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
+      "fuente_url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Cambio retroactivo documentado que alcanzó a empresas extranjeras. El impuesto se derogó después, pero el cambio ocurrió dentro de la ventana.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "PwC Canadá, \"Canada intends to rescind its Digital Services Tax Act\" (2025)",
+          "url": "https://www.pwc.com/ca/en/services/tax/publications/tax-insights/canada-digital-services-tax-act-2025.html",
+          "consultado": "2026-10-28",
+          "resultado": "Confirma el efecto retroactivo y el anuncio de derogación de junio de 2025."
+        }
+      ]
     },
     "G1": {
       "respuesta": "NO",
@@ -129,16 +157,30 @@
       "criterio": "País con varias zonas horarias: se tomó la de la capital."
     },
     "G4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "fuente_corta": "ANAC",
+      "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+      "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "anio_dato": 2026,
+      "fuentes_revisadas": [
+        {
+          "nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+          "url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+          "consultado": "2026-10-28",
+          "resultado": "0 despegues regulares con pasajeros a Canadá en septiembre de 2026."
+        },
+        {
+          "nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+          "url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+          "consultado": "2026-10-27",
+          "resultado": "0 partidas a Canadá entre el 26/10 y el 01/11/2026."
+        }
+      ],
+      "respuesta": "SÍ",
+      "dato": "En septiembre de 2026 no salieron vuelos regulares con pasajeros desde aeropuertos argentinos a Canadá. Tampoco figuran partidas suficientes en el tablero de Ezeiza y Aeroparque del 26/10 al 01/11/2026 (0).",
+      "dato_publico": "sin vuelos directos regulares desde Argentina",
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
     },
     "E1": {
       "respuesta": "NO",
@@ -196,16 +238,31 @@
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "En junio de 2023 el Gobierno ordenó la incautación de un avión de carga Antonov An-124 de la rusa Volga-Dnepr en el aeropuerto de Toronto, con la Ley de Medidas Económicas Especiales (sanciones), para luego pedir su decomiso.",
+      "dato_publico": "incautación de un avión de una empresa rusa sancionada",
+      "anio_dato": 2023,
+      "fuente_corta": "Gobierno de Canadá",
+      "fuente_nombre": "Gobierno de Canadá, Global Affairs, \"Government of Canada orders seizure of Russian-registered cargo aircraft at Toronto Pearson Airport\" (junio de 2023)",
+      "fuente_url": "https://www.canada.ca/en/global-affairs/news/2023/06/government-of-canada-orders-seizure-of-russian-registered-cargo-aircraft-at-toronto-pearson-airport.html",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Confiscación de activos por sanciones internacionales, no por una política hacia la inversión. Se cuenta por la lectura literal (\"en cualquier sector\"): REVISAR si se acepta.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-28",
+          "resultado": "16 casos con Canadá como demandado (4 pendientes)."
+        },
+        {
+          "nombre": "McCarthy Tétrault, Canadá inicia el decomiso de aviones rusos",
+          "url": "https://www.mccarthy.ca/en/insights/blogs/terms-trade/lift-off-canada-initiates-expropriation-of-russian-aircraft",
+          "consultado": "2026-10-28",
+          "resultado": "Describe el procedimiento de decomiso bajo la ley de sanciones."
+        }
+      ]
     },
     "I3-4": {
       "respuesta": "NO",

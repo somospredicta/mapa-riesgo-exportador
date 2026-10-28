@@ -28,16 +28,36 @@
       "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
     },
     "C3": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Panamá en los últimos 5 años. En la OMC, Argentina no inició disputas contra Panamá desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-28",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"Nicaragua OR Cuba OR República Dominicana OR Panamá prohíbe OR suspende empresa argentina 2022-2026\")",
+          "url": "https://aviacionline.com/?p=231459",
+          "consultado": "2026-10-28",
+          "resultado": "Solo la decisión comercial de Aerolíneas Argentinas de dejar de volar a La Habana (2024); ninguna medida de un gobierno contra empresas argentinas."
+        }
+      ]
     },
     "C4": {
       "respuesta": null,
@@ -97,16 +117,25 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "El 28/11/2023 la Corte Suprema de Justicia declaró inconstitucional la Ley 406 de 2023, que aprobaba el contrato de concesión de Minera Panamá (filial de la canadiense First Quantum); el Gobierno anunció el cierre de la mina.",
+      "dato_publico": "la Corte Suprema anuló la ley del contrato de una minera extranjera y la mina cerró",
+      "anio_dato": 2023,
+      "fuente_corta": "Voz de América",
+      "fuente_nombre": "Voz de América, \"Corte Suprema de Justicia de Panamá declara inconstitucional polémico contrato minero\" (28/11/2023)",
+      "fuente_url": "https://www.vozdeamerica.com/a/corte-suprema-de-justicia-de-panama-declara-inconstitucional-polemico-contrato-minero/7373295.html",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Criterio aprobado: cuenta una decisión de un tribunal supremo con efecto retroactivo sobre empresas. Esta decisión alcanzó a una empresa extranjera en particular y no tiene efecto general: REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "La República, fallo sobre el contrato de First Quantum",
+          "url": "https://www.larepublica.co/globoeconomia/la-corte-suprema-de-panama-declara-inconstitucional-contrato-minero-con-canadiense-first-quantum-3757247",
+          "consultado": "2026-10-28",
+          "resultado": "Confirma la declaración de inconstitucionalidad de toda la Ley 406."
+        }
+      ]
     },
     "G1": {
       "respuesta": "NO",
@@ -131,16 +160,30 @@
       "estado": "pendiente_revision"
     },
     "G4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "fuente_corta": "ANAC",
+      "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+      "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "anio_dato": 2026,
+      "fuentes_revisadas": [
+        {
+          "nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+          "url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+          "consultado": "2026-10-28",
+          "resultado": "357 despegues regulares con pasajeros a Panamá en septiembre de 2026."
+        },
+        {
+          "nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+          "url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+          "consultado": "2026-10-27",
+          "resultado": "43 partidas a Panamá entre el 26/10 y el 01/11/2026."
+        }
+      ],
+      "respuesta": "NO",
+      "dato": "En septiembre de 2026 salieron 357 vuelos regulares con pasajeros desde aeropuertos argentinos a Panamá (83,3 por semana en promedio; COMPAÑIA PANAMEÑA DE AVIACION, SKY HIGH DOMINICANA).",
+      "dato_publico": "83 vuelos directos por semana en promedio desde Argentina",
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
     },
     "E1": {
       "respuesta": "NO",
@@ -198,16 +241,30 @@
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 25 casos contra Panamá (10 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
+      "dato_publico": "búsqueda en la base del CIADI y en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Una demanda sin resolver no alcanza (criterio aprobado).",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-28",
+          "resultado": "25 casos con Panamá como demandado (10 pendientes)."
+        },
+        {
+          "nombre": "Búsqueda web (\"Panamá Corte Suprema Ley 406 First Quantum\")",
+          "url": "https://www.df.cl/empresas/mineria/corte-suprema-de-panama-revoca-permiso-para-operar-de-first-quantum-y",
+          "consultado": "2026-10-28",
+          "resultado": "El cierre de Cobre Panamá fue por la anulación judicial del contrato (evaluada en A5); no hubo expropiación formal. First Quantum reclama ante el CIADI."
+        }
+      ]
     },
     "I3-4": {
       "respuesta": "SÍ",

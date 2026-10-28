@@ -29,16 +29,36 @@
       "fuente_ausente": "la herramienta de comparación de Hofstede (sin dato de algunas dimensiones)"
     },
     "C3": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Jamaica en los últimos 5 años. En la OMC, Argentina no inició disputas contra Jamaica desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-28",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"empresa argentina discriminación OR restricción OR represalia México OR Centroamérica OR Caribe 2022-2025\")",
+          "url": "https://rpp.pe/mundo/actualidad/mexico-critica-medidas-discriminatorias-de-peru-argentina-y-ecuador-noticia-178922",
+          "consultado": "2026-10-28",
+          "resultado": "Solo casos anteriores a 2021 (suspensión del ACE 55 en 2012, vuelos por la gripe en 2009); ninguna medida contra empresas argentinas en los últimos 5 años."
+        }
+      ]
     },
     "C4": {
       "respuesta": null,
@@ -98,16 +118,30 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No se encontraron cambios regulatorios retroactivos documentados que afectaran a empresas extranjeras en Jamaica en los últimos 5 años.",
+      "dato_publico": "búsqueda en prensa e informes país",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa",
+      "fuente_nombre": "Búsqueda web (\"Trinidad and Tobago OR Jamaica OR Belize retroactive legislation foreign investors 2022-2025\")",
+      "fuente_url": "https://www.pressoffice.gov.bz/wp-content/uploads/2026/03/Mar-12-PR071-26-Statement-by-the-Government-of-Belize.pdf",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Búsqueda web (\"Trinidad and Tobago OR Jamaica OR Belize retroactive legislation foreign investors 2022-2025\")",
+          "url": "https://www.pressoffice.gov.bz/wp-content/uploads/2026/03/Mar-12-PR071-26-Statement-by-the-Government-of-Belize.pdf",
+          "consultado": "2026-10-28",
+          "resultado": "Sin legislación retroactiva documentada."
+        },
+        {
+          "nombre": "Búsqueda web (\"Bahamas OR Barbados OR St Lucia OR Antigua OR Dominica OR Grenada OR St Kitts OR St Vincent retroactive tax OR legislation foreign companies 2022-2026\")",
+          "url": "https://www.businessbarbados.com/articles/barbados-still-open-for-business-in-a-maturing-tax-environment",
+          "consultado": "2026-10-28",
+          "resultado": "Solo Barbados tiene un cambio retroactivo documentado."
+        }
+      ]
     },
     "G1": {
       "respuesta": "SÍ",
@@ -132,16 +166,30 @@
       "estado": "pendiente_revision"
     },
     "G4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "fuente_corta": "ANAC",
+      "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+      "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "anio_dato": 2026,
+      "fuentes_revisadas": [
+        {
+          "nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+          "url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+          "consultado": "2026-10-28",
+          "resultado": "0 despegues regulares con pasajeros a Jamaica en septiembre de 2026."
+        },
+        {
+          "nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+          "url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+          "consultado": "2026-10-27",
+          "resultado": "0 partidas a Jamaica entre el 26/10 y el 01/11/2026."
+        }
+      ],
+      "respuesta": "SÍ",
+      "dato": "En septiembre de 2026 no salieron vuelos regulares con pasajeros desde aeropuertos argentinos a Jamaica. Tampoco figuran partidas suficientes en el tablero de Ezeiza y Aeroparque del 26/10 al 01/11/2026 (0).",
+      "dato_publico": "sin vuelos directos regulares desde Argentina",
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
     },
     "E1": {
       "respuesta": "NO",
@@ -199,16 +247,30 @@
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 3 casos contra Jamaica (0 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
+      "dato_publico": "búsqueda en la base del CIADI y en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-28",
+          "resultado": "3 casos con Jamaica como demandado (0 pendientes)."
+        },
+        {
+          "nombre": "Búsqueda web (\"Trinidad and Tobago OR Jamaica OR Belize … expropriation compulsory acquisition company 2022-2025\")",
+          "url": "https://bz.vlex.com/vid/british-caribbean-bank-ltd-793042837",
+          "consultado": "2026-10-28",
+          "resultado": "En Jamaica y Trinidad y Tobago, sin expropiaciones documentadas en la ventana."
+        }
+      ]
     },
     "I3-4": {
       "respuesta": "SÍ",

@@ -27,16 +27,36 @@
       "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
     },
     "C3": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "No se encontraron antecedentes de discriminación o restricciones dirigidas a empresas argentinas en Cuba en los últimos 5 años. En la OMC, Argentina no inició disputas contra Cuba desde 2020.",
+      "dato_publico": "búsqueda en prensa y en disputas de la OMC",
+      "anio_dato": 2026,
+      "fuente_corta": "prensa y OMC",
+      "fuente_nombre": "OMC, lista cronológica de disputas",
+      "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "OMC, lista cronológica de disputas",
+          "url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
+          "consultado": "2026-10-28",
+          "resultado": "Desde 2020 (DS595 en adelante) Argentina solo inició disputas contra EE.UU. (DS617) y Perú (DS614)."
+        },
+        {
+          "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
+          "url": "https://www.oecd.org/en/publications/2025/10/oecd-fdi-regulatory-restrictiveness-index-2024_30ebf52f.html",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir (verificación antibots de Cloudflare). Mide restricciones generales a la inversión extranjera, no medidas contra un país de origen."
+        },
+        {
+          "nombre": "Búsqueda web en prensa (\"Nicaragua OR Cuba OR República Dominicana OR Panamá prohíbe OR suspende empresa argentina 2022-2026\")",
+          "url": "https://aviacionline.com/?p=231459",
+          "consultado": "2026-10-28",
+          "resultado": "Solo la decisión comercial de Aerolíneas Argentinas de dejar de volar a La Habana (2024); ninguna medida de un gobierno contra empresas argentinas."
+        }
+      ]
     },
     "C4": {
       "respuesta": null,
@@ -96,16 +116,25 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
     },
     "A5": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "En noviembre de 2025 el Gobierno dejó de permitir que las empresas extranjeras retiren o transfieran al exterior las divisas que ya tenían depositadas en bancos cubanos (\"corralito\"), según fuentes de EFE.",
+      "dato_publico": "bloqueo de las divisas ya depositadas por empresas extranjeras",
+      "anio_dato": 2025,
+      "fuente_corta": "Emol (EFE)",
+      "fuente_nombre": "Emol (EFE), \"Corralito en Cuba: Gobierno está impidiendo a empresas extranjeras el retiro y envío de divisas al exterior\" (21/11/2025)",
+      "fuente_url": "https://www.emol.com/noticias/Economia/2025/11/21/1183911/corralito-cuba-empresas-extranjeras.html",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Se tomó como cambio retroactivo porque alcanza a fondos depositados antes de la medida. No hay norma publicada: la información viene de fuentes de EFE. REVISAR.",
+      "interpretativa": true,
+      "fuentes_revisadas": [
+        {
+          "nombre": "Diario El Mundo (El Salvador), Cuba congela divisas de empresas extranjeras",
+          "url": "https://diario.elmundo.sv/economia/cuba-congela-divisas-de-empresas-extranjeras-y-extiende-restricciones-bancarias-en-medio-de-crisis-economica",
+          "consultado": "2026-10-28",
+          "resultado": "Confirma la medida."
+        }
+      ]
     },
     "G1": {
       "respuesta": "SÍ",
@@ -130,16 +159,30 @@
       "estado": "pendiente_revision"
     },
     "G4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "fuente_corta": "ANAC",
+      "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+      "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "anio_dato": 2026,
+      "fuentes_revisadas": [
+        {
+          "nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
+          "url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
+          "consultado": "2026-10-28",
+          "resultado": "0 despegues regulares con pasajeros a Cuba en septiembre de 2026."
+        },
+        {
+          "nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
+          "url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
+          "consultado": "2026-10-27",
+          "resultado": "0 partidas a Cuba entre el 26/10 y el 01/11/2026."
+        }
+      ],
+      "respuesta": "SÍ",
+      "dato": "En septiembre de 2026 no salieron vuelos regulares con pasajeros desde aeropuertos argentinos a Cuba. Tampoco figuran partidas suficientes en el tablero de Ezeiza y Aeroparque del 26/10 al 01/11/2026 (0).",
+      "dato_publico": "sin vuelos directos regulares desde Argentina",
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
     },
     "E1": {
       "respuesta": "no_aplica_sin_fuente",
@@ -206,16 +249,30 @@
       "fuente_ausente": "el Rule of Law Index 2026 del World Justice Project"
     },
     "I3-2": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 0 casos contra Cuba (0 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
+      "dato_publico": "búsqueda en la base del CIADI y en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "CIADI, base de casos",
+          "url": "https://icsid.worldbank.org/cases/case-database",
+          "consultado": "2026-10-28",
+          "resultado": "0 casos con Cuba como demandado (0 pendientes)."
+        },
+        {
+          "nombre": "Búsqueda web (\"Cuba confiscación nacionalización empresas extranjeras 2022-2025\")",
+          "url": "https://diariodecuba.com/etiquetas/fihav.html",
+          "consultado": "2026-10-28",
+          "resultado": "Sin expropiaciones documentadas; el \"corralito\" de divisas de 2025 se evaluó en A5."
+        }
+      ]
     },
     "I3-4": {
       "respuesta": "no_aplica_sin_fuente",
