@@ -1,6 +1,6 @@
 {
   "confidencial": "Confidencial: no se publica. Nunca copiar este archivo ni su contenido a /public.",
-  "version": "1.3",
+  "version": "1.4",
   "regla": "Cada pregunta se responde SÍ cuando el riesgo o la barrera EXISTE. Argentina es siempre el país de origen. KO = deal-breaker.",
   "dimensiones": {
     "C": {
@@ -84,7 +84,7 @@
       "pregunta": "¿No existe un tratado bilateral de inversión vigente entre Argentina y el país?",
       "fuente_sugerida": "UNCTAD Investment Policy Hub",
       "frase_publica": "No existe un tratado bilateral de inversión vigente con Argentina.",
-      "frase_positiva": "Tiene un tratado bilateral de inversión vigente con Argentina."
+      "frase_positiva": "Tiene un acuerdo vigente de protección de inversiones con Argentina."
     },
     {
       "id": "A2",

@@ -58,15 +58,15 @@
     },
     "C4": {
       "respuesta": "NO",
-      "dato": "La Cámara de Comercio Argentino-Canadiense participó del encuentro de Cancillería con 27 cámaras binacionales el 22/03/2024.",
+      "dato": "La Cámara de Comercio Argentino-Canadiense presentó balances o asambleas en la IGJ en los últimos 3 años (\"Cámara De Comercio Argentino Canadiense\" (n.º 357654), último balance presentado: 12/12/2024 (ejercicio cerrado el 31/12/2023); última asamblea: 26/08/2024) y participó del encuentro de Cancillería con 27 cámaras binacionales el 22/03/2024.",
       "dato_publico": "Cámara de Comercio Argentino-Canadiense",
       "anio_dato": 2024,
-      "fuente_corta": "Cancillería argentina",
-      "fuente_nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
-      "fuente_url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+      "fuente_corta": "IGJ",
+      "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+      "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024.",
+      "criterio": "Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -78,7 +78,7 @@
           "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
           "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
           "consultado": "2026-10-28",
-          "resultado": "\"Cámara De Comercio Argentino Canadiense\" (n.º 357654), último balance: 31/12/2023; última asamblea: 26/08/2024"
+          "resultado": "\"Cámara De Comercio Argentino Canadiense\" (n.º 357654), último balance presentado: 12/12/2024 (ejercicio cerrado el 31/12/2023); última asamblea: 26/08/2024"
         }
       ]
     },
@@ -129,16 +129,22 @@
     },
     "A5": {
       "respuesta": "SÍ",
-      "dato": "La Ley del Impuesto sobre los Servicios Digitales (sanción del 20/06/2024) creó un impuesto de 3% sobre ingresos digitales de grandes empresas, en su mayoría extranjeras, con efecto retroactivo al 01/01/2022. En junio de 2025 el Gobierno anunció que lo dejaba sin efecto.",
-      "dato_publico": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022",
+      "dato": "La Ley del Impuesto sobre los Servicios Digitales (sanción del 20/06/2024) creó un impuesto de 3% sobre ingresos digitales de grandes empresas, en su mayoría extranjeras, con efecto retroactivo al 01/01/2022. La Ley de Implementación del Presupuesto 2025 n.º 1 (S.C. 2026, c. 3, art. 126), sancionada el 26/03/2026, lo derogó con efecto al 20/06/2024 y ordenó devolver lo cobrado.",
+      "dato_publico": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022, luego derogado en 2026",
       "anio_dato": 2024,
       "fuente_corta": "BLG",
       "fuente_nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
       "fuente_url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Cambio retroactivo documentado que alcanzó a empresas extranjeras. El impuesto se derogó después, pero el cambio ocurrió dentro de la ventana.",
+      "criterio": "Criterio aprobado (sesión 5): una ley retroactiva que después se derogó sigue contando, porque existió; el dato publicado aclara la derogación. La derogación se declaró vigente desde el 20/06/2024, el mismo día de la sanción, y se ordenó devolver lo pagado.",
       "fuentes_revisadas": [
+        {
+          "nombre": "Gobierno de Canadá, Justice Laws, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3), art. 126",
+          "url": "https://laws-lois.justice.gc.ca/eng/acts/B-9.8598/FullText.html",
+          "consultado": "2026-10-28",
+          "resultado": "Deroga la Ley del Impuesto sobre los Servicios Digitales con efecto al 20/06/2024; sancionada el 26/03/2026."
+        },
         {
           "nombre": "PwC Canadá, \"Canada intends to rescind its Digital Services Tax Act\" (2025)",
           "url": "https://www.pwc.com/ca/en/services/tax/publications/tax-insights/canada-digital-services-tax-act-2025.html",
@@ -252,16 +258,16 @@
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": "SÍ",
-      "dato": "En junio de 2023 el Gobierno ordenó la incautación de un avión de carga Antonov An-124 de la rusa Volga-Dnepr en el aeropuerto de Toronto, con la Ley de Medidas Económicas Especiales (sanciones), para luego pedir su decomiso.",
-      "dato_publico": "incautación de un avión de una empresa rusa sancionada",
-      "anio_dato": 2023,
-      "fuente_corta": "Gobierno de Canadá",
-      "fuente_nombre": "Gobierno de Canadá, Global Affairs, \"Government of Canada orders seizure of Russian-registered cargo aircraft at Toronto Pearson Airport\" (junio de 2023)",
-      "fuente_url": "https://www.canada.ca/en/global-affairs/news/2023/06/government-of-canada-orders-seizure-of-russian-registered-cargo-aircraft-at-toronto-pearson-airport.html",
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 16 casos contra Canadá (4 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años que cumpla el criterio.",
+      "dato_publico": "búsqueda en la base del CIADI y en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Confiscación de activos por sanciones internacionales, no por una política hacia la inversión. Se cuenta por la lectura literal (\"en cualquier sector\"): REVISAR si se acepta.",
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Una demanda sin resolver no alcanza (criterio aprobado). Casos revisados y no contados: la incautación de un avión de carga ruso en 2023 (sanción internacional; criterio aprobado en la sesión 5) y la ley de Quebec de 2022 que revocó las licencias de exploración de hidrocarburos con un programa de indemnización de gastos. La ley de Quebec no es una expropiación formal; los fundadores pueden decidir si la revocación de licencias cuenta.",
       "interpretativa": true,
       "fuentes_revisadas": [
         {
@@ -271,10 +277,22 @@
           "resultado": "16 casos con Canadá como demandado (4 pendientes)."
         },
         {
-          "nombre": "McCarthy Tétrault, Canadá inicia el decomiso de aviones rusos",
-          "url": "https://www.mccarthy.ca/en/insights/blogs/terms-trade/lift-off-canada-initiates-expropriation-of-russian-aircraft",
+          "nombre": "Gobierno de Canadá, Global Affairs, incautación de un avión de carga ruso en Toronto (junio de 2023)",
+          "url": "https://www.canada.ca/en/global-affairs/news/2023/06/government-of-canada-orders-seizure-of-russian-registered-cargo-aircraft-at-toronto-pearson-airport.html",
           "consultado": "2026-10-28",
-          "resultado": "Describe el procedimiento de decomiso bajo la ley de sanciones."
+          "resultado": "Incautación de un Antonov An-124 de Volga-Dnepr por sanciones. No cuenta (sanción internacional)."
+        },
+        {
+          "nombre": "Búsqueda web (\"Canada expropriation OR nationalization of company assets 2017-2026\")",
+          "url": "https://canadians.org/analysis/abitibibowater-files-nafta-challenge/",
+          "consultado": "2026-10-28",
+          "resultado": "La expropiación de AbitibiBowater es de 2008-2010, fuera de la ventana."
+        },
+        {
+          "nombre": "Gobierno de Quebec, ley que pone fin a la investigación y producción de hidrocarburos (sancionada el 13/04/2022)",
+          "url": "https://www.quebec.ca/nouvelles/actualites/details/transition-energetique-quebec-met-fin-a-la-recherche-et-a-la-production-dhydrocarbures-sur-son-territoire-39395",
+          "consultado": "2026-10-28",
+          "resultado": "Revocó las licencias de exploración vigentes, con un programa de indemnización de gastos (Decreto 1314-2022)."
         }
       ]
     },

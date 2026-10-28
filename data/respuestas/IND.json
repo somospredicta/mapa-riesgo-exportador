@@ -46,7 +46,7 @@
       "fuente_url": "https://indembarg.gov.in/page/india-argentina-business-council-iabc",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Para India se usó la página oficial de la Embajada de India: el consejo no figura en la nota de Cancillería y las cámaras inscriptas en la IGJ no presentan balances recientes.",
+      "criterio": "Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas. Para India se usó la página oficial de la Embajada de India: el consejo no figura en la nota de Cancillería y las cámaras inscriptas en la IGJ no presentan balances recientes.",
       "fuentes_revisadas": [
         {
           "nombre": "Embajada de India en Buenos Aires, IABC",
@@ -248,8 +248,7 @@
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Criterio aprobado: no es miembro del CIADI y ninguna norma vigente aplicable a inversores argentinos habilita expresamente el arbitraje internacional. La Ley de Arbitraje y Conciliación de 1996 es una habilitación general del arbitraje, que con el criterio de Brasil no alcanza. REVISAR.",
-      "interpretativa": true,
+      "criterio": "Criterio aprobado: no es miembro del CIADI y ninguna norma vigente aplicable a inversores argentinos habilita expresamente el arbitraje internacional. La Ley de Arbitraje y Conciliación de 1996 es una habilitación general del arbitraje, que con el criterio aprobado (una habilitación general no alcanza) no cuenta.",
       "fuentes_revisadas": [
         {
           "nombre": "CIADI, base de datos de Estados miembro",

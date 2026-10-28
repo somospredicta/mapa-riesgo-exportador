@@ -37,16 +37,16 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "C4": {
-      "respuesta": "NO",
-      "dato": "La Cámara de Comercio Argentina de Bulgaria participó del encuentro de Cancillería con 27 cámaras binacionales el 22/03/2024.",
-      "dato_publico": "Cámara de Comercio Argentina de Bulgaria",
-      "anio_dato": 2024,
-      "fuente_corta": "Cancillería argentina",
-      "fuente_nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
-      "fuente_url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+      "respuesta": "SÍ",
+      "dato": "La Cámara de Comercio Argentina de Bulgaria participó del encuentro de Cancillería del 22/03/2024, pero no registra balances ni asambleas en los últimos 3 años. No se identificó su inscripción en la IGJ (podría estar registrada en el exterior).",
+      "dato_publico": "sin cámara bilateral con actividad registrada en los últimos 3 años",
+      "anio_dato": 2026,
+      "fuente_corta": "IGJ y Cancillería",
+      "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+      "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024.",
+      "criterio": "Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas. La cámara participó de un encuentro oficial en 2024: REVISAR si se mantiene como inactiva o si hay balances en trámite.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -54,7 +54,8 @@
           "consultado": "2026-10-28",
           "resultado": "Participó la Cámara de Comercio Argentina de Bulgaria."
         }
-      ]
+      ],
+      "interpretativa": true
     },
     "A1": {
       "respuesta": "NO",

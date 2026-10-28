@@ -65,10 +65,14 @@ según la ortografía normal ("Mapa de riesgo exportador", "Condiciones crítica
 /metodologia   CONFIDENCIAL. checklist_pais.json: preguntas, criticidades, KO, fórmula y frases públicas.
 /scripts       CONFIDENCIAL.
   calcular.js          Respuestas + checklist → public/data/mapa.json
-  generar_revision.js  Respuestas → planillas de data/revision/ (3 países, tandas de investigación, bases de datos y C4)
+  generar_revision.js  Respuestas → planillas de data/revision/ (.md y, con planillas_xlsx.py, .xlsx)
+  planillas_xlsx.py    Arma los .xlsx de las planillas (Python con openpyxl; lo llama generar_revision.js).
+  leer_completadas.py  Lee las planillas completadas de data/revision/completadas/ y aprueba respuestas.
 /data          Insumos de trabajo. No se publica.
   respuestas/XXX.json  Una por país (ISO alfa-3): respuesta SÍ / NO / null, dato, fuente, link, fecha, estado.
-  revision/            Planillas para revisión humana.
+  revision/            Planillas para revisión humana (.md y .xlsx).
+    completadas/       Planillas completadas que suben los revisores; procesadas/ guarda las ya leídas.
+  fuentes/             Archivos de fuentes oficiales subidos a mano (cuando el entorno no puede abrirlas). Ver LEEME.md.
 vercel.json    Publica solo /public.
 ```
 
@@ -77,8 +81,13 @@ vercel.json    Publica solo /public.
 1. Se investiga cada pregunta en la fuente indicada y se carga en `data/respuestas/XXX.json`.
    Sin fuente verificable, la respuesta queda en `null` con `motivo_null`. Nunca se completa de memoria.
 2. Toda respuesta nueva arranca con `"estado": "pendiente_revision"`. Pasa a `"aprobado"` solo cuando
-   la aprueba Agustina en la planilla de `data/revision/`.
+   la aprueba un revisor en la planilla de `data/revision/`. Revisan **Giuliano (G) o Agustina (A)**, cualquiera de los dos;
+   la respuesta aprobada guarda quién la revisó (`revisado_por`) y la fecha (`revisado_fecha`).
 3. `node scripts/generar_revision.js` regenera las planillas de revisión (se definen en `PLANILLAS` dentro del script).
+   Cuando los revisores suben una planilla completada a `data/revision/completadas/`, se corre
+   `python3 scripts/leer_completadas.py`: las filas con "sí" (con "Revisó" y sin comentario) pasan a `"aprobado"`; las que
+   tienen "no" o un comentario se corrigen según el comentario y se le listan al usuario para confirmar. Los generadores
+   nunca pisan una respuesta aprobada.
 4. `node scripts/calcular.js` regenera `public/data/mapa.json`. Si queda alguna respuesta sin aprobar,
    el estado es `"borrador"` y el sitio muestra la franja "Versión de prueba: datos en revisión".
 
@@ -102,6 +111,18 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `interpretativa`: `true` cuando la respuesta aplicó un criterio que conviene revisar. Va a las planillas de revisión.
 - `variante`: elige una variante de la frase pública del checklist (por ejemplo `"general"` en A5 cuando el cambio
   alcanzó a todas las empresas: "afectaron a empresas, incluidas las extranjeras").
+- `revisado_por` (G o A), `revisado_fecha` y `revision_origen` (planilla, hoja y fila): se cargan al aprobar la respuesta.
+
+## Planillas de revisión
+
+- Revisan Giuliano (G) o Agustina (A), cualquiera de los dos.
+- Columnas para los revisores: "Aprobado" (sí/no), "Revisó" (G/A) y "Comentario".
+- Cada planilla tiene tres bloques (en el .xlsx, una hoja por bloque):
+  1. **Revisión completa:** respuestas interpretativas, en null, fuera del cálculo y todas las condiciones críticas (⚡).
+  2. **Muestreo:** para cada pregunta mecánica (bases de datos, G4 y C4), 4 países al azar con su dato y link.
+  3. **Resto:** las demás, solo como referencia.
+- En el .xlsx solo se editan "Aprobado" (desplegable sí/no), "Revisó" (desplegable G/A) y "Comentario"; el resto está
+  protegido y en gris. Una columna oculta ("Huella") permite detectar si la respuesta cambió después de generar la planilla.
 
 ## Panel del país
 
@@ -155,6 +176,16 @@ Aprobados por los fundadores. Rigen para todos los países.
     equivalente a un tratado de inversión. También cuenta el Protocolo de Cooperación y Facilitación de Inversiones
     del Mercosur (2017) si está vigente entre Argentina y el socio.
 14. **C4:** se responde con el sitio de la cámara, la Cancillería o un registro oficial, con búsqueda documentada.
+15. **C3 (sesión 5):** las medidas antidumping y otras defensas comerciales permitidas por la OMC NO cuentan como
+    discriminación, salvo que un fallo de la OMC las declare incompatibles. La disputa se anota en `fuentes_revisadas`.
+16. **I3-2 (sesión 5):** las sanciones internacionales contra personas o entidades puntuales (por ejemplo, decomisos de
+    bienes rusos) NO cuentan como expropiación.
+17. **A5 (sesión 5):** una ley retroactiva que después se derogó sigue contando como SÍ, porque existió; el dato publicado
+    lo aclara: "(…, luego derogado en [año])".
+18. **I3-5 (sesión 5):** un tratado bilateral de inversión vigente con Argentina que prevé arbitraje internacional cuenta
+    como norma habilitante. Los tratados del país con terceros países no cuentan.
+19. **C4 (sesión 5):** una cámara sin balances ni asambleas en los últimos 3 años se considera inactiva (SÍ).
+20. **Frase "A favor" de A1:** "Tiene un acuerdo vigente de protección de inversiones con Argentina".
 
 ## Grupos del mapa
 

@@ -58,7 +58,7 @@
     },
     "C4": {
       "respuesta": "SÍ",
-      "dato": "No se encontró una cámara binacional activa con República Dominicana. En la IGJ figura inscripta: \"Cámara De Comercio, Industria Y Servicio Argentino-Dominicana\" (n.º 1998784), último balance: ninguno; última asamblea: ninguna; \"Cámara Bilateral Argentina Dominicana\" (n.º 1636744), último balance: 31/12/2005; última asamblea: 02/02/2006. No participó del encuentro de Cancillería de 2024.",
+      "dato": "No se encontró una cámara binacional activa con República Dominicana. En la IGJ figura inscripta: \"Cámara De Comercio, Industria Y Servicio Argentino-Dominicana\" (n.º 1998784), último balance presentado: ninguno; última asamblea: ninguna; \"Cámara Bilateral Argentina Dominicana\" (n.º 1636744), último balance presentado: 10/07/2006 (ejercicio cerrado el 31/12/2005); última asamblea: 02/02/2006. No participó del encuentro de Cancillería de 2024.",
       "dato_publico": "sin cámara bilateral con actividad registrada",
       "anio_dato": 2026,
       "fuente_corta": "IGJ y Cancillería",
@@ -66,7 +66,7 @@
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Hay una cámara inscripta sin actividad registrada reciente: REVISAR si funciona por fuera del registro.",
+      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -78,7 +78,7 @@
           "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
           "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
           "consultado": "2026-10-28",
-          "resultado": "\"Cámara De Comercio, Industria Y Servicio Argentino-Dominicana\" (n.º 1998784), último balance: ninguno; última asamblea: ninguna; \"Cámara Bilateral Argentina Dominicana\" (n.º 1636744), último balance: 31/12/2005; última asamblea: 02/02/2006"
+          "resultado": "\"Cámara De Comercio, Industria Y Servicio Argentino-Dominicana\" (n.º 1998784), último balance presentado: ninguno; última asamblea: ninguna; \"Cámara Bilateral Argentina Dominicana\" (n.º 1636744), último balance presentado: 10/07/2006 (ejercicio cerrado el 31/12/2005); última asamblea: 02/02/2006"
         },
         {
           "nombre": "Búsqueda web (\"Cámara de Comercio Argentino Cubana OR Dominico Argentina OR Panameño Argentina OR Guatemalteca Argentina OR Costarricense Argentina 2024-2026\")",
@@ -86,8 +86,7 @@
           "consultado": "2026-10-28",
           "resultado": "Solo misiones comerciales de Cancillería; ninguna cámara binacional activa."
         }
-      ],
-      "interpretativa": true
+      ]
     },
     "A1": {
       "respuesta": "SÍ",
@@ -260,7 +259,7 @@
     },
     "I3-2": {
       "respuesta": "NO",
-      "dato": "En la base del CIADI hay 4 casos contra República Dominicana (1 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años.",
+      "dato": "En la base del CIADI hay 4 casos contra República Dominicana (1 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años que cumpla el criterio.",
       "dato_publico": "búsqueda en la base del CIADI y en prensa",
       "anio_dato": 2026,
       "fuente_corta": "CIADI y prensa",
@@ -305,8 +304,7 @@
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Criterio: se cuentan solo las normas que habilitan el arbitraje internacional a inversores argentinos (ley nacional o tratado con Argentina). Los tratados del país con terceros países no se cuentan. REVISAR si se acepta esta lectura. República Dominicana es parte del CAFTA-DR, que prevé arbitraje inversor–Estado solo para inversores de los países firmantes.",
-      "interpretativa": true,
+      "criterio": "Criterio aprobado (sesión 5): solo cuentan la ley nacional o un tratado de inversión vigente con Argentina que prevea arbitraje internacional; los tratados del país con terceros países no cuentan. República Dominicana es parte del CAFTA-DR, que prevé arbitraje inversor–Estado solo para inversores de los países firmantes.",
       "fuentes_revisadas": [
         {
           "nombre": "CIADI, base de datos de Estados miembro",

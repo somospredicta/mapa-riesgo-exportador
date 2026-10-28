@@ -38,15 +38,15 @@
     },
     "C4": {
       "respuesta": "NO",
-      "dato": "La Cámara Argentino-Danesa de Industria y Comercio participó del encuentro de Cancillería con 27 cámaras binacionales el 22/03/2024.",
+      "dato": "La Cámara Argentino-Danesa de Industria y Comercio presentó balances o asambleas en la IGJ en los últimos 3 años (\"Cámara Argentino Danesa De Industria Y Comercio\" (n.º 1556088), último balance presentado: 03/01/2025 (ejercicio cerrado el 30/06/2023); última asamblea: 29/05/2024) y participó del encuentro de Cancillería con 27 cámaras binacionales el 22/03/2024.",
       "dato_publico": "Cámara Argentino-Danesa de Industria y Comercio",
-      "anio_dato": 2024,
-      "fuente_corta": "Cancillería argentina",
-      "fuente_nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
-      "fuente_url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+      "anio_dato": 2025,
+      "fuente_corta": "IGJ",
+      "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+      "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024.",
+      "criterio": "Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -58,7 +58,7 @@
           "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
           "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
           "consultado": "2026-10-28",
-          "resultado": "\"Cámara Argentino Danesa De Industria Y Comercio\" (n.º 1556088), último balance: 30/06/2023; última asamblea: 29/05/2024"
+          "resultado": "\"Cámara Argentino Danesa De Industria Y Comercio\" (n.º 1556088), último balance presentado: 03/01/2025 (ejercicio cerrado el 30/06/2023); última asamblea: 29/05/2024"
         }
       ]
     },

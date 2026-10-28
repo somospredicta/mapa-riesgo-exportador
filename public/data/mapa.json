@@ -134,11 +134,21 @@
             "url": "https://european-union.europa.eu/principles-countries-history/eu-countries/austria_en",
             "consultado": "2026-10-27"
           }
+        },
+        {
+          "texto": "No hay una cámara empresarial bilateral activa con Argentina (sin cámara bilateral con actividad registrada en los últimos 3 años; dato 2026, IGJ y Cancillería).",
+          "dato": "sin cámara bilateral con actividad registrada en los últimos 3 años",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+            "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+            "consultado": "2026-10-28"
+          }
         }
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1995",
           "anio_dato": 2026,
           "fuente": {
@@ -302,7 +312,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1997; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1997; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1997",
           "anio_dato": 2026,
           "fuente": {
@@ -813,7 +823,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente; dato 2020, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente; dato 2020, Cancillería argentina).",
           "dato": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente",
           "anio_dato": 2020,
           "fuente": {
@@ -948,7 +958,7 @@
       "estado": "borrador"
     },
     "CAN": {
-      "puntaje": 4.1,
+      "puntaje": 4.4,
       "etiqueta": "Entorno favorable",
       "completo": true,
       "dimensiones": {
@@ -956,26 +966,16 @@
         "administrativa": 3.5,
         "geografica": 4,
         "economica": 5,
-        "instituciones": 3.9
+        "instituciones": 5
       },
       "condiciones_criticas": [
         {
-          "texto": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras (impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022; dato 2024, BLG).",
-          "dato": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022",
+          "texto": "Hubo cambios regulatorios retroactivos que afectaron a empresas extranjeras (impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022, luego derogado en 2026; dato 2024, BLG).",
+          "dato": "impuesto a los servicios digitales sancionado en 2024 con efecto retroactivo a 2022, luego derogado en 2026",
           "anio_dato": 2024,
           "fuente": {
             "nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
             "url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
-            "consultado": "2026-10-28"
-          }
-        },
-        {
-          "texto": "Hubo expropiaciones, nacionalizaciones o confiscaciones de activos (incautación de un avión de una empresa rusa sancionada; dato 2023, Gobierno de Canadá).",
-          "dato": "incautación de un avión de una empresa rusa sancionada",
-          "anio_dato": 2023,
-          "fuente": {
-            "nombre": "Gobierno de Canadá, Global Affairs, \"Government of Canada orders seizure of Russian-registered cargo aircraft at Toronto Pearson Airport\" (junio de 2023)",
-            "url": "https://www.canada.ca/en/global-affairs/news/2023/06/government-of-canada-orders-seizure-of-russian-registered-cargo-aircraft-at-toronto-pearson-airport.html",
             "consultado": "2026-10-28"
           }
         }
@@ -1024,7 +1024,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1993",
           "anio_dato": 2026,
           "fuente": {
@@ -1085,7 +1085,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (Acuerdo de Libre Comercio con capítulo de inversiones, vigente desde 2019; dato 2019, Gobierno argentino).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (Acuerdo de Libre Comercio con capítulo de inversiones, vigente desde 2019; dato 2019, Gobierno argentino).",
           "dato": "Acuerdo de Libre Comercio con capítulo de inversiones, vigente desde 2019",
           "anio_dato": 2019,
           "fuente": {
@@ -1187,7 +1187,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1994; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1994; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1994",
           "anio_dato": 2026,
           "fuente": {
@@ -1380,7 +1380,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 2001; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 2001; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 2001",
           "anio_dato": 2026,
           "fuente": {
@@ -1488,7 +1488,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1997; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1997; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1997",
           "anio_dato": 2026,
           "fuente": {
@@ -1656,7 +1656,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1998",
           "anio_dato": 2026,
           "fuente": {
@@ -1717,7 +1717,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1993",
           "anio_dato": 2026,
           "fuente": {
@@ -1888,7 +1888,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1995",
           "anio_dato": 2026,
           "fuente": {
@@ -2198,7 +2198,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1992; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1992; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1992",
           "anio_dato": 2026,
           "fuente": {
@@ -2351,7 +2351,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1996",
           "anio_dato": 2026,
           "fuente": {
@@ -2726,7 +2726,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 2002; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 2002; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 2002",
           "anio_dato": 2026,
           "fuente": {
@@ -3049,7 +3049,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1996",
           "anio_dato": 2026,
           "fuente": {
@@ -3275,11 +3275,21 @@
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
           }
+        },
+        {
+          "texto": "No hay una cámara empresarial bilateral activa con Argentina (sin cámara bilateral con actividad registrada en los últimos 3 años; dato 2026, IGJ y Cancillería).",
+          "dato": "sin cámara bilateral con actividad registrada en los últimos 3 años",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+            "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+            "consultado": "2026-10-28"
+          }
         }
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1997; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1997; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1997",
           "anio_dato": 2026,
           "fuente": {
@@ -3544,7 +3554,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1993; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1993",
           "anio_dato": 2026,
           "fuente": {
@@ -3646,7 +3656,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1995",
           "anio_dato": 2026,
           "fuente": {
@@ -4015,7 +4025,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1998",
           "anio_dato": 2026,
           "fuente": {
@@ -4311,7 +4321,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1998",
           "anio_dato": 2026,
           "fuente": {
@@ -4592,7 +4602,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1994; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1994; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1994",
           "anio_dato": 2026,
           "fuente": {
@@ -4704,7 +4714,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1998; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1998",
           "anio_dato": 2026,
           "fuente": {
@@ -4812,7 +4822,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1996",
           "anio_dato": 2026,
           "fuente": {
@@ -4869,11 +4879,21 @@
             "url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
             "consultado": "2026-10-27"
           }
+        },
+        {
+          "texto": "No hay una cámara empresarial bilateral activa con Argentina (sin cámara bilateral con actividad registrada en los últimos 3 años; dato 2026, IGJ y Cancillería).",
+          "dato": "sin cámara bilateral con actividad registrada en los últimos 3 años",
+          "anio_dato": 2026,
+          "fuente": {
+            "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+            "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+            "consultado": "2026-10-28"
+          }
         }
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1992; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1992; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1992",
           "anio_dato": 2026,
           "fuente": {
@@ -4944,7 +4964,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1996; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1996",
           "anio_dato": 2026,
           "fuente": {
@@ -4984,7 +5004,7 @@
       "etiqueta": "Precaución",
       "completo": true,
       "dimensiones": {
-        "cultural": 5,
+        "cultural": 4.5,
         "administrativa": 2.5,
         "geografica": 3,
         "economica": 4.2,
@@ -5137,7 +5157,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1995",
           "anio_dato": 2026,
           "fuente": {
@@ -5249,7 +5269,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1999; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1999; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1999",
           "anio_dato": 2026,
           "fuente": {
@@ -5623,7 +5643,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1992; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1992; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1992",
           "anio_dato": 2026,
           "fuente": {
@@ -5816,7 +5836,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente; dato 2020, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente; dato 2020, Cancillería argentina).",
           "dato": "Protocolo de Cooperación y Facilitación de Inversiones del Mercosur, vigente",
           "anio_dato": 2020,
           "fuente": {
@@ -5842,7 +5862,7 @@
       "estado": "borrador"
     },
     "USA": {
-      "puntaje": 4.2,
+      "puntaje": 4.5,
       "etiqueta": "Entorno favorable",
       "completo": true,
       "dimensiones": {
@@ -5850,7 +5870,7 @@
         "administrativa": 3.5,
         "geografica": 5,
         "economica": 5,
-        "instituciones": 3.9
+        "instituciones": 5
       },
       "condiciones_criticas": [
         {
@@ -5860,16 +5880,6 @@
           "fuente": {
             "nombre": "Ørsted, anuncio a la bolsa \"Revolution Wind receives offshore stop-work order\" (22/08/2025)",
             "url": "https://orsted.com/en/company-announcement-list/2025/08/revolution-wind-receives-offshore-stop-work-order--145387701",
-            "consultado": "2026-10-28"
-          }
-        },
-        {
-          "texto": "Hubo expropiaciones, nacionalizaciones o confiscaciones de activos (decomiso judicial de un yate atribuido a un oligarca ruso sancionado; dato 2025, RFE/RL).",
-          "dato": "decomiso judicial de un yate atribuido a un oligarca ruso sancionado",
-          "anio_dato": 2025,
-          "fuente": {
-            "nombre": "Radio Free Europe/Radio Liberty, \"U.S. Court OKs Sale Of $325M Yacht Linked To Russian Oligarch\" (18/03/2025)",
-            "url": "https://www.rferl.org/a/russia-sanctions-yacht-oligarch-amadea/33348093.html",
             "consultado": "2026-10-28"
           }
         }
@@ -5908,7 +5918,7 @@
           }
         },
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1994; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1994; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1994",
           "anio_dato": 2026,
           "fuente": {
@@ -6129,7 +6139,7 @@
       ],
       "a_favor": [
         {
-          "texto": "Tiene un tratado bilateral de inversión vigente con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
+          "texto": "Tiene un acuerdo vigente de protección de inversiones con Argentina (tratado vigente desde 1995; dato 2026, Cancillería argentina).",
           "dato": "tratado vigente desde 1995",
           "anio_dato": 2026,
           "fuente": {

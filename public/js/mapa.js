@@ -225,7 +225,7 @@
     document.getElementById('panel-tipo').textContent = tipo;
     document.getElementById('panel-titulo').textContent = titulo;
     const cuerpo = document.getElementById('panel-cuerpo');
-    cuerpo.replaceChildren(...secciones);
+    cuerpo.replaceChildren(...secciones.filter(Boolean));
     cuerpo.scrollTop = 0;
     panel.hidden = false;
     document.body.classList.add('con-panel');
@@ -285,7 +285,9 @@
   let temporizadorTooltip;
   function mostrarTooltip(info, x, y) {
     const [titulo, sub, criticas] = textoTooltip(info);
-    tooltip.replaceChildren(el('strong', {}, titulo), el('span', {}, sub), criticas ? el('span', { class: 'tooltip-criticas' }, criticas) : null);
+    // Las líneas vacías (por ejemplo, sin condiciones críticas) no se muestran.
+    const lineas = [el('strong', {}, titulo), sub ? el('span', {}, sub) : null, criticas ? el('span', { class: 'tooltip-criticas' }, criticas) : null];
+    tooltip.replaceChildren(...lineas.filter(Boolean));
     tooltip.hidden = false;
     const r = tooltip.getBoundingClientRect();
     const margen = 12;

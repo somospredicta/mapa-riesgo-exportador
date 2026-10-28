@@ -34,14 +34,13 @@
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: en noviembre de 2022 EE.UU. impuso derechos antidumping a los tubos OCTG argentinos que exporta Siderca (grupo Techint), y Argentina llevó el caso a la OMC (DS617). Es una medida de defensa comercial sobre un producto, no una restricción a empresas argentinas por su nacionalidad. Los fundadores pueden decidir si las medidas antidumping cuentan (mismo caso que Perú, DS614).",
-      "interpretativa": true,
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: en noviembre de 2022 EE.UU. impuso derechos antidumping a los tubos OCTG argentinos que exporta Siderca (grupo Techint), y Argentina llevó el caso a la OMC (DS617). Criterio aprobado (sesión 5): las medidas antidumping no cuentan como discriminación, salvo que un fallo de la OMC las declare incompatibles. El panel entregó su informe a las partes el 02/05/2025, pero a pedido de ambas su publicación se postergó hasta el 29/10/2026: todavía no hay fallo público. REVISAR DESPUÉS DEL 29/10/2026: si el informe declara la medida incompatible, la respuesta pasa a SÍ.",
       "fuentes_revisadas": [
         {
           "nombre": "OMC, disputa DS617 (EE.UU. — Medida antidumping sobre OCTG, reclamo de Argentina)",
           "url": "https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds617_e.htm",
           "consultado": "2026-10-28",
-          "resultado": "Consultas pedidas el 17/05/2023; panel compuesto el 07/01/2024."
+          "resultado": "Consultas pedidas el 17/05/2023; panel compuesto el 07/01/2024; informe final entregado a las partes el 02/05/2025, publicación postergada hasta el 29/10/2026 (comunicación del 30/06/2026). Sin fallo público."
         },
         {
           "nombre": "OCDE, FDI Regulatory Restrictiveness Index 2024",
@@ -73,7 +72,7 @@
       "fuente_url": "https://www.c5n.com/politica/amcham-summit-javier-milei-luis-caputo-empresarios-14-abril-2026",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. El sitio de AmCham (amchamar.com.ar) no se pudo abrir desde el entorno y no se identificó su inscripción en el extracto de la IGJ; la actividad se tomó de la prensa. REVISAR con el sitio de la cámara.",
+      "criterio": "Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas. El sitio de AmCham (amchamar.com.ar) no se pudo abrir desde el entorno y no se identificó su inscripción en el extracto de la IGJ; la actividad se tomó de la prensa. REVISAR con el sitio de la cámara.",
       "fuentes_revisadas": [
         {
           "nombre": "AmCham Argentina, sitio oficial",
@@ -267,17 +266,16 @@
       "estado": "pendiente_revision"
     },
     "I3-2": {
-      "respuesta": "SÍ",
-      "dato": "El 18/03/2025 un juez federal de Nueva York ordenó el decomiso y la subasta del superyate Amadea, atribuido al oligarca ruso sancionado Suleimán Kerímov, tras la demanda de decomiso civil del Departamento de Justicia.",
-      "dato_publico": "decomiso judicial de un yate atribuido a un oligarca ruso sancionado",
-      "anio_dato": 2025,
-      "fuente_corta": "RFE/RL",
-      "fuente_nombre": "Radio Free Europe/Radio Liberty, \"U.S. Court OKs Sale Of $325M Yacht Linked To Russian Oligarch\" (18/03/2025)",
-      "fuente_url": "https://www.rferl.org/a/russia-sanctions-yacht-oligarch-amadea/33348093.html",
+      "respuesta": "NO",
+      "dato": "En la base del CIADI hay 10 casos contra Estados Unidos (2 pendientes). Ninguna fuente revisada documenta una expropiación, nacionalización o confiscación en los últimos 10 años que cumpla el criterio.",
+      "dato_publico": "búsqueda en la base del CIADI y en prensa",
+      "anio_dato": 2026,
+      "fuente_corta": "CIADI y prensa",
+      "fuente_nombre": "CIADI, base de casos",
+      "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Confiscación de activos por sanciones internacionales, no por una política hacia la inversión. Se cuenta por la lectura literal (\"en cualquier sector\"): REVISAR si se acepta.",
-      "interpretativa": true,
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Una demanda sin resolver no alcanza (criterio aprobado). Caso revisado y no contado: el decomiso del superyate Amadea (2025), por sanciones contra un oligarca ruso. Criterio aprobado (sesión 5): las sanciones internacionales contra personas o entidades puntuales no cuentan como expropiación.",
       "fuentes_revisadas": [
         {
           "nombre": "CIADI, base de casos",
@@ -286,10 +284,16 @@
           "resultado": "10 casos con Estados Unidos como demandado (2 pendientes)."
         },
         {
-          "nombre": "Departamento de Justicia de EE.UU., demanda de decomiso civil del Amadea (octubre de 2023)",
-          "url": "https://www.justice.gov/usao-sdny/pr/civil-forfeiture-complaint-filed-against-300-million-superyacht-amadea-involved",
+          "nombre": "Radio Free Europe/Radio Liberty, decomiso del superyate Amadea (18/03/2025)",
+          "url": "https://www.rferl.org/a/russia-sanctions-yacht-oligarch-amadea/33348093.html",
           "consultado": "2026-10-28",
-          "resultado": "Inicio del decomiso civil."
+          "resultado": "Decomiso judicial de un yate atribuido a un oligarca ruso sancionado. No cuenta (sanción internacional)."
+        },
+        {
+          "nombre": "Búsqueda web (\"United States government expropriation OR nationalization OR seizure of company assets 2017-2026\")",
+          "url": "https://corpgov.law.harvard.edu/2015/07/13/illegality-and-hardball-in-governments-nationalization-of-aig/",
+          "consultado": "2026-10-28",
+          "resultado": "Solo el caso AIG (2008), fuera de la ventana."
         }
       ]
     },

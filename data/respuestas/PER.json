@@ -36,8 +36,7 @@
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: Argentina pidió consultas en la OMC el 02/09/2022 por los derechos antidumping y compensatorios de Perú sobre el biodiésel argentino (DS614, \"Peru — Biodiesel (Argentina)\"); la disputa sigue en consultas, sin resolución. Son medidas de defensa comercial sobre un producto, no una restricción a empresas argentinas por su nacionalidad. Los fundadores pueden decidir si las medidas antidumping cuentan.",
-      "interpretativa": true,
+      "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: Argentina pidió consultas en la OMC el 02/09/2022 por los derechos antidumping y compensatorios de Perú sobre el biodiésel argentino (DS614, \"Peru — Biodiesel (Argentina)\"); la disputa sigue en consultas. Criterio aprobado (sesión 5): las medidas antidumping y otras defensas comerciales permitidas por la OMC no cuentan como discriminación, salvo que un fallo de la OMC las declare incompatibles, y no hay fallo.",
       "fuentes_revisadas": [
         {
           "nombre": "OMC, disputa DS614 (Perú — Biodiésel, reclamo de Argentina)",
@@ -61,7 +60,7 @@
     },
     "C4": {
       "respuesta": "SÍ",
-      "dato": "No se encontró una cámara binacional activa con Perú. En la IGJ figura inscripta: \"Cámara De Comercio Argentino Peruana, (Cambiarpe)\" (n.º 1813922), último balance: 31/12/2014; última asamblea: 05/06/2015. No participó del encuentro de Cancillería de 2024.",
+      "dato": "No se encontró una cámara binacional activa con Perú. En la IGJ figura inscripta: \"Cámara De Comercio Argentino Peruana, (Cambiarpe)\" (n.º 1813922), último balance presentado: 25/04/2016 (ejercicio cerrado el 31/12/2014); última asamblea: 05/06/2015. No participó del encuentro de Cancillería de 2024.",
       "dato_publico": "sin cámara bilateral con actividad registrada",
       "anio_dato": 2026,
       "fuente_corta": "IGJ y Cancillería",
@@ -69,7 +68,7 @@
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Hay una cámara inscripta sin actividad registrada reciente: REVISAR si funciona por fuera del registro.",
+      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -81,7 +80,7 @@
           "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
           "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
           "consultado": "2026-10-28",
-          "resultado": "\"Cámara De Comercio Argentino Peruana, (Cambiarpe)\" (n.º 1813922), último balance: 31/12/2014; última asamblea: 05/06/2015"
+          "resultado": "\"Cámara De Comercio Argentino Peruana, (Cambiarpe)\" (n.º 1813922), último balance presentado: 25/04/2016 (ejercicio cerrado el 31/12/2014); última asamblea: 05/06/2015"
         },
         {
           "nombre": "Búsqueda web (\"Cámara de Comercio Uruguayo Argentina OR Peruano Argentina OR Ecuatoriano Argentina OR Colombo Argentina OR Boliviano Argentina 2025-2026\")",
@@ -89,8 +88,7 @@
           "consultado": "2026-10-28",
           "resultado": "Sin actividad reciente de cámaras binacionales con Argentina."
         }
-      ],
-      "interpretativa": true
+      ]
     },
     "A1": {
       "respuesta": "NO",

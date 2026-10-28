@@ -59,7 +59,7 @@
     },
     "C4": {
       "respuesta": "SÍ",
-      "dato": "No se encontró una cámara binacional activa con Ecuador. En la IGJ figura inscripta: \"Cámara Argentina Ecuatoriana De Comercio E Industria\" (n.º 1837158), último balance: ninguno; última asamblea: ninguna. No participó del encuentro de Cancillería de 2024.",
+      "dato": "No se encontró una cámara binacional activa con Ecuador. En la IGJ figura inscripta: \"Cámara Argentina Ecuatoriana De Comercio E Industria\" (n.º 1837158), último balance presentado: ninguno; última asamblea: ninguna. No participó del encuentro de Cancillería de 2024.",
       "dato_publico": "sin cámara bilateral con actividad registrada",
       "anio_dato": 2026,
       "fuente_corta": "IGJ y Cancillería",
@@ -67,7 +67,7 @@
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Hay una cámara inscripta sin actividad registrada reciente: REVISAR si funciona por fuera del registro.",
+      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -79,7 +79,7 @@
           "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
           "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
           "consultado": "2026-10-28",
-          "resultado": "\"Cámara Argentina Ecuatoriana De Comercio E Industria\" (n.º 1837158), último balance: ninguno; última asamblea: ninguna"
+          "resultado": "\"Cámara Argentina Ecuatoriana De Comercio E Industria\" (n.º 1837158), último balance presentado: ninguno; última asamblea: ninguna"
         },
         {
           "nombre": "Búsqueda web (\"Cámara de Comercio Uruguayo Argentina OR Peruano Argentina OR Ecuatoriano Argentina OR Colombo Argentina OR Boliviano Argentina 2025-2026\")",
@@ -87,8 +87,7 @@
           "consultado": "2026-10-28",
           "resultado": "Sin actividad reciente de cámaras binacionales con Argentina."
         }
-      ],
-      "interpretativa": true
+      ]
     },
     "A1": {
       "respuesta": "SÍ",
@@ -173,8 +172,28 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial.",
-      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial"
+      "motivo_null": "El país no figura en el Logistics Performance Index 2023 del Banco Mundial: no está en la tabla de resultados (Apéndice 1); solo aparece en el Apéndice 2, con tiempos de permanencia de contenedores, que no son el índice. La edición 2025 (LPI 2.0) ya no publica un puntaje general sobre 5.",
+      "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Banco Mundial, Connecting to Compete 2023 (informe del LPI 2023), Apéndice 1",
+          "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/ed3a3d9d-1bdb-4ee1-afd2-409b99d3987c/content",
+          "consultado": "2026-10-28",
+          "resultado": "Ecuador no figura entre los 139 países con puntaje; solo en el Apéndice 2 (tiempos de permanencia)."
+        },
+        {
+          "nombre": "Banco Mundial, API de indicadores, LP.LPI.OVRL.XQ",
+          "url": "https://api.worldbank.org/v2/country/ECU/indicator/LP.LPI.OVRL.XQ?format=json&date=2005:2024",
+          "consultado": "2026-10-28",
+          "resultado": "Sin valor para Ecuador en la edición 2023."
+        },
+        {
+          "nombre": "Banco Mundial, Logistics Performance Indicators 2.0 (2025)",
+          "url": "https://lpi.worldbank.org/",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir desde el entorno (error 403). Según su descripción pública, no tiene un puntaje general ni un ranking único."
+        }
+      ]
     },
     "G3": {
       "respuesta": "NO",

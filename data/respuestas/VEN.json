@@ -58,7 +58,7 @@
     },
     "C4": {
       "respuesta": "SÍ",
-      "dato": "No se encontró una cámara binacional activa con Venezuela. En la IGJ figura inscripta: \"Cámara De Comercio Argentino Venezolana\" (n.º 357671), dada de baja, último balance: 31/12/2022; última asamblea: 01/12/2023. No participó del encuentro de Cancillería de 2024.",
+      "dato": "No se encontró una cámara binacional activa con Venezuela. En la IGJ figura inscripta: \"Cámara De Comercio Argentino Venezolana\" (n.º 357671), dada de baja, último balance presentado: 15/12/2023 (ejercicio cerrado el 31/12/2022); última asamblea: 01/12/2023. No participó del encuentro de Cancillería de 2024.",
       "dato_publico": "sin cámara bilateral con actividad registrada",
       "anio_dato": 2026,
       "fuente_corta": "IGJ y Cancillería",
@@ -66,7 +66,7 @@
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Hay una cámara inscripta sin actividad registrada reciente: REVISAR si funciona por fuera del registro.",
+      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
           "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
@@ -78,7 +78,7 @@
           "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
           "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
           "consultado": "2026-10-28",
-          "resultado": "\"Cámara De Comercio Argentino Venezolana\" (n.º 357671), dada de baja, último balance: 31/12/2022; última asamblea: 01/12/2023"
+          "resultado": "\"Cámara De Comercio Argentino Venezolana\" (n.º 357671), dada de baja, último balance presentado: 15/12/2023 (ejercicio cerrado el 31/12/2022); última asamblea: 01/12/2023"
         },
         {
           "nombre": "Delegación de la UE en Argentina, listado de cámaras binacionales",
@@ -86,8 +86,7 @@
           "consultado": "2026-10-28",
           "resultado": "No lista una cámara con este país."
         }
-      ],
-      "interpretativa": true
+      ]
     },
     "A1": {
       "respuesta": "NO",
@@ -234,7 +233,7 @@
       "fuente_url": null,
       "consultado": "2026-10-27",
       "estado": "pendiente_revision",
-      "motivo_null": "El país no figura en la base de tipos de cambio del FMI y el sitio del banco central no se pudo abrir desde el entorno."
+      "motivo_null": "El país no figura en la base de tipos de cambio del FMI y el sitio del banco central no se pudo abrir desde el entorno. No hay archivo en /data/fuentes/. PARA COMPLETAR: subir a /data/fuentes/ la serie del tipo de cambio oficial del Banco Central de Venezuela (bolívares por dólar, archivo .xls de bcv.org.ve, sección \"Tipo de cambio de referencia\"), desde octubre de 2024 hasta la fecha, con el link de donde se descargó y la fecha."
     },
     "E4": {
       "respuesta": "SÍ",
@@ -305,8 +304,7 @@
       "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=lKCnmg==",
       "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "criterio": "Criterio aprobado: una norma vigente que habilita expresamente el arbitraje internacional en disputas de inversores con el Estado; se tomó el tratado con Argentina como norma vigente. REVISAR.",
-      "interpretativa": true,
+      "criterio": "Criterio aprobado (sesión 5): un tratado bilateral de inversión vigente con Argentina que prevé arbitraje internacional cuenta como norma habilitante.",
       "fuentes_revisadas": [
         {
           "nombre": "CIADI, base de datos de Estados miembro",
