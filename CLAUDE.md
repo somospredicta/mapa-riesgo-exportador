@@ -193,6 +193,10 @@ Aprobados por los fundadores. Rigen para todos los países.
     abreviaturas de registro ("ARG-ALEM", "EE.UU."), con y sin tildes, y también buscar por tipo de acuerdo sin filtrar
     por país. Si hay una segunda fuente (por ejemplo, UNCTAD para tratados de inversión), se contrasta país por país y
     cualquier diferencia va a "Revisión completa" como interpretativa.
+22. **A3 y la ALADI (sesión 6):** la Preferencia Arancelaria Regional de la ALADI sola es una preferencia marginal y no
+    cuenta como acuerdo comercial (igual que el SGPC: SÍ). Cuenta (NO) un Acuerdo de Alcance Parcial bilateral o un Acuerdo
+    de Complementación Económica vigente entre el país y Argentina o el Mercosur. Se verifica el instrumento concreto
+    (número de ACE o AAP) en la página de acuerdos vigentes de Cancillería o en la base de textos de la ALADI.
 
 ## Grupos del mapa
 
