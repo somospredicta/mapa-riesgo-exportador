@@ -26,9 +26,13 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
-      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "Confirmación de Giuliano (28/10/2026). Su comentario sobre el régimen político se resolvió con la decisión 3 de los fundadores (alerta por sanciones amplias de EE.UU., sin pregunta nueva); la respuesta no cambia: el país no figura en Hofstede.",
+      "huella_aprobada": "d179c869250a"
     },
     "C3": {
       "respuesta": "NO",

@@ -189,7 +189,7 @@
       "fuente_url": "https://orsted.com/en/company-announcement-list/2025/08/revolution-wind-receives-offshore-stop-work-order--145387701",
       "consultado": "2026-10-28",
       "estado": "aprobado",
-      "criterio": "Se tomó como cambio regulatorio retroactivo la suspensión de un proyecto con permisos ya otorgados. Es una orden administrativa sobre un proyecto, no una norma general: REVISAR si se acepta.",
+      "criterio": "Se tomó como cambio regulatorio retroactivo la suspensión de un proyecto con permisos ya otorgados. Es una orden administrativa sobre un proyecto, no una norma general: REVISAR si se acepta. Criterio 23 (precisión de los fundadores, 28/10/2026): las cautelares con el juicio en curso no revierten la medida; queda en SÍ con alerta del estado judicial.",
       "interpretativa": true,
       "fuentes_revisadas": [
         {
@@ -202,7 +202,14 @@
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
       "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 5)",
-      "huella_aprobada": "ef5503db479c"
+      "huella_aprobada": "ef5503db479c",
+      "alerta": {
+        "texto": "La orden federal que frenó el parque eólico marino Revolution Wind (Ørsted) está suspendida por medidas cautelares (septiembre de 2025 y enero de 2026) y la obra se reanudó; el juicio sigue en curso.",
+        "fecha": "2026-01-13",
+        "fuente_nombre": "Offshore Magazine, \"US federal court ruling allows Revolution Wind to resume construction\" (13/01/2026)",
+        "fuente_url": "https://offshore-mag.com/renewable-energy/news/55343143/rsted-us-federal-court-grants-allows-revolution-wind-to-resume-construction",
+        "consultado": "2026-10-28"
+      }
     },
     "G1": {
       "respuesta": "NO",

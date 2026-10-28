@@ -163,11 +163,17 @@ function calcularPais(checklist, archivo, avisos) {
     .slice(0, 2)
     .map(({ p, r }) => itemPublico(p.frase_positiva, r, p.id, pais, avisos));
 
-  // Alertas: hechos con fuente que conviene seguir aunque no cuenten como riesgo vigente (campo `alerta` de la respuesta).
-  const alertas = checklist.preguntas
-    .map((p) => resp[p.id])
-    .filter((r) => r && r.alerta && r.alerta.texto && r.alerta.fecha && r.fuente_url && fechaValida(r.consultado))
-    .map((r) => ({ texto: r.alerta.texto, fecha: r.alerta.fecha, fuente: fuentePublica(r) }));
+  // Alertas: hechos con fuente que conviene seguir aunque no cuenten como riesgo vigente.
+  // - `alerta` de una respuesta (criterio 23): usa su propia fuente si la trae; si no, la de la respuesta.
+  // - `alertas_pais` del archivo del país: alertas fijas (criterio 25, sanciones amplias de EE.UU.).
+  const conFuente = (a, r) => (a.fuente_url ? { nombre: a.fuente_nombre, url: a.fuente_url, consultado: a.consultado } : fuentePublica(r));
+  const alertas = [
+    ...(datos.alertas_pais || []).map((a) => ({ texto: a.texto, fecha: a.fecha, fuente: conFuente(a, {}) })),
+    ...checklist.preguntas
+      .map((p) => resp[p.id])
+      .filter((r) => r && r.alerta && r.alerta.texto && r.alerta.fecha)
+      .map((r) => ({ texto: r.alerta.texto, fecha: r.alerta.fecha, fuente: conFuente(r.alerta, r) })),
+  ].filter((a) => a.fuente.nombre && urlValida(a.fuente.url) && fechaValida(a.fuente.consultado) && fechaValida(a.fecha));
 
   // Indicador aparte (no entra al puntaje).
   const ind = checklist.indicador_aparte;

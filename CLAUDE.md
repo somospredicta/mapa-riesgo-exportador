@@ -113,8 +113,9 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `variante`: elige una variante de la frase pública del checklist (por ejemplo `"general"` en A5 cuando el cambio
   alcanzó a todas las empresas: "afectaron a empresas, incluidas las extranjeras").
 - `revisado_por` (G o A), `revisado_fecha` y `revision_origen` (planilla, hoja y fila): se cargan al aprobar la respuesta.
-- `alerta` (`texto`, `fecha`): hecho con fuente que se publica en "Alertas recientes" aunque no cuente como riesgo vigente
-  (criterio 23). Usa la fuente, el link y la fecha de consulta de la respuesta.
+- `alerta` (`texto`, `fecha` y opcionalmente `fuente_nombre`, `fuente_url`, `consultado`): hecho con fuente que se publica
+  en "Alertas recientes" aunque no cuente como riesgo vigente (criterio 23). Sin fuente propia, usa la de la respuesta.
+- En la raíz del archivo del país, `alertas_pais`: alertas fijas con fuente propia (criterio 25).
 
 ## Planillas de revisión
 
@@ -211,16 +212,21 @@ Aprobados por los fundadores. Rigen para todos los países.
 22. **A3 y la ALADI (sesión 6):** la Preferencia Arancelaria Regional de la ALADI sola es una preferencia marginal y no
     cuenta como acuerdo comercial (igual que el SGPC: SÍ). Cuenta (NO) un Acuerdo de Alcance Parcial bilateral o un Acuerdo
     de Complementación Económica vigente entre el país y Argentina o el Mercosur. Se verifica el instrumento concreto
-    (número de ACE o AAP) en la página de acuerdos vigentes de Cancillería o en la base de textos de la ALADI.
+    (número de ACE o AAP) en la página de acuerdos vigentes de Cancillería o en la base de textos de la ALADI. Las respuestas citan
+    el acuerdo concreto (por ejemplo, "ACE 36 Mercosur–Bolivia").
 
-Pedidos de la revisión de G (28/10/2026), **aplicados y pendientes de confirmación por los fundadores**:
-
-23. **A5, medida retroactiva revertida (reemplaza al 17 para estos casos):** si una ley retroactiva se derogó y se devolvió
-    lo cobrado, A5 es NO y el hecho se publica en "Alertas recientes" (campo `alerta` de la respuesta: `texto` y `fecha`),
-    recomendando seguir cambios similares. Una respuesta NO con alerta no va al bloque "A favor".
-24. **C2 con dimensiones de Hofstede faltantes:** si la herramienta tiene dato de algunas dimensiones pero no de todas, se
-    responde con las dimensiones disponibles (SÍ si al menos 2 superan los 40 puntos), como interpretativa. Si el país no
-    figura en la herramienta, sigue siendo `"no_aplica_sin_fuente"`.
+23. **A5, medida retroactiva revertida (confirmado, reemplaza al 17 para estos casos):** si una ley o medida retroactiva fue
+    derogada o anulada en forma definitiva (por ejemplo, con devolución de lo cobrado), A5 es NO y el hecho se publica en
+    "Alertas recientes" (campo `alerta` de la respuesta: `texto`, `fecha` y, si corresponde, su propia fuente), recomendando
+    seguir cambios similares. Las cautelares o suspensiones judiciales con el juicio en curso NO la revierten: la respuesta
+    sigue en SÍ y se puede agregar una alerta con el estado judicial. Una respuesta NO con alerta no va al bloque "A favor".
+24. **C2 con dimensiones de Hofstede faltantes (confirmado):** se responde con las dimensiones disponibles (SÍ si al menos 2
+    superan los 40 puntos) solo si hay dato de al menos 4 de las 6. Con menos, la respuesta es `"no_aplica_sin_fuente"`.
+25. **Sanciones amplias de EE.UU. (fundadores, sesión 6):** no hay pregunta sobre régimen político. A los países con un
+    programa de OFAC que restringe la mayoría de las transacciones se les agrega una alerta fija (`alertas_pais` en el archivo
+    del país) con fuente oficial del Departamento del Tesoro y este texto, sin calificaciones políticas: "País sujeto a
+    sanciones amplias de EE.UU.: pueden afectar pagos, bancos corresponsales y seguros". Hoy aplica a Cuba; Irán y Corea del
+    Norte están dentro de regiones sin panel por país. Las sanciones dirigidas (por ejemplo, Venezuela o Nicaragua) no cuentan.
 
 ## Grupos del mapa
 

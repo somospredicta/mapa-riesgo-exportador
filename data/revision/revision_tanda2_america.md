@@ -8,26 +8,23 @@ Cómo revisar: abrí el link de cada fila y verificá que el dato coincida con l
 Lo más cómodo es completar el Excel y subirlo a `data/revision/completadas/`: las filas con "sí" pasan a `aprobado` y las que tienen "no" o un comentario se corrigen. 
 Mientras quede alguna respuesta pendiente, el sitio muestra la franja "Versión de prueba: datos en revisión".
 
-Solo se listan las respuestas pendientes. Ya aprobadas (por un revisor o por muestreo): 33.
+Solo se listan las respuestas pendientes. Ya aprobadas (por un revisor o por muestreo): 34.
 
 | Bloque | Filas |
 |---|---|
-| Revisión completa | 1 |
+| Revisión completa | 0 |
 | Muestreo | 0 |
 | Resto | 58 |
 
 ## Puntos a mirar
 
-- Canadá A5: Corrección pedida en la revisión de G (planilla revision_tanda2_america, 28/10/2026): como la ley retroactiva se derogó y se devolvió lo cobrado, no cuenta como cambio retroactivo vigente (NO) y se publica como alerta. Reemplaza, para estos casos, el criterio 17 de la sesión 5. A CONFIRMAR.
 - Estados Unidos C3: Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: en noviembre de 2022 EE.UU. impuso derechos antidumping a los tubos OCTG argentinos que exporta Siderca (grupo Techint), y Argentina llevó el caso a la OMC (DS617). Criterio aprobado (sesión 5): las medidas antidumping no cuentan como discriminación, salvo que un fallo de la OMC las declare incompatibles. El panel entregó su informe a las partes el 02/05/2025, pero a pedido de ambas su publicación se postergó hasta el 29/10/2026: todavía no hay fallo público. REVISAR DESPUÉS DEL 29/10/2026: si el informe declara la medida incompatible, la respuesta pasa a SÍ.
 
-## Revisión completa (1 filas)
+## Revisión completa (0 filas)
 
 Revisar todas: respuestas interpretativas, en null, fuera del cálculo y todas las condiciones críticas (⚡).
 
-| País | # | Pregunta | Respuesta | Dato | Dato que se publica | Link | Fuente y fecha de consulta | Criterio aplicado | Fuentes revisadas | Estado | Aprobado | Revisó | Comentario |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Canadá | A5 | ¿Hubo cambios regulatorios retroactivos documentados en los últimos 5 años, en cualquier sector, que afectaran a empresas extranjeras? | NO | La Ley del Impuesto sobre los Servicios Digitales (sanción del 20/06/2024) creó un impuesto de 3% sobre ingresos digitales de grandes empresas, en su mayoría extranjeras, con efecto retroactivo al 01/01/2022. La Ley de Implementación del Presupuesto 2025 n.º 1 (S.C. 2026, c. 3, art. 126), sancionada el 26/03/2026, lo derogó con efecto al 20/06/2024 y ordenó devolver lo cobrado. | impuesto retroactivo a los servicios digitales derogado en 2026, con devolución de lo cobrado (dato 2026, BLG) | [abrir](https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect) | BLG (Borden Ladner Gervais), "Canada’s unilateral Digital Services Tax forges ahead with retroactive effect" (10/07/2024) · 2026-10-28 | Corrección pedida en la revisión de G (planilla revision_tanda2_america, 28/10/2026): como la ley retroactiva se derogó y se devolvió lo cobrado, no cuenta como cambio retroactivo vigente (NO) y se publica como alerta. Reemplaza, para estos casos, el criterio 17 de la sesión 5. A CONFIRMAR. | [Gobierno de Canadá, Justice Laws, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3), art. 126](https://laws-lois.justice.gc.ca/eng/acts/B-9.8598/FullText.html): Deroga la Ley del Impuesto sobre los Servicios Digitales con efecto al 20/06/2024; sancionada el 26/03/2026.<br>[PwC Canadá, "Canada intends to rescind its Digital Services Tax Act" (2025)](https://www.pwc.com/ca/en/services/tax/publications/tax-insights/canada-digital-services-tax-act-2025.html): Confirma el efecto retroactivo y el anuncio de derogación de junio de 2025. | pendiente_revision |  |  |  |
+Sin filas.
 
 ## Muestreo (0 filas)
 

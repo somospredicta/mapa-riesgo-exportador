@@ -179,7 +179,7 @@ function armarPlanilla(pl) {
     for (const p of preguntas) {
       const r = d.respuestas[p.id];
       if (r && APROBADOS.includes(r.estado)) continue;
-      if (r && r.criterio && /REVISAR|pueden decidir|confirmar/i.test(r.criterio)) puntos.push(`${d.nombre} ${p.id}: ${r.criterio}`);
+      if (r && r.criterio && /REVISAR|PENDIENTE|pueden decidir|confirmar/i.test(r.criterio)) puntos.push(`${d.nombre} ${p.id}: ${r.criterio}`);
       if (r && r.respuesta === null && r.motivo_null && /PARA COMPLETAR/.test(r.motivo_null)) puntos.push(`${d.nombre} ${p.id}: ${r.motivo_null}`);
     }
   }

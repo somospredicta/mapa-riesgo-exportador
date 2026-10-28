@@ -1048,8 +1048,8 @@
           "texto": "Canadá cobró en forma retroactiva un impuesto a los servicios digitales (sancionado en 2024 con efecto desde 2022) y lo derogó en 2026, con devolución de lo cobrado. Conviene seguir de cerca cambios similares.",
           "fecha": "2026-03-26",
           "fuente": {
-            "nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
-            "url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
+            "nombre": "Gobierno de Canadá, Justice Laws, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3), art. 126",
+            "url": "https://laws-lois.justice.gc.ca/eng/acts/B-9.8598/FullText.html",
             "consultado": "2026-10-28"
           }
         }
@@ -1516,7 +1516,17 @@
           "consultado": "2026-10-27"
         }
       },
-      "alertas": [],
+      "alertas": [
+        {
+          "texto": "País sujeto a sanciones amplias de EE.UU.: pueden afectar pagos, bancos corresponsales y seguros.",
+          "fecha": "2026-05-01",
+          "fuente": {
+            "nombre": "Departamento del Tesoro de EE.UU., OFAC, Cuba Sanctions (Reglamento de Control de Activos Cubanos, 31 CFR 515; Orden Ejecutiva 14404 del 01/05/2026)",
+            "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions",
+            "consultado": "2026-10-28"
+          }
+        }
+      ],
       "cobertura": {
         "preguntas_usadas": 14,
         "preguntas_total": 20,
@@ -5957,7 +5967,17 @@
           "consultado": "2026-10-27"
         }
       },
-      "alertas": [],
+      "alertas": [
+        {
+          "texto": "La orden federal que frenó el parque eólico marino Revolution Wind (Ørsted) está suspendida por medidas cautelares (septiembre de 2025 y enero de 2026) y la obra se reanudó; el juicio sigue en curso.",
+          "fecha": "2026-01-13",
+          "fuente": {
+            "nombre": "Offshore Magazine, \"US federal court ruling allows Revolution Wind to resume construction\" (13/01/2026)",
+            "url": "https://offshore-mag.com/renewable-energy/news/55343143/rsted-us-federal-court-grants-allows-revolution-wind-to-resume-construction",
+            "consultado": "2026-10-28"
+          }
+        }
+      ],
       "cobertura": null,
       "sin_cobertura_suficiente": false,
       "estado": "borrador"

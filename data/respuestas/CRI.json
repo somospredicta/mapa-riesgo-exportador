@@ -26,9 +26,13 @@
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Ccosta%20rica",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
-      "criterio": "Corrección pedida en la revisión de G (planilla revision_bases_64_paises, 28/10/2026): responder con las dimensiones disponibles aunque falten 2. Con las 4 dimensiones con dato, 0 supera(n) los 40 puntos. A CONFIRMAR: es un cambio de criterio para C2.",
-      "interpretativa": true
+      "estado": "aprobado",
+      "criterio": "Criterio 24 (confirmado por los fundadores, 28/10/2026): con al menos 4 de las 6 dimensiones se responde con las disponibles. Faltan 2; con las 4 dimensiones con dato, 0 supera(n) los 40 puntos.",
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "Confirmación de Giuliano en la sesión del 28/10/2026 (corrección pedida en su revisión, criterio confirmado por los fundadores).",
+      "huella_aprobada": "05024870b356"
     },
     "C3": {
       "respuesta": "NO",

@@ -26,9 +26,13 @@
       "fuente_nombre": null,
       "fuente_url": null,
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "motivo_null": "El país no figura en la herramienta de comparación de Hofstede (The Culture Factor Group).",
-      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)"
+      "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "Confirmación de Giuliano (28/10/2026). Su comentario sobre el régimen político se resolvió con la decisión 3 de los fundadores (alerta por sanciones amplias de EE.UU., sin pregunta nueva); la respuesta no cambia: el país no figura en Hofstede.",
+      "huella_aprobada": "d179c869250a"
     },
     "C3": {
       "respuesta": "NO",
@@ -141,18 +145,29 @@
     },
     "A3": {
       "respuesta": "NO",
-      "dato": "Miembro de la Asociación Latinoamericana de Integración (ALADI) con Argentina, acuerdo en vigor registrado en la OMC.",
-      "dato_publico": "ALADI",
+      "dato": "Acuerdo de Complementación Económica N.º 62 Mercosur–Cuba, en vigor desde el 02/07/2007, con un universo de productos y preferencias más limitado.",
+      "dato_publico": "ACE 62 Mercosur–Cuba",
       "anio_dato": 2026,
-      "fuente_corta": "OMC",
-      "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
-      "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
-      "consultado": "2026-10-27",
-      "estado": "aprobada_por_muestreo",
-      "revisado_por": "G",
-      "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)",
-      "huella_aprobada": "034ecfcda349"
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Acuerdos comerciales en vigencia y negociaciones en curso",
+      "fuente_url": "https://cancilleria.gob.ar/es/politica-exterior/acuerdos-comerciales-vigencia-reciente-negociacion",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "criterio": "Criterio aprobado (sesión 6): la Preferencia Arancelaria Regional de la ALADI sola no cuenta; cuenta un acuerdo de alcance parcial o de complementación económica vigente con Argentina o el Mercosur.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Acuerdos comerciales en vigencia y negociaciones en curso",
+          "url": "https://cancilleria.gob.ar/es/politica-exterior/acuerdos-comerciales-vigencia-reciente-negociacion",
+          "resultado": "ACE 62 Mercosur–Cuba: en vigor.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "OMC, base de datos de acuerdos comerciales regionales",
+          "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+          "resultado": "Lista la ALADI (RTA 135) y el Mercosur; no lista por separado los acuerdos de complementación económica de la ALADI.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A4": {
       "respuesta": "SÍ",
@@ -421,5 +436,15 @@
       "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)",
       "huella_aprobada": "6bc0f24142ac"
     }
-  }
+  },
+  "alertas_pais": [
+    {
+      "texto": "País sujeto a sanciones amplias de EE.UU.: pueden afectar pagos, bancos corresponsales y seguros.",
+      "fecha": "2026-05-01",
+      "fuente_nombre": "Departamento del Tesoro de EE.UU., OFAC, Cuba Sanctions (Reglamento de Control de Activos Cubanos, 31 CFR 515; Orden Ejecutiva 14404 del 01/05/2026)",
+      "fuente_url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/cuba-sanctions",
+      "consultado": "2026-10-28",
+      "criterio": "Criterio 25 (fundadores, 28/10/2026): alerta fija para países con programas de OFAC que restringen la mayoría de las transacciones. La fecha es la de la Orden Ejecutiva 14404, que convirtió el embargo en un programa de sanciones amplio."
+    }
+  ]
 }

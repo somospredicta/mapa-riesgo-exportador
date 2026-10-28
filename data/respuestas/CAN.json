@@ -175,7 +175,7 @@
       "fuente_nombre": "BLG (Borden Ladner Gervais), \"Canada’s unilateral Digital Services Tax forges ahead with retroactive effect\" (10/07/2024)",
       "fuente_url": "https://www.blg.com/en/insights/2024/07/canadas-unilateral-digital-services-tax-forges-ahead-with-retroactive-effect",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Corrección pedida en la revisión de G (planilla revision_tanda2_america, 28/10/2026): como la ley retroactiva se derogó y se devolvió lo cobrado, no cuenta como cambio retroactivo vigente (NO) y se publica como alerta. Reemplaza, para estos casos, el criterio 17 de la sesión 5. A CONFIRMAR.",
       "interpretativa": true,
       "fuentes_revisadas": [
@@ -194,8 +194,15 @@
       ],
       "alerta": {
         "texto": "Canadá cobró en forma retroactiva un impuesto a los servicios digitales (sancionado en 2024 con efecto desde 2022) y lo derogó en 2026, con devolución de lo cobrado. Conviene seguir de cerca cambios similares.",
-        "fecha": "2026-03-26"
-      }
+        "fecha": "2026-03-26",
+        "fuente_nombre": "Gobierno de Canadá, Justice Laws, Budget 2025 Implementation Act, No. 1 (S.C. 2026, c. 3), art. 126",
+        "fuente_url": "https://laws-lois.justice.gc.ca/eng/acts/B-9.8598/FullText.html",
+        "consultado": "2026-10-28"
+      },
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "Confirmación de Giuliano en la sesión del 28/10/2026 (corrección pedida en su revisión, criterio confirmado por los fundadores).",
+      "huella_aprobada": "244cc2c1ef00"
     },
     "G1": {
       "respuesta": "NO",

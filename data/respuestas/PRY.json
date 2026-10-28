@@ -152,18 +152,29 @@
     },
     "A3": {
       "respuesta": "NO",
-      "dato": "Miembro del Mercosur con Argentina (también de la ALADI); acuerdos en vigor registrados en la OMC.",
+      "dato": "Miembro del Mercosur con Argentina (Tratado de Asunción, en vigor desde 1991).",
       "dato_publico": "Mercosur",
       "anio_dato": 2026,
-      "fuente_corta": "OMC",
-      "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
-      "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
-      "consultado": "2026-10-27",
-      "estado": "aprobada_por_muestreo",
-      "revisado_por": "G",
-      "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)",
-      "huella_aprobada": "96a89c0b2f67"
+      "fuente_corta": "Cancillería argentina",
+      "fuente_nombre": "Cancillería argentina, Acuerdos comerciales en vigencia y negociaciones en curso",
+      "fuente_url": "https://cancilleria.gob.ar/es/politica-exterior/acuerdos-comerciales-vigencia-reciente-negociacion",
+      "consultado": "2026-10-28",
+      "estado": "pendiente_revision",
+      "criterio": "Criterio aprobado (sesión 6): la Preferencia Arancelaria Regional de la ALADI sola no cuenta; cuenta un acuerdo de alcance parcial o de complementación económica vigente con Argentina o el Mercosur.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, Acuerdos comerciales en vigencia y negociaciones en curso",
+          "url": "https://cancilleria.gob.ar/es/politica-exterior/acuerdos-comerciales-vigencia-reciente-negociacion",
+          "resultado": "Mercosur: en vigor.",
+          "consultado": "2026-10-28"
+        },
+        {
+          "nombre": "OMC, base de datos de acuerdos comerciales regionales",
+          "url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
+          "resultado": "Lista la ALADI (RTA 135) y el Mercosur; no lista por separado los acuerdos de complementación económica de la ALADI.",
+          "consultado": "2026-10-28"
+        }
+      ]
     },
     "A4": {
       "respuesta": "SÍ",
