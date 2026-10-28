@@ -156,10 +156,18 @@ function calcularPais(checklist, archivo, avisos) {
     .map(({ p, r }) => itemPublico(fraseSi(p, r), r, p.id, pais, avisos));
 
   // A favor: hasta 2 respuestas NO de mayor criticidad, con la frase positiva del checklist.
+  // Una respuesta NO que lleva una alerta (por ejemplo, una medida retroactiva que se revirtió) no va a "A favor".
   const aFavor = negativas
+    .filter(({ r }) => !r.alerta)
     .sort(porCriticidad)
     .slice(0, 2)
     .map(({ p, r }) => itemPublico(p.frase_positiva, r, p.id, pais, avisos));
+
+  // Alertas: hechos con fuente que conviene seguir aunque no cuenten como riesgo vigente (campo `alerta` de la respuesta).
+  const alertas = checklist.preguntas
+    .map((p) => resp[p.id])
+    .filter((r) => r && r.alerta && r.alerta.texto && r.alerta.fecha && r.fuente_url && fechaValida(r.consultado))
+    .map((r) => ({ texto: r.alerta.texto, fecha: r.alerta.fecha, fuente: fuentePublica(r) }));
 
   // Indicador aparte (no entra al puntaje).
   const ind = checklist.indicador_aparte;
@@ -174,7 +182,8 @@ function calcularPais(checklist, archivo, avisos) {
   }
 
   const todas = [...checklist.preguntas.map((p) => p.id), ind.id];
-  const aprobado = todas.every((id) => resp[id] && resp[id].estado === 'aprobado');
+  // Aprobada por un revisor o por muestreo (ver "Planillas de revisión" en CLAUDE.md).
+  const aprobado = todas.every((id) => resp[id] && ['aprobado', 'aprobada_por_muestreo'].includes(resp[id].estado));
 
   return {
     pais,
@@ -187,6 +196,7 @@ function calcularPais(checklist, archivo, avisos) {
       hechos,
       a_favor: aFavor,
       calidad_informacion: calidad,
+      alertas: alertas,
       cobertura: excluidas.length
         ? { preguntas_usadas: checklist.preguntas.length - excluidas.length, preguntas_total: checklist.preguntas.length, fuentes_ausentes: [...new Set(excluidas)] }
         : null,

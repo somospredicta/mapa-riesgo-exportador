@@ -75,7 +75,7 @@
       "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
@@ -96,7 +96,10 @@
           "consultado": "2026-10-28",
           "resultado": "Solo misiones comerciales de Cancillería; ninguna cámara binacional activa."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 7)"
     },
     "A1": {
       "respuesta": "SÍ",
@@ -132,7 +135,10 @@
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -200,14 +206,17 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
     },
     "G4": {
       "fuente_corta": "ANAC",
       "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
       "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "anio_dato": 2026,
       "fuentes_revisadas": [
         {
@@ -226,7 +235,10 @@
       "respuesta": "SÍ",
       "dato": "En septiembre de 2026 no salieron vuelos regulares con pasajeros desde aeropuertos argentinos a Belice. Tampoco figuran partidas suficientes en el tablero de Ezeiza y Aeroparque del 26/10 al 01/11/2026 (0).",
       "dato_publico": "sin vuelos directos regulares desde Argentina",
-      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda2_america.xlsx (Muestreo, fila 2)"
     },
     "E1": {
       "respuesta": "NO",
@@ -237,7 +249,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BLZ.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)"
     },
     "E2": {
       "respuesta": "NO",
@@ -248,7 +263,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BLZ.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E2 aprobado (4 filas)"
     },
     "E3": {
       "respuesta": "NO",
@@ -259,7 +277,10 @@
       "fuente_nombre": "FMI, tipos de cambio (fin de período, mensual)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/BLZ.XDC_USD.EOP_RT.M?startPeriod=2024-06",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)"
     },
     "E4": {
       "respuesta": "SÍ",
@@ -298,7 +319,7 @@
       "fuente_nombre": "Gobierno de Belice, oficina de prensa, \"Disputed Stakebank Extension to be Acquired by GOB for a Public Purpose\" (27/08/2024)",
       "fuente_url": "https://www.pressoffice.gov.bz/disputed-stakebank-extension-to-be-acquired-by-gob-for-a-public-purpose/",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Expropiación documentada por el propio Gobierno dentro de la ventana de 10 años.",
       "fuentes_revisadas": [
         {
@@ -313,7 +334,10 @@
           "consultado": "2026-10-28",
           "resultado": "El Tribunal Superior declaró constitucional la adquisición; hay apelación."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 10)"
     },
     "I3-4": {
       "respuesta": "NO",
@@ -324,7 +348,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-4 aprobado (4 filas)"
     },
     "I3-5": {
       "respuesta": "SÍ",
@@ -364,8 +391,11 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (e-GDDS)",
       "fuente_url": "https://dsbb.imf.org/e-gdds/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
     }
   }
 }

@@ -27,7 +27,10 @@
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cparaguay",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C2 aprobado (4 filas)"
     },
     "C3": {
       "respuesta": "NO",
@@ -38,7 +41,7 @@
       "fuente_nombre": "OMC, lista cronológica de disputas",
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: en septiembre de 2023, durante el conflicto por el peaje de la hidrovía, camiones argentinos sufrieron demoras en el puente Posadas–Encarnación; un proyecto de la Cámara de Diputados argentina las atribuyó \"presumiblemente\" a una represalia, y la aduana paraguaya dijo que los controles no habían cambiado. No hay documentación de una medida paraguaya: los fundadores pueden decidir si cuenta.",
       "interpretativa": true,
       "fuentes_revisadas": [
@@ -66,7 +69,10 @@
           "consultado": "2026-10-27",
           "resultado": "La aduana paraguaya negó cambios en los controles."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Revisión completa, fila 2)"
     },
     "C4": {
       "respuesta": "SÍ",
@@ -77,7 +83,7 @@
       "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas. La cámara participó de un encuentro oficial en 2024: REVISAR si se mantiene como inactiva o si hay balances en trámite.",
       "fuentes_revisadas": [
         {
@@ -93,7 +99,10 @@
           "resultado": "\"Cámara De Comercio Argentino Paraguaya\" (n.º 357662), último balance presentado: 12/12/2018 (ejercicio cerrado el 30/06/2018); última asamblea: 12/12/2018"
         }
       ],
-      "interpretativa": true
+      "interpretativa": true,
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_c4_64_paises.xlsx (Revisión completa, fila 9)"
     },
     "A1": {
       "respuesta": "SÍ",
@@ -131,7 +140,10 @@
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -142,8 +154,11 @@
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)"
     },
     "A5": {
       "respuesta": "NO",
@@ -154,7 +169,7 @@
       "fuente_nombre": "Búsqueda web (\"cambio regulatorio retroactivo empresas extranjeras 2022-2025\")",
       "fuente_url": "https://publications.iadb.org/publications/spanish/document/Problemas-tributarios-prácticos-que-afectan-la-inversión-y-la-competitividad-en-Uruguay.pdf",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
       "fuentes_revisadas": [
         {
@@ -163,7 +178,10 @@
           "consultado": "2026-10-27",
           "resultado": "Sin casos en la ventana."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Resto, fila 14)"
     },
     "G1": {
       "respuesta": "SÍ",
@@ -174,7 +192,10 @@
       "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G1 aprobado (4 filas)"
     },
     "G3": {
       "respuesta": "NO",
@@ -185,14 +206,17 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
     },
     "G4": {
       "fuente_corta": "ANAC",
       "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
       "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "anio_dato": 2026,
       "fuentes_revisadas": [
         {
@@ -211,7 +235,10 @@
       "respuesta": "NO",
       "dato": "En septiembre de 2026 salieron 96 vuelos regulares con pasajeros desde aeropuertos argentinos a Paraguay (22,4 por semana en promedio; AEROLINEAS ARGENTINAS SA, JETSMART AIRLINES S.A., COMPAÑÍA DE AVIACIÓN PARAGUAYA S.A.).",
       "dato_publico": "22 vuelos directos por semana en promedio desde Argentina",
-      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Resto, fila 20)"
     },
     "E1": {
       "respuesta": "NO",
@@ -222,7 +249,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/PRY.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)"
     },
     "E2": {
       "respuesta": "NO",
@@ -233,7 +263,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/PRY.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E2 aprobado (4 filas)"
     },
     "E3": {
       "respuesta": "NO",
@@ -244,8 +277,11 @@
       "fuente_nombre": "FMI, tipos de cambio (fin de período, mensual)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/PRY.XDC_USD.EOP_RT.M?startPeriod=2024-06",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El último dato del FMI es de 08/2026; la ventana de 24 meses se tomó hasta ese mes."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "El último dato del FMI es de 08/2026; la ventana de 24 meses se tomó hasta ese mes.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)"
     },
     "E4": {
       "respuesta": "SÍ",
@@ -256,7 +292,10 @@
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E4 aprobado (4 filas)"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -281,7 +320,7 @@
       "fuente_nombre": "CIADI, base de casos",
       "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni los proyectos de ley.",
       "fuentes_revisadas": [
         {
@@ -296,7 +335,10 @@
           "consultado": "2026-10-27",
           "resultado": "Sin expropiaciones consumadas en la ventana."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Resto, fila 30)"
     },
     "I3-4": {
       "respuesta": "SÍ",
@@ -307,7 +349,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-4 aprobado (4 filas)"
     },
     "I3-5": {
       "respuesta": "NO",
@@ -318,7 +363,10 @@
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -329,8 +377,11 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS)",
       "fuente_url": "https://dsbb.imf.org/sdds/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
     }
   }
 }

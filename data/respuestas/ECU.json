@@ -11,7 +11,10 @@
       "fuente_nombre": "Constitute Project, Constitución (Ecuador_2021)",
       "fuente_url": "https://www.constituteproject.org/constitution/Ecuador_2021?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C1 aprobado (4 filas)"
     },
     "C2": {
       "respuesta": "NO",
@@ -22,8 +25,11 @@
       "fuente_nombre": "The Culture Factor Group, Country Comparison Tool (Hofstede)",
       "fuente_url": "https://www.theculturefactor.com/country-comparison-tool?countries=argentina%2Cecuador",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Faltan dimensiones (indulgencia), pero no alcanzan para cambiar la respuesta."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "Faltan dimensiones (indulgencia), pero no alcanzan para cambiar la respuesta.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C2 aprobado (4 filas)"
     },
     "C3": {
       "respuesta": "NO",
@@ -34,7 +40,7 @@
       "fuente_nombre": "OMC, lista cronológica de disputas",
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO.",
       "fuentes_revisadas": [
         {
@@ -55,7 +61,10 @@
           "consultado": "2026-10-27",
           "resultado": "Sin medidas contra empresas argentinas."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Resto, fila 5)"
     },
     "C4": {
       "respuesta": "SÍ",
@@ -66,7 +75,7 @@
       "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
@@ -87,7 +96,10 @@
           "consultado": "2026-10-28",
           "resultado": "Sin actividad reciente de cámaras binacionales con Argentina."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 17)"
     },
     "A1": {
       "respuesta": "SÍ",
@@ -123,7 +135,10 @@
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -134,8 +149,11 @@
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)"
     },
     "A5": {
       "respuesta": "SÍ",
@@ -146,7 +164,7 @@
       "fuente_nombre": "Primicias, \"¿Qué empresas pagarán un impuesto en marzo de 2024 para cubrir el gasto por el conflicto armado?\"",
       "fuente_url": "https://primicias.ec/noticias/economia/impuesto-empresas-utilidades-ley-conflicto-armado-noboa",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "variante": "general",
       "criterio": "Interpretación: un tributo nuevo calculado sobre utilidades de ejercicios ya cerrados se tomó como cambio con efecto retroactivo. Alcanzó a todas las empresas medianas y grandes, por eso se usa la frase de alcance general. Los fundadores pueden decidir si cuenta.",
       "interpretativa": true,
@@ -163,7 +181,10 @@
           "consultado": "2026-10-27",
           "resultado": "Plantea problemas de retroactividad y carácter confiscatorio."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Revisión completa, fila 4)"
     },
     "G1": {
       "respuesta": "no_aplica_sin_fuente",
@@ -210,14 +231,17 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
     },
     "G4": {
       "fuente_corta": "ANAC",
       "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
       "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "anio_dato": 2026,
       "fuentes_revisadas": [
         {
@@ -236,7 +260,10 @@
       "respuesta": "NO",
       "dato": "En septiembre de 2026 salieron 28 vuelos regulares con pasajeros desde aeropuertos argentinos a Ecuador (6,5 por semana en promedio; LINEAS AEREAS COSTARICENSES).",
       "dato_publico": "6 vuelos directos por semana en promedio desde Argentina",
-      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Muestreo, fila 4)"
     },
     "E1": {
       "respuesta": "NO",
@@ -247,7 +274,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/ECU.PPPPC+PCPIPCH.A?startPeriod=2023&endPeriod=2025",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)"
     },
     "E2": {
       "respuesta": "NO",
@@ -272,7 +302,10 @@
       "fuente_nombre": "FMI, tipos de cambio (fin de período, mensual)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,ER/ECU.XDC_USD.EOP_RT.M?startPeriod=2024-06",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)"
     },
     "E4": {
       "respuesta": "SÍ",
@@ -283,7 +316,10 @@
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E4 aprobado (4 filas)"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -308,7 +344,7 @@
       "fuente_nombre": "CIADI, base de casos",
       "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni los proyectos de ley.",
       "fuentes_revisadas": [
         {
@@ -323,7 +359,10 @@
           "consultado": "2026-10-27",
           "resultado": "Sin expropiaciones consumadas en la ventana."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda1_sudamerica.xlsx (Resto, fila 28)"
     },
     "I3-4": {
       "respuesta": "SÍ",
@@ -334,7 +373,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-4 aprobado (4 filas)"
     },
     "I3-5": {
       "respuesta": "NO",
@@ -345,7 +387,10 @@
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -356,8 +401,11 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS)",
       "fuente_url": "https://dsbb.imf.org/sdds/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
     }
   }
 }

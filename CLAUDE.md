@@ -80,7 +80,8 @@ vercel.json    Publica solo /public.
 
 1. Se investiga cada pregunta en la fuente indicada y se carga en `data/respuestas/XXX.json`.
    Sin fuente verificable, la respuesta queda en `null` con `motivo_null`. Nunca se completa de memoria.
-2. Toda respuesta nueva arranca con `"estado": "pendiente_revision"`. Pasa a `"aprobado"` solo cuando
+2. Toda respuesta nueva arranca con `"estado": "pendiente_revision"`. Pasa a `"aprobado"` (o a `"aprobada_por_muestreo"`,
+   ver "Planillas de revisión") solo cuando
    la aprueba un revisor en la planilla de `data/revision/`. Revisan **Giuliano (G) o Agustina (A)**, cualquiera de los dos;
    la respuesta aprobada guarda quién la revisó (`revisado_por`) y la fecha (`revisado_fecha`).
 3. `node scripts/generar_revision.js` regenera las planillas de revisión (se definen en `PLANILLAS` dentro del script).
@@ -112,6 +113,8 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `variante`: elige una variante de la frase pública del checklist (por ejemplo `"general"` en A5 cuando el cambio
   alcanzó a todas las empresas: "afectaron a empresas, incluidas las extranjeras").
 - `revisado_por` (G o A), `revisado_fecha` y `revision_origen` (planilla, hoja y fila): se cargan al aprobar la respuesta.
+- `alerta` (`texto`, `fecha`): hecho con fuente que se publica en "Alertas recientes" aunque no cuente como riesgo vigente
+  (criterio 23). Usa la fuente, el link y la fecha de consulta de la respuesta.
 
 ## Planillas de revisión
 
@@ -123,6 +126,14 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
   3. **Resto:** las demás, solo como referencia.
 - En el .xlsx solo se editan "Aprobado" (desplegable sí/no), "Revisó" (desplegable G/A) y "Comentario"; el resto está
   protegido y en gris. Una columna oculta ("Huella") permite detectar si la respuesta cambió después de generar la planilla.
+- Las planillas se regeneran solo con lo pendiente: las respuestas aprobadas (por un revisor o por muestreo) ya no se listan.
+- **Aprobación por muestreo (sesión 6):** cuando en una planilla todas las filas de "Muestreo" de una pregunta están aprobadas
+  sin comentarios, las filas de esa misma pregunta en "Resto" pasan a `"aprobada_por_muestreo"`, con quién aprobó el muestreo
+  (`revisado_por`) y la fecha (`revisado_fecha`). Si alguna fila del muestreo de esa pregunta tiene "no" o comentario, el resto
+  de esa pregunta no se aprueba hasta corregir. A1 queda excluida del muestreo hasta terminar su corrección
+  (`EXCLUIDAS_MUESTREO` en `scripts/leer_completadas.py`). Para el cálculo y la franja de borrador,
+  `"aprobada_por_muestreo"` cuenta como aprobada. `python3 scripts/leer_completadas.py --reaplicar` vuelve a aplicar la regla
+  a las planillas ya procesadas.
 
 ## Panel del país
 
@@ -197,6 +208,15 @@ Aprobados por los fundadores. Rigen para todos los países.
     cuenta como acuerdo comercial (igual que el SGPC: SÍ). Cuenta (NO) un Acuerdo de Alcance Parcial bilateral o un Acuerdo
     de Complementación Económica vigente entre el país y Argentina o el Mercosur. Se verifica el instrumento concreto
     (número de ACE o AAP) en la página de acuerdos vigentes de Cancillería o en la base de textos de la ALADI.
+
+Pedidos de la revisión de G (28/10/2026), **aplicados y pendientes de confirmación por los fundadores**:
+
+23. **A5, medida retroactiva revertida (reemplaza al 17 para estos casos):** si una ley retroactiva se derogó y se devolvió
+    lo cobrado, A5 es NO y el hecho se publica en "Alertas recientes" (campo `alerta` de la respuesta: `texto` y `fecha`),
+    recomendando seguir cambios similares. Una respuesta NO con alerta no va al bloque "A favor".
+24. **C2 con dimensiones de Hofstede faltantes:** si la herramienta tiene dato de algunas dimensiones pero no de todas, se
+    responde con las dimensiones disponibles (SÍ si al menos 2 superan los 40 puntos), como interpretativa. Si el país no
+    figura en la herramienta, sigue siendo `"no_aplica_sin_fuente"`.
 
 ## Grupos del mapa
 

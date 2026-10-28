@@ -8,6 +8,7 @@
  *   Muestreo           Para cada pregunta mecánica, 4 países al azar (con semilla fija) entre los que no están en el bloque anterior.
  *   Resto              Las demás, solo como referencia.
  * Columnas para los revisores: "Aprobado" (sí/no), "Revisó" (G = Giuliano, A = Agustina) y "Comentario".
+ * Solo entran las respuestas pendientes: las aprobadas (por un revisor o por muestreo) ya no se listan.
  *
  * Planillas (se definen en PLANILLAS):
  *   revision_3_paises            Brasil, China y España, todas las preguntas.
@@ -39,6 +40,7 @@ const SUDAMERICA = ['BOL', 'CHL', 'COL', 'ECU', 'GUY', 'PRY', 'PER', 'SUR', 'URY
 const RESTO_AMERICA = ['CAN', 'USA', 'MEX', 'BLZ', 'CRI', 'SLV', 'GTM', 'HND', 'NIC', 'PAN', 'ATG', 'BHS', 'BRB', 'CUB', 'DMA', 'DOM', 'GRD', 'HTI', 'JAM', 'KNA', 'LCA', 'VCT', 'TTO'];
 const NO_APLICA = 'no_aplica_sin_fuente';
 const POR_MUESTREO = 4;
+const APROBADOS = ['aprobado', 'aprobada_por_muestreo'];
 
 const PLANILLAS = [
   { archivo: 'revision_3_paises', titulo: 'Revisión de respuestas: Brasil, China y España', paises: TRES_PAISES },
@@ -127,11 +129,13 @@ function armarPlanilla(pl) {
   const paises = datosPorPais.filter((d) => (!pl.paises || pl.paises.includes(d.pais)) && !(pl.excluir || []).includes(d.pais));
   const preguntas = todas.filter((p) => !pl.preguntas || pl.preguntas.includes(p.id));
   const bloques = { completa: [], muestreo: [], resto: [] };
+  let aprobadas = 0;
+  for (const d of paises) for (const p of preguntas) if (d.respuestas[p.id] && APROBADOS.includes(d.respuestas[p.id].estado)) aprobadas += 1;
   const candidatos = {};
   for (const d of paises) {
     for (const p of preguntas) {
       const r = d.respuestas[p.id];
-      if (!r) continue;
+      if (!r || APROBADOS.includes(r.estado)) continue;
       const f = filaDatos(d, p, r);
       if (sinRespuesta(r) || r.interpretativa === true || f.critica) bloques.completa.push(f);
       else if (MECANICAS.includes(p.id)) (candidatos[p.id] = candidatos[p.id] || []).push(f);
@@ -151,11 +155,12 @@ function armarPlanilla(pl) {
   for (const d of paises) {
     for (const p of preguntas) {
       const r = d.respuestas[p.id];
+      if (r && APROBADOS.includes(r.estado)) continue;
       if (r && r.criterio && /REVISAR|pueden decidir|confirmar/i.test(r.criterio)) puntos.push(`${d.nombre} ${p.id}: ${r.criterio}`);
       if (r && r.respuesta === null && r.motivo_null && /PARA COMPLETAR/.test(r.motivo_null)) puntos.push(`${d.nombre} ${p.id}: ${r.motivo_null}`);
     }
   }
-  return { archivo: pl.archivo, titulo: pl.titulo, nota: pl.nota || '', generado: hoy, puntos, bloques };
+  return { archivo: pl.archivo, titulo: pl.titulo, nota: pl.nota || '', generado: hoy, puntos, bloques, aprobadas };
 }
 
 // Texto seguro dentro de una celda de tabla Markdown.
@@ -181,6 +186,7 @@ function escribirMd(pl) {
     'Mientras quede alguna respuesta pendiente, el sitio muestra la franja "Versión de prueba: datos en revisión".', '',
   ];
   if (pl.nota) partes.push(pl.nota, '');
+  partes.push(`Solo se listan las respuestas pendientes. Ya aprobadas (por un revisor o por muestreo): ${pl.aprobadas}.`, '');
   partes.push('| Bloque | Filas |', '|---|---|', ...BLOQUES.map((b) => `| ${b.titulo} | ${pl.bloques[b.id].length} |`), '');
   if (pl.puntos.length) partes.push('## Puntos a mirar', '', ...pl.puntos.map((t) => `- ${celda(t)}`), '');
   for (const b of BLOQUES) {

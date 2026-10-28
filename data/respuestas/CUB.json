@@ -11,7 +11,10 @@
       "fuente_nombre": "Constitute Project, Constitución (Cuba_2019)",
       "fuente_url": "https://www.constituteproject.org/constitution/Cuba_2019?lang=en",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C1 aprobado (4 filas)"
     },
     "C2": {
       "respuesta": "no_aplica_sin_fuente",
@@ -67,7 +70,7 @@
       "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
       "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Criterio aprobado (sesión 5): una cámara sin balances ni asambleas en los últimos 3 años (desde el 28/10/2023) se considera inactiva. Se tomó la fecha más reciente entre la presentación de balances en la IGJ y la realización o presentación de asambleas.",
       "fuentes_revisadas": [
         {
@@ -88,7 +91,10 @@
           "consultado": "2026-10-28",
           "resultado": "Solo misiones comerciales de Cancillería; ninguna cámara binacional activa."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 14)"
     },
     "A1": {
       "respuesta": "NO",
@@ -124,7 +130,10 @@
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/ExportAllRTAList.aspx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -135,8 +144,11 @@
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil."
+      "estado": "aprobada_por_muestreo",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)"
     },
     "A5": {
       "respuesta": "SÍ",
@@ -147,7 +159,7 @@
       "fuente_nombre": "Emol (EFE), \"Corralito en Cuba: Gobierno está impidiendo a empresas extranjeras el retiro y envío de divisas al exterior\" (21/11/2025)",
       "fuente_url": "https://www.emol.com/noticias/Economia/2025/11/21/1183911/corralito-cuba-empresas-extranjeras.html",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Se tomó como cambio retroactivo porque alcanza a fondos depositados antes de la medida. No hay norma publicada: la información viene de fuentes de EFE. REVISAR.",
       "interpretativa": true,
       "fuentes_revisadas": [
@@ -157,7 +169,10 @@
           "consultado": "2026-10-28",
           "resultado": "Confirma la medida."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 4)"
     },
     "G1": {
       "respuesta": "SÍ",
@@ -168,7 +183,10 @@
       "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/LP.LPI.OVRL.XQ?format=json&date=2022&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G1 aprobado (4 filas)"
     },
     "G3": {
       "respuesta": "NO",
@@ -179,14 +197,17 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
     },
     "G4": {
       "fuente_corta": "ANAC",
       "fuente_nombre": "ANAC, aterrizajes y despegues procesados (dataset oficial, enero a septiembre de 2026)",
       "fuente_url": "https://datos.transporte.gob.ar/dataset/21038a1a-c3c7-4494-b76a-3a2a8fbb83b5/resource/7b6d0103-0a69-4c67-aed9-33cb58ae12f5/download/202609-informe-ministerio-vf-matricula.csv",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobada_por_muestreo",
       "anio_dato": 2026,
       "fuentes_revisadas": [
         {
@@ -205,7 +226,10 @@
       "respuesta": "SÍ",
       "dato": "En septiembre de 2026 no salieron vuelos regulares con pasajeros desde aeropuertos argentinos a Cuba. Tampoco figuran partidas suficientes en el tablero de Ezeiza y Aeroparque del 26/10 al 01/11/2026 (0).",
       "dato_publico": "sin vuelos directos regulares desde Argentina",
-      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras."
+      "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_tanda2_america.xlsx: muestreo de G4 aprobado (4 filas)"
     },
     "E1": {
       "respuesta": "no_aplica_sin_fuente",
@@ -337,7 +361,7 @@
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados, Acuerdo Argentina–Cuba (1995)",
       "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_ficha.php?id=kqCqlw==",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobada_por_muestreo",
       "criterio": "Criterio aprobado (sesión 5): un tratado bilateral de inversión vigente con Argentina que prevé arbitraje internacional cuenta como norma habilitante.",
       "fuentes_revisadas": [
         {
@@ -346,7 +370,10 @@
           "resultado": "No es miembro del CIADI.",
           "consultado": "2026-10-28"
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)"
     },
     "I4-4": {
       "respuesta": "SÍ",
@@ -357,7 +384,10 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board",
       "fuente_url": "https://dsbb.imf.org/e-gdds/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobada_por_muestreo",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
     }
   }
 }
