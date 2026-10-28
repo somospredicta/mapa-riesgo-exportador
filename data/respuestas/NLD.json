@@ -14,7 +14,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C1 aprobado (4 filas)",
+      "huella_aprobada": "e2c91253a97d"
     },
     "C2": {
       "respuesta": "SÍ",
@@ -28,7 +29,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C2 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C2 aprobado (4 filas)",
+      "huella_aprobada": "9e86a39d646e"
     },
     "C3": {
       "respuesta": null,
@@ -69,7 +71,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 37)"
+      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 37)",
+      "huella_aprobada": "29e9ecb5244d"
     },
     "A1": {
       "respuesta": "NO",
@@ -94,7 +97,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A2 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A2 aprobado (4 filas)",
+      "huella_aprobada": "8821741cadd4"
     },
     "A3": {
       "respuesta": "NO",
@@ -109,7 +113,8 @@
       "criterio": "Criterio aprobado: un acuerdo en aplicación provisoria cuenta como vigente. La base de la OMC todavía no lo lista.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)",
+      "huella_aprobada": "ca6f1410a4bc"
     },
     "A4": {
       "respuesta": "NO",
@@ -124,7 +129,8 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)",
+      "huella_aprobada": "5cbad3cbd026"
     },
     "A5": {
       "respuesta": null,
@@ -150,7 +156,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G1 aprobado (4 filas)",
+      "huella_aprobada": "1b3ddaea91cd"
     },
     "G3": {
       "respuesta": "NO",
@@ -164,7 +171,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)",
+      "huella_aprobada": "8ee8b3ddae32"
     },
     "G4": {
       "respuesta": null,
@@ -190,7 +198,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)",
+      "huella_aprobada": "1d4f8740972a"
     },
     "E2": {
       "respuesta": "NO",
@@ -204,7 +213,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E2 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E2 aprobado (4 filas)",
+      "huella_aprobada": "bd1816cf1e85"
     },
     "E3": {
       "respuesta": "NO",
@@ -219,7 +229,8 @@
       "criterio": "País del euro: el banco central emisor es el BCE.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)",
+      "huella_aprobada": "0fb271975c37"
     },
     "E4": {
       "respuesta": "NO",
@@ -233,7 +244,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E4 aprobado (4 filas)",
+      "huella_aprobada": "3b2a4062049f"
     },
     "I3-1": {
       "respuesta": "NO",
@@ -247,7 +259,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-1 aprobado (4 filas)",
+      "huella_aprobada": "596535aa462a"
     },
     "I3-2": {
       "respuesta": null,
@@ -273,7 +286,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 56)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 56)",
+      "huella_aprobada": "b57df272fa18"
     },
     "I3-5": {
       "respuesta": "NO",
@@ -287,7 +301,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)",
+      "huella_aprobada": "83fbabf5c420"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -302,7 +317,8 @@
       "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)",
+      "huella_aprobada": "b7d967231c24"
     }
   }
 }

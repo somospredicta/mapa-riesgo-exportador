@@ -127,6 +127,10 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
 - En el .xlsx solo se editan "Aprobado" (desplegable sí/no), "Revisó" (desplegable G/A) y "Comentario"; el resto está
   protegido y en gris. Una columna oculta ("Huella") permite detectar si la respuesta cambió después de generar la planilla.
 - Las planillas se regeneran solo con lo pendiente: las respuestas aprobadas (por un revisor o por muestreo) ya no se listan.
+- **Cambios después de aprobar (sesión 6):** toda respuesta que cambia después de haber sido aprobada vuelve a
+  `"pendiente_revision"` y aparece en la planilla de pendientes. Al aprobar se guarda `huella_aprobada` (respuesta, dato,
+  dato publicado, año, link y fecha de consulta); `node scripts/generar_revision.js` compara esa huella con la actual y, si
+  cambió, reabre la respuesta, guarda la aprobación anterior en `aprobacion_anterior` y deja una `nota_revision`.
 - **Aprobación por muestreo (sesión 6):** cuando en una planilla todas las filas de "Muestreo" de una pregunta están aprobadas
   sin comentarios, las filas de esa misma pregunta en "Resto" pasan a `"aprobada_por_muestreo"`, con quién aprobó el muestreo
   (`revisado_por`) y la fecha (`revisado_fecha`). Si alguna fila del muestreo de esa pregunta tiene "no" o comentario, el resto

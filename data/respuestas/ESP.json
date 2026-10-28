@@ -15,7 +15,8 @@
       "criterio": "El CIA World Factbook fue discontinuado (cia.gov redirige a una nota de despedida), así que se usó la norma oficial del país. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 4)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 4)",
+      "huella_aprobada": "8c38c99da867"
     },
     "C2": {
       "respuesta": "NO",
@@ -29,7 +30,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 7)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 7)",
+      "huella_aprobada": "c4c2047f4d86"
     },
     "C3": {
       "respuesta": "NO",
@@ -70,7 +72,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Resto, fila 4)"
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 4)",
+      "huella_aprobada": "c02ebd86fc85"
     },
     "C4": {
       "respuesta": "NO",
@@ -84,7 +87,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 10)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 10)",
+      "huella_aprobada": "8b6990d68a21"
     },
     "A1": {
       "respuesta": "NO",
@@ -99,7 +103,8 @@
       "criterio": "UNCTAD Investment Policy Hub bloquea el acceso con una verificación antibots (Cloudflare), así que se usó la base oficial de tratados de la Cancillería argentina. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 12)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 12)",
+      "huella_aprobada": "a5d1efbc75ab"
     },
     "A2": {
       "respuesta": "NO",
@@ -113,7 +118,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 13)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 13)",
+      "huella_aprobada": "675f7016aa6a"
     },
     "A3": {
       "respuesta": "NO",
@@ -128,7 +134,8 @@
       "criterio": "Criterio aprobado: un acuerdo en aplicación provisoria cuenta como vigente. La base de acuerdos de la OMC (actualizada al 23/10/2026) todavía no lo lista.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 16)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 16)",
+      "huella_aprobada": "714fe605b44f"
     },
     "A4": {
       "respuesta": "NO",
@@ -143,7 +150,8 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 19)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 19)",
+      "huella_aprobada": "2b19b949aca9"
     },
     "A5": {
       "respuesta": "NO",
@@ -178,7 +186,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Resto, fila 6)"
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 6)",
+      "huella_aprobada": "8de02e8d1967"
     },
     "G1": {
       "respuesta": "NO",
@@ -192,7 +201,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 22)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 22)",
+      "huella_aprobada": "44904bbf2362"
     },
     "G3": {
       "respuesta": "NO",
@@ -207,7 +217,8 @@
       "criterio": "timeanddate.com bloqueó el acceso (403); se usó la base oficial IANA.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 25)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 25)",
+      "huella_aprobada": "90512007ac4d"
     },
     "G4": {
       "respuesta": "NO",
@@ -221,7 +232,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 28)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 28)",
+      "huella_aprobada": "62a379792bab"
     },
     "E1": {
       "respuesta": "NO",
@@ -235,7 +247,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 31)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 31)",
+      "huella_aprobada": "71de22756ccb"
     },
     "E2": {
       "respuesta": "NO",
@@ -249,7 +262,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 34)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 34)",
+      "huella_aprobada": "1539ffb8a020"
     },
     "E3": {
       "respuesta": "NO",
@@ -264,7 +278,8 @@
       "criterio": "España usa el euro; el banco central emisor es el BCE.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 37)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 37)",
+      "huella_aprobada": "3878f04d6ff8"
     },
     "E4": {
       "respuesta": "NO",
@@ -279,7 +294,8 @@
       "criterio": "Fuente sustituta: el sitio del FMI (imf.org) bloqueó el acceso. Último año disponible: 2020.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 40)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 40)",
+      "huella_aprobada": "333ac1deab51"
     },
     "I3-1": {
       "respuesta": "NO",
@@ -293,7 +309,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 41)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 41)",
+      "huella_aprobada": "d2a8fe53a520"
     },
     "I3-2": {
       "respuesta": "NO",
@@ -322,7 +339,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Resto, fila 9)"
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 9)",
+      "huella_aprobada": "02fa71f69354"
     },
     "I3-4": {
       "respuesta": "NO",
@@ -336,7 +354,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 44)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 44)",
+      "huella_aprobada": "112cb21e9551"
     },
     "I3-5": {
       "respuesta": "NO",
@@ -350,7 +369,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 46)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 46)",
+      "huella_aprobada": "613032f5734c"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -365,7 +385,8 @@
       "criterio": "Adherir al SDDS/SDDS Plus implica cumplir plazos de difusión del FMI; no se evaluó el rezago serie por serie. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 49)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 49)",
+      "huella_aprobada": "6db029131000"
     }
   }
 }

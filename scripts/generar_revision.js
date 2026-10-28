@@ -64,7 +64,7 @@ const todas = [
 ];
 const hoy = new Date().toISOString().slice(0, 10);
 const datosPorPais = fs.readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()
-  .map((f) => JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8')));
+  .map((f) => ({ ...JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8')), _archivo: f }));
 
 const sinRespuesta = (r) => r.respuesta === null || r.respuesta === undefined || r.respuesta === NO_APLICA;
 
@@ -100,6 +100,29 @@ function sortear(lista, n, clave) {
   return copia.slice(0, n);
 }
 
+// Regla (sesión 6): toda respuesta que cambia después de aprobada vuelve a "pendiente_revision".
+// Al aprobar se guarda `huella_aprobada`; si la huella actual no coincide, se reabre y se guarda la aprobación anterior.
+function reabrirCambiadas() {
+  const reabiertas = [];
+  for (const d of datosPorPais) {
+    let cambio = false;
+    for (const [id, r] of Object.entries(d.respuestas)) {
+      if (!APROBADOS.includes(r.estado) || !r.huella_aprobada || r.huella_aprobada === huella(r)) continue;
+      r.aprobacion_anterior = { estado: r.estado, revisado_por: r.revisado_por, revisado_fecha: r.revisado_fecha, revision_origen: r.revision_origen };
+      r.estado = 'pendiente_revision';
+      r.nota_revision = `Cambió después de aprobada (${r.revisado_fecha || 'sin fecha'}, ${r.revisado_por || 'sin revisor'}); vuelve a revisión.`;
+      for (const k of ['revisado_por', 'revisado_fecha', 'revision_origen', 'huella_aprobada']) delete r[k];
+      reabiertas.push(`${d.pais} ${id}`);
+      cambio = true;
+    }
+    if (cambio) {
+      const { _archivo, ...guardar } = d;
+      fs.writeFileSync(path.join(DIR, _archivo), JSON.stringify(guardar, null, 2) + '\n');
+    }
+  }
+  if (reabiertas.length) console.log(`Volvieron a revisión por cambios posteriores a la aprobación: ${reabiertas.join(', ')}.`);
+}
+
 function filaDatos(d, p, r) {
   const dato = r.respuesta === NO_APLICA ? `Sale del cálculo: ${r.motivo_null || 'sin motivo cargado'}`
     : sinRespuesta(r) ? `Sin responder: ${r.motivo_null || 'sin motivo cargado'}` : r.dato;
@@ -115,7 +138,7 @@ function filaDatos(d, p, r) {
     link: r.fuente_url || '',
     otros_links: (r.fuentes_adicionales || []).map((f) => ({ nombre: f.nombre, url: f.url })),
     fuente: r.fuente_nombre ? `${r.fuente_nombre} · ${r.consultado || 'sin fecha'}` : '',
-    criterio: r.criterio || '',
+    criterio: [r.nota_revision, r.criterio].filter(Boolean).join(' '),
     fuentes_revisadas: (r.fuentes_revisadas || []).map((f) => ({ nombre: f.nombre, url: f.url, resultado: f.resultado })),
     estado: r.estado || '',
     aprobado: r.estado === 'aprobado' ? 'sí' : '',
@@ -203,6 +226,7 @@ function escribirMd(pl) {
 
 fs.mkdirSync(SALIDA_DIR, { recursive: true });
 fs.mkdirSync(path.join(SALIDA_DIR, 'completadas'), { recursive: true });
+reabrirCambiadas();
 const planillas = PLANILLAS.map(armarPlanilla);
 for (const pl of planillas) {
   escribirMd(pl);

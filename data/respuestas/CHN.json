@@ -15,7 +15,8 @@
       "criterio": "El CIA World Factbook fue discontinuado (cia.gov redirige a una nota de despedida), así que se usó la norma oficial del país. Ninguna fuente oficial documenta una \"lengua franca de negocios compartida\"; se responde por lectura literal de la pregunta. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 3)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 3)",
+      "huella_aprobada": "a45d87cec3a4"
     },
     "C2": {
       "respuesta": "SÍ",
@@ -29,7 +30,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 6)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 6)",
+      "huella_aprobada": "f6284b93a7a4"
     },
     "C3": {
       "respuesta": "NO",
@@ -70,7 +72,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Resto, fila 3)"
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 3)",
+      "huella_aprobada": "f19cfd937193"
     },
     "C4": {
       "respuesta": "NO",
@@ -85,7 +88,8 @@
       "criterio": "Su última publicación en el sitio es de diciembre de 2025.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 9)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 9)",
+      "huella_aprobada": "c9522bf1a00c"
     },
     "A1": {
       "respuesta": "NO",
@@ -100,7 +104,8 @@
       "criterio": "UNCTAD Investment Policy Hub bloquea el acceso con una verificación antibots (Cloudflare), así que se usó la base oficial de tratados de la Cancillería argentina. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 11)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 11)",
+      "huella_aprobada": "d2483cfb0693"
     },
     "A2": {
       "respuesta": "SÍ",
@@ -114,7 +119,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 4)"
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 4)",
+      "huella_aprobada": "43cb282c7773"
     },
     "A3": {
       "respuesta": "SÍ",
@@ -128,7 +134,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 15)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 15)",
+      "huella_aprobada": "1554b34b1892"
     },
     "A4": {
       "respuesta": "NO",
@@ -143,7 +150,8 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 18)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 18)",
+      "huella_aprobada": "b9a5659d0d0d"
     },
     "A5": {
       "respuesta": "NO",
@@ -178,7 +186,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Resto, fila 5)"
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 5)",
+      "huella_aprobada": "92237e93ef21"
     },
     "G1": {
       "respuesta": "NO",
@@ -192,7 +201,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 21)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 21)",
+      "huella_aprobada": "4dbc4e67b1d1"
     },
     "G3": {
       "respuesta": "SÍ",
@@ -207,7 +217,8 @@
       "criterio": "timeanddate.com bloqueó el acceso (403); se usó la base oficial IANA.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 24)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 24)",
+      "huella_aprobada": "aa6dd3e10e64"
     },
     "G4": {
       "respuesta": "SÍ",
@@ -222,7 +233,8 @@
       "criterio": "Criterio aprobado: frecuencia vigente al día de la consulta. REVISAR DESPUÉS DEL 5/12/2026: la prensa informa que la ruta pasará a 4 vuelos semanales (iProfesional, 1/9/2026); si se confirma, la respuesta pasa a NO. En el tablero oficial de Ezeiza no aparecieron vuelos de China Eastern entre el 27/10 y el 3/11/2026, que coincide con las obras en la pista.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 27)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 27)",
+      "huella_aprobada": "c528f8b6ba25"
     },
     "E1": {
       "respuesta": "NO",
@@ -236,7 +248,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 30)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 30)",
+      "huella_aprobada": "f7b3a44677db"
     },
     "E2": {
       "respuesta": "NO",
@@ -250,7 +263,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 33)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 33)",
+      "huella_aprobada": "e62ab9980765"
     },
     "E3": {
       "respuesta": "NO",
@@ -265,7 +279,8 @@
       "criterio": "La tabla de paridad central de la SAFE (safe.gov.cn) se carga dinámicamente y no se pudo leer; se usó la serie histórica oficial de la Reserva Federal.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 36)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 36)",
+      "huella_aprobada": "ea4dfc9f800f"
     },
     "E4": {
       "respuesta": "NO",
@@ -280,7 +295,8 @@
       "criterio": "Fuente sustituta: el sitio del FMI (imf.org) bloqueó el acceso. Último año disponible: 2020.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 39)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 39)",
+      "huella_aprobada": "fa1c0be930df"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -294,7 +310,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 7)"
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 7)",
+      "huella_aprobada": "56e886362d41"
     },
     "I3-2": {
       "respuesta": "NO",
@@ -323,7 +340,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Resto, fila 8)"
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 8)",
+      "huella_aprobada": "e28d2203eadb"
     },
     "I3-4": {
       "respuesta": "NO",
@@ -337,7 +355,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 43)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 43)",
+      "huella_aprobada": "955903ff8950"
     },
     "I3-5": {
       "respuesta": "NO",
@@ -351,7 +370,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 45)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 45)",
+      "huella_aprobada": "d3b4ebba5a57"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -366,7 +386,8 @@
       "criterio": "Adherir al SDDS/SDDS Plus implica cumplir plazos de difusión del FMI; no se evaluó el rezago serie por serie. ",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 48)"
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 48)",
+      "huella_aprobada": "3f20dc5fa150"
     }
   }
 }

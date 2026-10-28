@@ -14,7 +14,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de C1 aprobado (4 filas)",
+      "huella_aprobada": "84cbc9a5caf0"
     },
     "C2": {
       "respuesta": "no_aplica_sin_fuente",
@@ -94,7 +95,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 14)"
+      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 14)",
+      "huella_aprobada": "25985dfef3f0"
     },
     "A1": {
       "respuesta": "NO",
@@ -119,7 +121,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 77)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 77)",
+      "huella_aprobada": "dda983003791"
     },
     "A3": {
       "respuesta": "NO",
@@ -133,7 +136,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)",
+      "huella_aprobada": "034ecfcda349"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -148,7 +152,8 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A4 aprobado (4 filas)",
+      "huella_aprobada": "9d79748a705d"
     },
     "A5": {
       "respuesta": "SÍ",
@@ -172,7 +177,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 4)"
+      "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 4)",
+      "huella_aprobada": "2bbfe415546d"
     },
     "G1": {
       "respuesta": "SÍ",
@@ -186,7 +192,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G1 aprobado (4 filas)",
+      "huella_aprobada": "2f5b48f2f659"
     },
     "G3": {
       "respuesta": "NO",
@@ -200,7 +207,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)",
+      "huella_aprobada": "452290ecfc66"
     },
     "G4": {
       "fuente_corta": "ANAC",
@@ -229,7 +237,8 @@
       "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_tanda2_america.xlsx: muestreo de G4 aprobado (4 filas)"
+      "revision_origen": "revision_tanda2_america.xlsx: muestreo de G4 aprobado (4 filas)",
+      "huella_aprobada": "ba1668cc89ea"
     },
     "E1": {
       "respuesta": "no_aplica_sin_fuente",
@@ -245,7 +254,8 @@
       "fuente_ausente": "el World Economic Outlook del FMI",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 105)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 105)",
+      "huella_aprobada": "d179c869250a"
     },
     "E2": {
       "respuesta": "no_aplica_sin_fuente",
@@ -261,7 +271,8 @@
       "fuente_ausente": "el World Economic Outlook del FMI",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 107)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 107)",
+      "huella_aprobada": "d179c869250a"
     },
     "E3": {
       "respuesta": null,
@@ -276,7 +287,8 @@
       "motivo_null": "El país no figura en la base de tipos de cambio del FMI y el sitio del banco central no se pudo abrir desde el entorno. No hay archivo en /data/fuentes/. PARA COMPLETAR: subir a /data/fuentes/ la serie del tipo de cambio oficial del Banco Central de Cuba (pesos cubanos por dólar), desde octubre de 2024 hasta la fecha, con el link de donde se descargó y la fecha.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 113)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 113)",
+      "huella_aprobada": "19934b743901"
     },
     "E4": {
       "respuesta": "no_aplica_sin_fuente",
@@ -292,7 +304,8 @@
       "fuente_ausente": "la Informal Economy Database del Banco Mundial",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 117)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 117)",
+      "huella_aprobada": "d179c869250a"
     },
     "I3-1": {
       "respuesta": "no_aplica_sin_fuente",
@@ -308,7 +321,8 @@
       "fuente_ausente": "el Rule of Law Index 2026 del World Justice Project",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 124)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 124)",
+      "huella_aprobada": "d179c869250a"
     },
     "I3-2": {
       "respuesta": "NO",
@@ -350,7 +364,8 @@
       "fuente_ausente": "el Rule of Law Index 2026 del World Justice Project",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 141)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 141)",
+      "huella_aprobada": "d179c869250a"
     },
     "I3-5": {
       "respuesta": "NO",
@@ -373,7 +388,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-5 aprobado (4 filas)",
+      "huella_aprobada": "cfb63105acb7"
     },
     "I4-4": {
       "respuesta": "SÍ",
@@ -387,7 +403,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)",
+      "huella_aprobada": "6bc0f24142ac"
     }
   }
 }

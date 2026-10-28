@@ -131,6 +131,7 @@ def procesar(ruta, datos, nombres, hoy):
         r['revisado_por'] = f['reviso']
         r['revisado_fecha'] = hoy
         r['revision_origen'] = f'{base} ({f["hoja"]}, fila {f["fila"]})'
+        r['huella_aprobada'] = huella(r)
         d['_cambio'] = True
         aprobadas.append(f"{clave} ({f['reviso']})")
     muestreo, bloqueadas = aplicar_muestreo(filas, datos, base, hoy, revisar)
@@ -167,6 +168,7 @@ def aplicar_muestreo(filas, datos, base, hoy, revisar):
             r['revisado_por'] = quien
             r['revisado_fecha'] = hoy
             r['revision_origen'] = f'{base}: muestreo de {q} aprobado ({len(muestra)} filas)'
+            r['huella_aprobada'] = huella(r)
             d['_cambio'] = True
             aprobadas.append(f"{f['iso']} {q} ({quien})")
     return aprobadas, bloqueadas

@@ -16,7 +16,8 @@
       "interpretativa": true,
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 3)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 3)",
+      "huella_aprobada": "ff26cceaaa61"
     },
     "C2": {
       "respuesta": "no_aplica_sin_fuente",
@@ -32,7 +33,8 @@
       "fuente_ausente": "la herramienta de comparación de Hofstede (The Culture Factor Group)",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 21)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 21)",
+      "huella_aprobada": "d179c869250a"
     },
     "C3": {
       "respuesta": "NO",
@@ -99,7 +101,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 7)"
+      "revision_origen": "revision_c4_64_paises.xlsx (Resto, fila 7)",
+      "huella_aprobada": "3081b0f882fe"
     },
     "A1": {
       "respuesta": "SÍ",
@@ -124,7 +127,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 73)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 73)",
+      "huella_aprobada": "5e218833ccf3"
     },
     "A3": {
       "respuesta": "SÍ",
@@ -138,7 +142,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de A3 aprobado (4 filas)",
+      "huella_aprobada": "fa81a4730fbf"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -153,7 +158,8 @@
       "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025, porque la API del Banco Mundial ya no publica el rango percentil.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 22)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 22)",
+      "huella_aprobada": "981f43271481"
     },
     "A5": {
       "respuesta": "NO",
@@ -195,7 +201,8 @@
       "fuente_ausente": "el Logistics Performance Index 2023 del Banco Mundial",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 98)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 98)",
+      "huella_aprobada": "d179c869250a"
     },
     "G3": {
       "respuesta": "NO",
@@ -209,7 +216,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de G3 aprobado (4 filas)",
+      "huella_aprobada": "7d413a2306c3"
     },
     "G4": {
       "fuente_corta": "ANAC",
@@ -238,7 +246,8 @@
       "criterio": "Se contaron los despegues internacionales regulares con pasajeros desde todos los aeropuertos argentinos en septiembre de 2026, último mes publicado por la ANAC, y se tomó el promedio semanal (vuelos del mes × 7 / 30). El tablero oficial de Ezeiza y Aeroparque (26/10 al 01/11/2026) se usó como control; esa semana hubo obras en la pista de Ezeiza (25/10 al 11/11/2026) y el tablero no muestra a todas las aerolíneas extranjeras.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_tanda2_america.xlsx (Muestreo, fila 2)"
+      "revision_origen": "revision_tanda2_america.xlsx (Muestreo, fila 2)",
+      "huella_aprobada": "4a8338505c61"
     },
     "E1": {
       "respuesta": "NO",
@@ -252,7 +261,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E1 aprobado (4 filas)",
+      "huella_aprobada": "c3f688f71dad"
     },
     "E2": {
       "respuesta": "NO",
@@ -266,7 +276,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E2 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E2 aprobado (4 filas)",
+      "huella_aprobada": "b24fa477c856"
     },
     "E3": {
       "respuesta": "NO",
@@ -280,7 +291,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de E3 aprobado (4 filas)",
+      "huella_aprobada": "134b0824eb4a"
     },
     "E4": {
       "respuesta": "SÍ",
@@ -294,7 +306,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 46)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Muestreo, fila 46)",
+      "huella_aprobada": "02916085d501"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -308,7 +321,8 @@
       "estado": "aprobado",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 121)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 121)",
+      "huella_aprobada": "e674f8238121"
     },
     "I3-2": {
       "respuesta": "SÍ",
@@ -337,7 +351,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 10)"
+      "revision_origen": "revision_tanda2_america.xlsx (Revisión completa, fila 10)",
+      "huella_aprobada": "2f041e8e7669"
     },
     "I3-4": {
       "respuesta": "NO",
@@ -351,7 +366,8 @@
       "estado": "aprobada_por_muestreo",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I3-4 aprobado (4 filas)",
+      "huella_aprobada": "b52557667f53"
     },
     "I3-5": {
       "respuesta": "SÍ",
@@ -380,7 +396,8 @@
       ],
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 143)"
+      "revision_origen": "revision_bases_64_paises.xlsx (Revisión completa, fila 143)",
+      "huella_aprobada": "90e45c45c8ff"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -395,7 +412,8 @@
       "criterio": "Adherir a los estándares del FMI implica cumplir plazos de difusión; no se evaluó el rezago serie por serie.",
       "revisado_por": "G",
       "revisado_fecha": "2026-10-28",
-      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)"
+      "revision_origen": "revision_bases_64_paises.xlsx: muestreo de I4-4 aprobado (4 filas)",
+      "huella_aprobada": "b05d5bc23935"
     }
   }
 }
