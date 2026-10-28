@@ -65,7 +65,7 @@ según la ortografía normal ("Mapa de riesgo exportador", "Condiciones crítica
 /metodologia   CONFIDENCIAL. checklist_pais.json: preguntas, criticidades, KO, fórmula y frases públicas.
 /scripts       CONFIDENCIAL.
   calcular.js          Respuestas + checklist → public/data/mapa.json
-  generar_revision.js  Respuestas → planillas de data/revision/ (3 países, tandas de investigación y bases de datos)
+  generar_revision.js  Respuestas → planillas de data/revision/ (3 países, tandas de investigación, bases de datos y C4)
 /data          Insumos de trabajo. No se publica.
   respuestas/XXX.json  Una por país (ISO alfa-3): respuesta SÍ / NO / null, dato, fuente, link, fecha, estado.
   revision/            Planillas para revisión humana.
@@ -97,6 +97,8 @@ Campos de cada respuesta en `data/respuestas/XXX.json`:
 - `criterio`: interpretación aplicada o fuente sustituta usada, para que la revise Agustina. No se publica.
 - `fuentes_adicionales`: otras fuentes consultadas (`nombre`, `url`, `consultado`). No se publican.
 - `motivo_null`: por qué la respuesta quedó sin completar. Si el país no figura en una base: "El país no figura en [fuente]."
+- `fuente_ausente`: en las respuestas `"no_aplica_sin_fuente"`, el nombre de la fuente en la que el país no figura. Es lo que
+  se muestra en el panel ("el país no figura en [fuentes]"). Sin este campo y `motivo_null`, la respuesta cuenta como sin responder.
 - `interpretativa`: `true` cuando la respuesta aplicó un criterio que conviene revisar. Va a las planillas de revisión.
 - `variante`: elige una variante de la frase pública del checklist (por ejemplo `"general"` en A5 cuando el cambio
   alcanzó a todas las empresas: "afectaron a empresas, incluidas las extranjeras").
@@ -181,12 +183,17 @@ de `entidades.js`. Cualquier campo puede faltar o ser `null`: el sitio muestra "
       "hechos": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { … } } ],
       "a_favor": [ { "texto": "…", "dato": "…", "anio_dato": 2025, "fuente": { … } } ],
       "calidad_informacion": { "alerta": false, "texto": "…", "dato": "…", "anio_dato": 2026, "fuente": { … } },
+      "cobertura": { "preguntas_usadas": 18, "preguntas_total": 20, "fuentes_ausentes": ["…"] },
+      "sin_cobertura_suficiente": false,
       "estado": "borrador | aprobado"
     }
   },
   "regiones": {}
 }
 ```
+
+`cobertura` es `null` si no hay preguntas excluidas. `sin_cobertura_suficiente` es `true` cuando todas las preguntas tienen
+respuesta pero alguna dimensión no llega al mínimo de cobertura; el sitio muestra "Sin datos suficientes".
 
 Campos opcionales que el sitio ya sabe mostrar si en el futuro se agregan: `tendencia` ("sube" | "baja" | "estable"),
 `alertas` (con `fecha`) y `argentina_con`, con el mismo formato de ítem con fuente.

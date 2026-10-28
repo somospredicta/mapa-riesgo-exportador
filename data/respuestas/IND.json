@@ -37,16 +37,37 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "C4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "El India-Argentina Business Council (IABC), cámara bilateral lanzada en 2020 con más de 30 empresas, organizó con la Embajada de India la India Argentina Business Summit el 26/03/2025 y el 17/03/2026.",
+      "dato_publico": "India-Argentina Business Council",
+      "anio_dato": 2026,
+      "fuente_corta": "Embajada de India",
+      "fuente_nombre": "Embajada de India en Buenos Aires, \"India – Argentina Business Council (IABC)\"",
+      "fuente_url": "https://indembarg.gov.in/page/india-argentina-business-council-iabc",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Para India se usó la página oficial de la Embajada de India: el consejo no figura en la nota de Cancillería y las cámaras inscriptas en la IGJ no presentan balances recientes.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Embajada de India en Buenos Aires, IABC",
+          "url": "https://indembarg.gov.in/page/india-argentina-business-council-iabc",
+          "consultado": "2026-10-28",
+          "resultado": "Eventos con el IABC en marzo de 2025 y marzo de 2026."
+        },
+        {
+          "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
+          "url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+          "consultado": "2026-10-28",
+          "resultado": "No figura entre las 27 cámaras del encuentro."
+        },
+        {
+          "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+          "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+          "consultado": "2026-10-28",
+          "resultado": "Cámara de Industria y Comercio Argentino India (n.º 1567388): último balance 30/06/2016."
+        }
+      ],
+      "interpretativa": true
     },
     "A1": {
       "respuesta": "SÍ",

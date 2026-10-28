@@ -8,7 +8,9 @@
  * Planillas (se definen en PLANILLAS):
  *   revision_3_paises.md            Brasil, China y España, todas las preguntas.
  *   revision_tanda1_sudamerica.md   Preguntas de investigación de la tanda 1 (Sudamérica).
- *   revision_bases_64_paises.md     Preguntas de bases de datos, solo respuestas interpretativas o en null.
+ *   revision_bases_64_paises.md     Preguntas de bases de datos, solo respuestas interpretativas, en null o sin fuente.
+ *   revision_tanda2_america.md      Preguntas de investigación de la tanda 2 (resto de América).
+ *   revision_c4_64_paises.md        C4 (cámara bilateral) para los 64 países.
  *
  * Uso: node scripts/generar_revision.js
  */
@@ -22,12 +24,17 @@ const SALIDA_DIR = path.join(RAIZ, 'data', 'revision');
 
 const BASES = ['C1', 'C2', 'A1', 'A2', 'A3', 'A4', 'G1', 'G3', 'E1', 'E2', 'E3', 'E4', 'I3-1', 'I3-4', 'I3-5', 'I4-4'];
 const SUDAMERICA = ['BOL', 'CHL', 'COL', 'ECU', 'GUY', 'PRY', 'PER', 'SUR', 'URY', 'VEN'];
+const RESTO_AMERICA = ['CAN', 'USA', 'MEX', 'BLZ', 'CRI', 'SLV', 'GTM', 'HND', 'NIC', 'PAN', 'ATG', 'BHS', 'BRB', 'CUB', 'DMA', 'DOM', 'GRD', 'HTI', 'JAM', 'KNA', 'LCA', 'VCT', 'TTO'];
+const NO_APLICA = 'no_aplica_sin_fuente';
 
 const PLANILLAS = [
   { archivo: 'revision_3_paises.md', titulo: 'Revisión de respuestas: Brasil, China y España', paises: ['BRA', 'CHN', 'ESP'] },
   { archivo: 'revision_tanda1_sudamerica.md', titulo: 'Revisión de la tanda 1 de investigación: Sudamérica (C3, A5, I3-2 y G4)', paises: SUDAMERICA, preguntas: ['C3', 'A5', 'I3-2', 'G4'] },
-  { archivo: 'revision_bases_64_paises.md', titulo: 'Revisión de preguntas de bases de datos: respuestas interpretativas o en null', preguntas: BASES, soloDudosas: true,
-    nota: 'Solo se listan las respuestas que aplicaron un criterio interpretativo o quedaron en null. El resto de las respuestas de bases de datos está en los JSON de /data/respuestas/ con su dato, link y fecha.' },
+  { archivo: 'revision_bases_64_paises.md', titulo: 'Revisión de preguntas de bases de datos: respuestas interpretativas, en null o sin fuente', preguntas: BASES, soloDudosas: true,
+    nota: `Solo se listan las respuestas que aplicaron un criterio interpretativo, quedaron en null o se marcaron "${NO_APLICA}" (el país no figura en la fuente: la pregunta sale del cálculo). El resto de las respuestas de bases de datos está en los JSON de /data/respuestas/ con su dato, link y fecha.` },
+  { archivo: 'revision_tanda2_america.md', titulo: 'Revisión de la tanda 2 de investigación: resto de América (C3, A5, I3-2 y G4)', paises: RESTO_AMERICA, preguntas: ['C3', 'A5', 'I3-2', 'G4'] },
+  { archivo: 'revision_c4_64_paises.md', titulo: 'Revisión de C4: cámara empresarial bilateral activa con Argentina (64 países)', preguntas: ['C4'],
+    nota: 'Fuentes: nota de Cancillería con las 27 cámaras binacionales recibidas el 22/03/2024 y registro de entidades de la IGJ (balances y asambleas presentados, corte de septiembre de 2026), con búsqueda documentada.' },
 ];
 
 // Texto seguro dentro de una celda de tabla Markdown.
@@ -44,11 +51,13 @@ const hoy = new Date().toISOString().slice(0, 10);
 const datosPorPais = fs.readdirSync(DIR).filter((f) => f.endsWith('.json')).sort()
   .map((f) => JSON.parse(fs.readFileSync(path.join(DIR, f), 'utf8')));
 
-const esDudosa = (r) => r.respuesta === null || r.respuesta === undefined || r.interpretativa === true;
+const esDudosa = (r) => r.respuesta === null || r.respuesta === undefined || r.respuesta === NO_APLICA || r.interpretativa === true;
+const sinRespuesta = (r) => r.respuesta === null || r.respuesta === undefined || r.respuesta === NO_APLICA;
 
 function fila(p, r) {
   const respuesta = r.respuesta === null || r.respuesta === undefined ? 'null' : r.respuesta;
-  const dato = r.respuesta === null || r.respuesta === undefined ? `Sin responder: ${r.motivo_null || 'sin motivo cargado'}` : r.dato;
+  const dato = r.respuesta === NO_APLICA ? `Sale del cálculo: ${r.motivo_null || 'sin motivo cargado'}`
+    : sinRespuesta(r) ? `Sin responder: ${r.motivo_null || 'sin motivo cargado'}` : r.dato;
   const extras = (r.fuentes_adicionales || []).map((f) => `[${celda(f.nombre)}](${f.url})`);
   const link = r.fuente_url ? [`[abrir](${r.fuente_url})`, ...extras].join('<br>') : '—';
   const fuente = r.fuente_nombre ? `${r.fuente_nombre} · ${r.consultado || 'sin fecha'}` : '—';
@@ -85,8 +94,10 @@ for (const pl of PLANILLAS) {
     const filas = preguntas.filter((p) => d.respuestas[p.id] && (!pl.soloDudosas || esDudosa(d.respuestas[p.id])));
     if (pl.soloDudosas && !filas.length) continue;
     const nulos = preguntas.filter((p) => !d.respuestas[p.id] || d.respuestas[p.id].respuesta === null).length;
+    const fuera = preguntas.filter((p) => d.respuestas[p.id] && d.respuestas[p.id].respuesta === NO_APLICA).length;
     partes.push(`## ${d.nombre} (${d.pais})`, '');
-    partes.push(`Preguntas de esta planilla: ${preguntas.length}. Completas: ${preguntas.length - nulos}. Sin completar (null): ${nulos}.`, '');
+    partes.push(`Preguntas de esta planilla: ${preguntas.length}. Completas: ${preguntas.length - nulos - fuera}. Sin completar (null): ${nulos}.`
+      + (fuera ? ` Fuera del cálculo (el país no figura en la fuente): ${fuera}.` : ''), '');
     partes.push('| # | Pregunta | Respuesta | Dato | Dato que se publica | Link | Fuente y fecha de consulta | Criterio aplicado | Fuentes revisadas | Estado | Aprobado (Agustina) |');
     partes.push('|---|---|---|---|---|---|---|---|---|---|---|');
     for (const p of filas) { partes.push(fila(p, d.respuestas[p.id])); total += 1; }

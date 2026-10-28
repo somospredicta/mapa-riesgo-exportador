@@ -42,11 +42,32 @@
       "dato_publico": null,
       "anio_dato": null,
       "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+      "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "interpretativa": true,
+      "motivo_null": "La Delegación de la UE lista una Cámara de Comercio Argentino-Irlandesa (camara-argirlandesa.com.ar), pero su sitio no se pudo abrir desde el entorno, no figura en la IGJ ni en la nota de Cancillería de 2024. No se pudo verificar si está activa.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Delegación de la UE en Argentina, listado de cámaras binacionales",
+          "url": "https://eeas.europa.eu/delegations/argentina/documents/eu_argentina/camaras_binacionales.pdf",
+          "consultado": "2026-10-28",
+          "resultado": "Lista la cámara argentino-irlandesa (documento sin fecha)."
+        },
+        {
+          "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+          "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+          "consultado": "2026-10-28",
+          "resultado": "No figura."
+        },
+        {
+          "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
+          "url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+          "consultado": "2026-10-28",
+          "resultado": "No figura entre las 27 cámaras del encuentro."
+        }
+      ]
     },
     "A1": {
       "respuesta": "SÍ",

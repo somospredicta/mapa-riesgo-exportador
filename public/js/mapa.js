@@ -112,8 +112,12 @@
     return ul;
   }
 
-  // "Sin datos completos" cuando el país tiene respuestas cargadas pero falta alguna.
-  function textoSinPuntaje(d) { return d.completo === false ? 'Sin datos completos' : 'Sin datos'; }
+  // "Sin datos completos" cuando el país tiene respuestas cargadas pero falta alguna;
+  // "Sin datos suficientes" cuando están todas pero las fuentes no cubren lo necesario.
+  function textoSinPuntaje(d) {
+    if (d.sin_cobertura_suficiente) return 'Sin datos suficientes';
+    return d.completo === false ? 'Sin datos completos' : 'Sin datos';
+  }
 
   // ---------- Secciones del panel ----------
 

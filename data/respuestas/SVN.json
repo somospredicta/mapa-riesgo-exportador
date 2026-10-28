@@ -37,16 +37,30 @@
       "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
     },
     "C4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "La Cámara de Comercio Argentino-Eslovena (SLOAR) está inscripta en la IGJ (\"Cámara De Comercio Argentino Eslovena - Sloar\" (n.º 1995630), último balance: 31/12/2025; última asamblea: 20/05/2026).",
+      "dato_publico": "Cámara de Comercio Argentino-Eslovena (SLOAR)",
+      "anio_dato": 2026,
+      "fuente_corta": "IGJ",
+      "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+      "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+          "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+          "consultado": "2026-10-28",
+          "resultado": "\"Cámara De Comercio Argentino Eslovena - Sloar\" (n.º 1995630), último balance: 31/12/2025; última asamblea: 20/05/2026"
+        },
+        {
+          "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
+          "url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+          "consultado": "2026-10-28",
+          "resultado": "No figura entre las 27 cámaras del encuentro."
+        }
+      ]
     },
     "A1": {
       "respuesta": "SÍ",

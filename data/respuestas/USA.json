@@ -64,16 +64,37 @@
       ]
     },
     "C4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "NO",
+      "dato": "La Cámara de Comercio de los Estados Unidos en la Argentina (AmCham Argentina) realizó el AmCham Summit 2026 el 14/04/2026 en Buenos Aires, con el presidente de la Nación como orador.",
+      "dato_publico": "AmCham Argentina (Cámara de Comercio de los Estados Unidos en la Argentina)",
+      "anio_dato": 2026,
+      "fuente_corta": "C5N",
+      "fuente_nombre": "C5N, \"AmCham Summit 2026: Javier Milei encabeza la cumbre de negocios con empresas de EEUU en el país\" (14/04/2026)",
+      "fuente_url": "https://www.c5n.com/politica/amcham-summit-javier-milei-luis-caputo-empresarios-14-abril-2026",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. El sitio de AmCham (amchamar.com.ar) no se pudo abrir desde el entorno y no se identificó su inscripción en el extracto de la IGJ; la actividad se tomó de la prensa. REVISAR con el sitio de la cámara.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "AmCham Argentina, sitio oficial",
+          "url": "https://www.amchamar.com.ar/",
+          "consultado": "2026-10-28",
+          "resultado": "No se pudo abrir desde el entorno (error de conexión)."
+        },
+        {
+          "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
+          "url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+          "consultado": "2026-10-28",
+          "resultado": "No figura entre las 27 cámaras del encuentro."
+        },
+        {
+          "nombre": "Infobae, AmCham Forum Energy 2026 (13/08/2026)",
+          "url": "https://www.infobae.com/fotos/2026/08/13/24-fotos-del-amcham-forum-energy-2026/",
+          "consultado": "2026-10-28",
+          "resultado": "Otro evento de la cámara en 2026."
+        }
+      ],
+      "interpretativa": true
     },
     "A1": {
       "respuesta": "NO",

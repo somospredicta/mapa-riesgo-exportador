@@ -59,16 +59,37 @@
       ]
     },
     "C4": {
-      "respuesta": null,
-      "dato": null,
-      "dato_publico": null,
-      "anio_dato": null,
-      "fuente_corta": null,
-      "fuente_nombre": null,
-      "fuente_url": null,
-      "consultado": "2026-10-27",
+      "respuesta": "SÍ",
+      "dato": "No se encontró una cámara binacional activa con Uruguay. En la IGJ figura inscripta: \"Cámara De Comercio Argentino-Uruguaya\" (n.º 357670), último balance: 31/12/2018; última asamblea: 18/09/2019. No participó del encuentro de Cancillería de 2024.",
+      "dato_publico": "sin cámara bilateral con actividad registrada",
+      "anio_dato": 2026,
+      "fuente_corta": "IGJ y Cancillería",
+      "fuente_nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+      "fuente_url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+      "consultado": "2026-10-28",
       "estado": "pendiente_revision",
-      "motivo_null": "Pendiente: pregunta de investigación que todavía no se cargó para este país (próximas tandas)."
+      "criterio": "Búsqueda documentada: no se encontró una cámara binacional activa, así que la respuesta es SÍ. Se tomó como activa una cámara que participó del encuentro de Cancillería de 2024 o que presentó en la IGJ un balance de un ejercicio cerrado desde 2023 o una asamblea desde 2024. Hay una cámara inscripta sin actividad registrada reciente: REVISAR si funciona por fuera del registro.",
+      "fuentes_revisadas": [
+        {
+          "nombre": "Cancillería argentina, \"Encuentro con Cámaras Binacionales para fortalecer las relaciones comerciales bilaterales\" (22/03/2024)",
+          "url": "https://cancilleria.gob.ar/es/actualidad/noticias/encuentro-con-camaras-binacionales-para-fortalecer-las-relaciones-comerciales",
+          "consultado": "2026-10-28",
+          "resultado": "No figura entre las 27 cámaras del encuentro."
+        },
+        {
+          "nombre": "Inspección General de Justicia, entidades, balances y asambleas (datos abiertos, septiembre de 2026)",
+          "url": "https://datos.jus.gob.ar/dataset/da045e06-35cb-4bdd-9b5e-ddee6712c86c/resource/508d3b3a-cd5b-4208-a27f-68846fb5fc86/download/igj-2026-semestre-2.zip",
+          "consultado": "2026-10-28",
+          "resultado": "\"Cámara De Comercio Argentino-Uruguaya\" (n.º 357670), último balance: 31/12/2018; última asamblea: 18/09/2019"
+        },
+        {
+          "nombre": "Búsqueda web (\"Cámara de Comercio Uruguayo Argentina OR Peruano Argentina OR Ecuatoriano Argentina OR Colombo Argentina OR Boliviano Argentina 2025-2026\")",
+          "url": "https://www.limaeasy.com/peru-guide/business-guide-peru/chambers-of-commerce-peru/argentinean-peruvian-chamber-of-commerce",
+          "consultado": "2026-10-28",
+          "resultado": "Sin actividad reciente de cámaras binacionales con Argentina."
+        }
+      ],
+      "interpretativa": true
     },
     "A1": {
       "respuesta": "NO",
