@@ -186,6 +186,13 @@ Aprobados por los fundadores. Rigen para todos los países.
     como norma habilitante. Los tratados del país con terceros países no cuentan.
 19. **C4 (sesión 5):** una cámara sin balances ni asambleas en los últimos 3 años se considera inactiva (SÍ).
 20. **Frase "A favor" de A1:** "Tiene un acuerdo vigente de protección de inversiones con Argentina".
+21. **Búsquedas automáticas (sesión 6):** cuando una búsqueda automática por nombre (de país, de acuerdo o de entidad)
+    no encuentra un registro, antes de responder hay que probar variantes: nombre oficial y corto ("Francia",
+    "República Francesa"), gentilicio ("Francesa", "Franco-"), nombres históricos ("Checoslovaquia", "Yugoslavia",
+    "República Federal de Alemania"), uniones o bloques ("Unión Económica Belgo-Luxemburguesa", "Mercosur", "ALADI"),
+    abreviaturas de registro ("ARG-ALEM", "EE.UU."), con y sin tildes, y también buscar por tipo de acuerdo sin filtrar
+    por país. Si hay una segunda fuente (por ejemplo, UNCTAD para tratados de inversión), se contrasta país por país y
+    cualquier diferencia va a "Revisión completa" como interpretativa.
 
 ## Grupos del mapa
 

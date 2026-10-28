@@ -40,7 +40,7 @@
       "fuente_nombre": "OMC, lista cronológica de disputas",
       "fuente_url": "https://www.wto.org/english/tratop_e/dispu_e/dispu_status_e.htm",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Caso revisado y no contado: en marzo de 2023 el embajador argentino reclamó por barreras no arancelarias y multas por errores en certificados de origen de exportaciones argentinas (Buenos Aires Herald, 15/03/2023). Es un reclamo diplomático por barreras generales, sin resolución que documente discriminación: los fundadores pueden decidir si cuenta.",
       "fuentes_revisadas": [
         {
@@ -73,7 +73,10 @@
           "consultado": "2026-10-27",
           "resultado": "Notas sobre el mismo reclamo por trabas a exportaciones; sin medida dirigida a empresas argentinas."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 2)"
     },
     "C4": {
       "respuesta": "NO",
@@ -84,7 +87,10 @@
       "fuente_nombre": "Cámara de Comercio Argentino Brasileña (CAMBRAS)",
       "fuente_url": "https://cambras.org.ar/",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 8)"
     },
     "A1": {
       "respuesta": "NO",
@@ -95,7 +101,7 @@
       "fuente_nombre": "Cancillería argentina, Biblioteca Digital de Tratados (Protocolo de Cooperación y Facilitación de Inversiones del Mercosur)",
       "fuente_url": "https://tratados.cancilleria.gob.ar/tratado_multi_ficha.php?id=k6KnnA",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Criterio aprobado (sesión 4): el Protocolo de Cooperación y Facilitación de Inversiones del Mercosur cuenta como instrumento de protección si está vigente entre Argentina y el socio. No hay un tratado bilateral de inversión con Brasil en la base de la Cancillería.",
       "interpretativa": true,
       "fuentes_revisadas": [
@@ -111,7 +117,10 @@
           "consultado": "2026-10-28",
           "resultado": "Brasil depositó el 31/05/2019; en vigor para Brasil desde el 30/07/2019."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 2)"
     },
     "A2": {
       "respuesta": "SÍ",
@@ -122,7 +131,10 @@
       "fuente_nombre": "Transparencia Internacional, Índice de Percepción de la Corrupción 2025",
       "fuente_url": "https://www.transparency.org/en/countries/brazil",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 3)"
     },
     "A3": {
       "respuesta": "NO",
@@ -133,7 +145,10 @@
       "fuente_nombre": "OMC, base de datos de acuerdos comerciales regionales",
       "fuente_url": "https://rtais.wto.org/UI/PublicSearchByMemberResult.aspx?membercode=032",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 14)"
     },
     "A4": {
       "respuesta": "SÍ",
@@ -144,8 +159,11 @@
       "fuente_nombre": "Banco Mundial, Worldwide Governance Indicators 2025",
       "fuente_url": "https://api.worldbank.org/v2/country/all/indicator/GOV_WGI_GE.EST?source=3&format=json&date=2025&per_page=400",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. "
+      "estado": "aprobado",
+      "criterio": "El percentil se calculó sobre las estimaciones oficiales del WGI 2025 (213 economías con dato), porque la API del Banco Mundial ya no publica el rango percentil. ",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 17)"
     },
     "A5": {
       "respuesta": "SÍ",
@@ -156,7 +174,7 @@
       "fuente_nombre": "Supremo Tribunal Federal, Tema 885 (repercusión general)",
       "fuente_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=885",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Cuenta como cambio retroactivo por criterio aprobado: decisión de un tribunal supremo con efecto general y retroactivo sobre empresas. La decisión alcanzó a todas las empresas con sentencia firme a favor, no solo a las extranjeras: se usa la frase de alcance general.",
       "fuentes_adicionales": [
         {
@@ -165,7 +183,10 @@
           "consultado": "2026-10-27"
         }
       ],
-      "variante": "general"
+      "variante": "general",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 5)"
     },
     "G1": {
       "respuesta": "NO",
@@ -176,7 +197,10 @@
       "fuente_nombre": "Banco Mundial, Logistics Performance Index 2023",
       "fuente_url": "https://api.worldbank.org/v2/country/BRA;CHN;ESP/indicator/LP.LPI.OVRL.XQ?format=json&mrnev=1",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 20)"
     },
     "G3": {
       "respuesta": "NO",
@@ -187,8 +211,11 @@
       "fuente_nombre": "Base de zonas horarias IANA (tzdata 2026e)",
       "fuente_url": "https://data.iana.org/time-zones/tzdata-latest.tar.gz",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "timeanddate.com bloqueó el acceso (403); se usó la base oficial IANA."
+      "estado": "aprobado",
+      "criterio": "timeanddate.com bloqueó el acceso (403); se usó la base oficial IANA.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 23)"
     },
     "G4": {
       "respuesta": "NO",
@@ -199,7 +226,10 @@
       "fuente_nombre": "Aeropuertos Argentina, tablero oficial de partidas de Ezeiza y Aeroparque",
       "fuente_url": "https://www.aeropuertosargentina.com/vuelos?aeropuerto=EZE&movtp=D",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 26)"
     },
     "E1": {
       "respuesta": "NO",
@@ -210,7 +240,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 29)"
     },
     "E2": {
       "respuesta": "NO",
@@ -221,7 +254,10 @@
       "fuente_nombre": "FMI, World Economic Outlook (octubre de 2026)",
       "fuente_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.RES,WEO/BRA+CHN+ESP.PPPPC+PCPIPCH.A?startPeriod=2022&endPeriod=2026",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 32)"
     },
     "E3": {
       "respuesta": "NO",
@@ -232,7 +268,10 @@
       "fuente_nombre": "Banco Central do Brasil, serie SGS 1 (dólar PTAX venta)",
       "fuente_url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados?formato=json&dataInicial=01/10/2024&dataFinal=27/10/2026",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 35)"
     },
     "E4": {
       "respuesta": "SÍ",
@@ -243,8 +282,11 @@
       "fuente_nombre": "Banco Mundial, Informal Economy Database (Elgin, Kose, Ohnsorge y Yu, 2021)",
       "fuente_url": "https://thedocs.worldbank.org/en/doc/37511318c092e6fd4ca3c60f0af0bea3-0350012021/related/informal-economy-database.xlsx",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Fuente sustituta: el sitio del FMI (imf.org) bloqueó el acceso. El modelo MIMIC es la metodología de Medina y Schneider (FMI). Último año disponible: 2020."
+      "estado": "aprobado",
+      "criterio": "Fuente sustituta: el sitio del FMI (imf.org) bloqueó el acceso. El modelo MIMIC es la metodología de Medina y Schneider (FMI). Último año disponible: 2020.",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 38)"
     },
     "I3-1": {
       "respuesta": "SÍ",
@@ -255,7 +297,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/country/2026/Brazil/",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 6)"
     },
     "I3-2": {
       "respuesta": "NO",
@@ -266,7 +311,7 @@
       "fuente_nombre": "CIADI, base de casos",
       "fuente_url": "https://icsid.worldbank.org/cases/case-database",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Búsqueda documentada: no se encontraron casos que cumplan el criterio, así que la respuesta es NO. Solo cuenta una expropiación, nacionalización o confiscación documentada: no cuentan las demandas sin resolver ni las expropiaciones ordinarias por utilidad pública.",
       "fuentes_revisadas": [
         {
@@ -281,7 +326,10 @@
           "consultado": "2026-10-27",
           "resultado": "Sin casos de expropiación o nacionalización de empresas."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Resto, fila 7)"
     },
     "I3-4": {
       "respuesta": "SÍ",
@@ -292,7 +340,10 @@
       "fuente_nombre": "World Justice Project, Rule of Law Index 2026 (factor 7.5)",
       "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/data/2026.csv",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision"
+      "estado": "aprobado",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 42)"
     },
     "I3-5": {
       "respuesta": "SÍ",
@@ -303,7 +354,7 @@
       "fuente_nombre": "CIADI, base de datos de Estados miembro",
       "fuente_url": "https://icsid.worldbank.org/about/member-states/database-of-member-states",
       "consultado": "2026-10-28",
-      "estado": "pendiente_revision",
+      "estado": "aprobado",
       "criterio": "Criterio aprobado (sesión 4): SÍ si el país no es miembro del CIADI y ninguna norma vigente habilita EXPRESAMENTE el arbitraje internacional en disputas de inversores con el Estado. Los fundadores definieron que la Ley 13.129/2015 no lo habilita expresamente.",
       "fuentes_revisadas": [
         {
@@ -330,7 +381,10 @@
           "consultado": "2026-10-28",
           "resultado": "Sin tratado bilateral de inversión con Brasil."
         }
-      ]
+      ],
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Revisión completa, fila 8)"
     },
     "I4-4": {
       "respuesta": "NO",
@@ -341,8 +395,11 @@
       "fuente_nombre": "FMI, Dissemination Standards Bulletin Board (SDDS Plus)",
       "fuente_url": "https://dsbb.imf.org/sdds-plus/country",
       "consultado": "2026-10-27",
-      "estado": "pendiente_revision",
-      "criterio": "Adherir al SDDS/SDDS Plus implica cumplir plazos de difusión del FMI; no se evaluó el rezago serie por serie. "
+      "estado": "aprobado",
+      "criterio": "Adherir al SDDS/SDDS Plus implica cumplir plazos de difusión del FMI; no se evaluó el rezago serie por serie. ",
+      "revisado_por": "G",
+      "revisado_fecha": "2026-10-28",
+      "revision_origen": "revision_3_paises.xlsx (Muestreo, fila 47)"
     }
   }
 }
